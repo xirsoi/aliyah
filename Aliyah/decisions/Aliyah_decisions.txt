@@ -1,0 +1,1830 @@
+###############################################################
+#  Jewish Create Israel in Aliyah						  	  #
+#															  #
+#   Modified by ThePatriot1776						 		  #
+###############################################################
+
+create_israel = {
+		only_playable = yes
+		is_high_prio = yes
+		
+		potential = {
+			has_dlc = "Sons of Abraham"
+			is_playable = yes
+			religion_group = jewish_group
+			k_israel = {
+				has_holder = no
+			}
+		}
+		allow = {
+			completely_controls = d_jerusalem
+			completely_controls = d_ascalon
+			completely_controls = d_galilee
+			completely_controls = d_oultrejourdain
+			774 = {
+				religion = ROOT
+			}
+			piety = 500
+			prestige = 500
+		}
+		effect = {
+			narrative_event = { id = Aliyah.10068 tooltip = EVTTOOLTIP_Aliyah_10068 }
+			prestige = 1000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+###############################################################
+#  Jewish Holy Day Decisions in Aliyah						  #
+#															  #
+#   Created by ThePatriot1776						 		  #
+###############################################################
+decisions = {
+
+	celebrate_purim = {
+		is_high_prio = yes
+		potential = {
+			has_dlc = "Sons of Abraham"
+			is_ruler = yes
+			age = 16
+			prisoner = no
+			religion_group = jewish_group
+			NOT = { has_character_modifier = held_purim_timer }
+		}
+		allow = {
+			war = no
+			any_demesne_title = {
+				is_occupied = no
+			}
+			NOT = { month = 4 }
+			month = 2
+			wealth = 25
+			prisoner = no
+			NOT = { trait = in_hiding }
+		}
+		effect = {
+			wealth = -25
+			prestige = 50
+			piety = 50
+			set_character_modifier = held_purim_timer
+			custom_tooltip = {
+				text = purim_celebrations
+				hidden_tooltip = { 
+					character_event = { id = Aliyah.10500 } 
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					wealth = 300
+				}
+			}
+			modifier = {
+				factor = 0
+				trait = shy
+			}
+			modifier = {
+				factor = 0
+				NOT = { diplomacy = 10 }
+			}	
+			modifier = {
+				factor = 0
+				has_character_flag = recent_minor_decision
+				NOT = {
+					had_character_flag = {
+						flag = recent_minor_decision
+						days = 365
+					}
+				}
+			}
+		}
+	}
+}
+decisions = {
+	celebrate_shavuot  = {
+		is_high_prio = yes
+		potential = {
+			has_dlc = "Sons of Abraham"
+			is_ruler = yes
+			age = 16
+			prisoner = no
+			religion_group = jewish_group
+			NOT = { has_character_modifier = held_shavuot_timer }
+		}
+		allow = {
+			war = no
+			any_demesne_title = {
+				is_occupied = no
+			}
+			NOT = { month = 7 }
+			month = 5
+			wealth = 25
+			prisoner = no
+			NOT = { trait = in_hiding }
+		}
+		effect = {
+			wealth = -25
+			prestige = 50
+			piety = 50
+			set_character_modifier = held_shavuot_timer
+			custom_tooltip = {
+				text = shavuot_celebrations
+				hidden_tooltip = { 
+					character_event = { id = Aliyah.10501 } 
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					wealth = 300
+				}
+			}
+			modifier = {
+				factor = 0
+				trait = shy
+			}
+			modifier = {
+				factor = 0
+				NOT = { diplomacy = 10 }
+			}	
+			modifier = {
+				factor = 0
+				has_character_flag = recent_minor_decision
+				NOT = {
+					had_character_flag = {
+						flag = recent_minor_decision
+						days = 365
+					}
+				}
+			}
+		}
+	}
+}
+decisions = {
+	celebrate_hanukkah = {
+		is_high_prio = yes
+		potential = {
+			has_dlc = "Sons of Abraham"
+			is_ruler = yes
+			age = 16
+			prisoner = no
+			religion_group = jewish_group
+			NOT = { has_character_modifier = held_hanukkah_timer }
+		}
+		allow = {
+			war = no
+			any_demesne_title = {
+				is_occupied = no
+			}
+			NOT = { month = 1 }
+			month = 11
+			wealth = 25
+			prisoner = no
+			NOT = { trait = in_hiding }
+		}
+		effect = {
+			wealth = -25
+			prestige = 50
+			piety = 50
+			set_character_modifier = held_hanukkah_timer
+			custom_tooltip = {
+				text = hanukkah_celebrations
+				hidden_tooltip = { 
+					character_event = { id = Aliyah.10502 } 
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					wealth = 300
+				}
+			}
+			modifier = {
+				factor = 0
+				trait = shy
+			}
+			modifier = {
+				factor = 0
+				NOT = { diplomacy = 10 }
+			}	
+			modifier = {
+				factor = 0
+				has_character_flag = recent_minor_decision
+				NOT = {
+					had_character_flag = {
+						flag = recent_minor_decision
+						days = 365
+					}
+				}
+			}
+		}
+	}
+}
+decisions = {
+	celebrate_rosh_hashanah = {
+		is_high_prio = yes
+		potential = {
+			has_dlc = "Sons of Abraham"
+			is_ruler = yes
+			age = 16
+			prisoner = no
+			religion_group = jewish_group
+			NOT = { has_character_modifier = held_rosh_hashanah_timer }
+		}
+		allow = {
+			war = no
+			any_demesne_title = {
+				is_occupied = no
+			}
+			NOT = { month = 10 }
+			month = 9
+			wealth = 25
+			prisoner = no
+			NOT = { trait = in_hiding }
+		}
+		effect = {
+			wealth = -25
+			prestige = 50
+			piety = 50
+			set_character_modifier = held_rosh_hashanah_timer
+			custom_tooltip = {
+				text = rosh_hashanah_celebrations
+				hidden_tooltip = { 
+					character_event = { id = Aliyah.10503 } 
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					wealth = 300
+				}
+			}
+			modifier = {
+				factor = 0
+				trait = shy
+			}
+			modifier = {
+				factor = 0
+				NOT = { diplomacy = 10 }
+			}	
+			modifier = {
+				factor = 0
+				has_character_flag = recent_minor_decision
+				NOT = {
+					had_character_flag = {
+						flag = recent_minor_decision
+						days = 365
+					}
+				}
+			}
+		}
+	}
+}
+decisions = {
+	celebrate_sukkot = {
+		is_high_prio = yes
+		potential = {
+			has_dlc = "Sons of Abraham"
+			is_ruler = yes
+			age = 16
+			prisoner = no
+			religion_group = jewish_group
+			NOT = { has_character_modifier = held_sukkot_timer }
+		}
+		allow = {
+			war = no
+			any_demesne_title = {
+				is_occupied = no
+			}
+			NOT = { month = 12 }
+			month = 9
+			wealth = 25
+			prisoner = no
+			NOT = { trait = in_hiding }
+		}
+		effect = {
+			wealth = -25
+			prestige = 50
+			piety = 50
+			set_character_modifier = held_sukkot_timer
+			custom_tooltip = {
+				text = sukkot_celebrations
+				hidden_tooltip = { 
+					character_event = { id = Aliyah.10504 } 
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					wealth = 300
+				}
+			}
+			modifier = {
+				factor = 0
+				trait = shy
+			}
+			modifier = {
+				factor = 0
+				NOT = { diplomacy = 10 }
+			}	
+			modifier = {
+				factor = 0
+				has_character_flag = recent_minor_decision
+				NOT = {
+					had_character_flag = {
+						flag = recent_minor_decision
+						days = 365
+					}
+				}
+			}
+		}
+	}
+		celebrate_yom_kippur = {
+		is_high_prio = yes
+		potential = {
+			has_dlc = "Sons of Abraham"
+			is_ruler = yes
+			age = 16
+			prisoner = no
+			religion_group = jewish_group
+			NOT = { has_character_modifier = held_yom_kippur_timer }
+		}
+		allow = {
+			war = no
+			any_demesne_title = {
+				is_occupied = no
+			}
+			NOT = { month = 3 }
+			month = 5
+			wealth = 25
+			prisoner = no
+			NOT = { trait = in_hiding }
+		}
+		effect = {
+			wealth = -25
+			prestige = 50
+			piety = 50
+			set_character_modifier = held_yom_kippur_timer
+			custom_tooltip = {
+				text = purim_celebrations
+				hidden_tooltip = { 
+					character_event = { id = Aliyah.10505 } 
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					wealth = 300
+				}
+			}
+			modifier = {
+				factor = 0
+				trait = shy
+			}
+			modifier = {
+				factor = 0
+				NOT = { diplomacy = 10 }
+			}	
+			modifier = {
+				factor = 0
+				has_character_flag = recent_minor_decision
+				NOT = {
+					had_character_flag = {
+						flag = recent_minor_decision
+						days = 365
+					}
+				}
+			}
+		}
+	}
+}
+#########################################################
+#  Expulsion Decisions for Jewish Characters in Aliyah 	#
+#														#
+#   Created by ThePatriot1776						 	#
+#########################################################
+decisions = {		
+	expel_muslims = {
+	
+		potential = {
+			is_ruler = yes
+			age = 16
+			any_realm_character = {
+				religion_group = muslim
+			}
+			NOR = {
+				religion_group = muslim
+				has_character_modifier = expelled_muslims
+				is_nomadic = yes
+				secret_religion_group = jewish_group
+			}
+		}
+		allow = {
+			religion_group = jewish_group
+			primary_title = { higher_tier_than = COUNT }
+					
+			NOT = {
+				trait = incapable
+			}	
+			age = 16
+			prisoner = no
+		}							
+		effect = {
+			add_character_modifier = {
+				name = expelled_muslims
+				duration = -1
+				inherit = yes
+			}
+		
+			custom_tooltip = { text = muslims_are_expelled }
+			hidden_tooltip = { narrative_event = { id = Aliyah.10200 } }
+			add_character_modifier = {
+				name = expelled_muslims_timer
+				duration = 7300
+				hidden = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+				
+			modifier = {
+				factor = 0
+				any_realm_character = {
+					religion_group = muslim
+					reverse_opinion = { who = ROOT value = 20 }
+				}
+			}
+					
+			modifier = {
+				factor = 0
+				any_spouse = {
+					religion_group = muslim
+				}
+			}
+					
+			modifier = {
+				factor = 0
+				any_child = {
+				religion_group = muslim
+				}
+					
+				modifier = {
+					factor = 0
+					trait = kind
+				}
+					
+				modifier = {
+					factor = 1.2
+					trait = zealous
+					trait = arbitrary
+				}
+					
+				modifier = {
+					factor = 1.2
+					has_character_modifier = borrowed_from_jews
+					trait = greedy
+				}
+			}
+		}
+	}
+}	
+
+decisions = {
+	
+	welcome_muslims = {
+		potential = {
+			is_ruler = yes
+			age = 16
+			has_character_modifier = expelled_muslims
+		}
+			
+		allow = { 
+			religion_group = jewish_group
+			primary_title = { higher_tier_than = COUNT }
+						
+			NOT = {
+				has_character_modifier = expelled_muslims_timer
+				trait = incapable
+			}
+		}	 
+			 effect = {
+				remove_character_modifier = expelled_muslims
+				custom_tooltip = { text = muslims_are_welcome }
+				hidden_tooltip = { narrative_event = { id = Aliyah.10201 } }
+			}			
+		
+		ai_will_do = {
+			factor = 1
+		
+			modifier = {
+				factor = 0.1 #Less likely to do it
+			}
+					
+			modifier = {
+				factor = 0
+				trait = zealous
+			}
+		}
+	}
+}
+
+decisions = {
+	
+	expel_christians = {
+		potential = {
+			is_ruler = yes
+			age = 16
+			religion_group = jewish_group
+			any_realm_character = {
+				religion_group = christian
+			}
+			NOR = {
+				religion_group = christian
+				has_character_modifier = expelled_christians
+				is_nomadic = yes
+				secret_religion_group = jewish_group
+			}
+		}
+	
+		allow = {
+			primary_title = { higher_tier_than = COUNT }
+											
+			NOT = {
+				trait = incapable
+			}	
+			age = 16
+			prisoner = no
+		}							
+		effect = { 
+			add_character_modifier = {
+				name = expelled_christians
+				duration = -1
+				inherit = yes
+			}
+		
+			custom_tooltip = { text = christians_are_expelled }
+			hidden_tooltip = { narrative_event = { id = Aliyah.10204 } }
+			add_character_modifier = {
+				name = expelled_christians_timer
+				duration = 7300
+				hidden = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+				
+			modifier = {
+				factor = 0
+				any_realm_character = {
+					religion_group = christian
+					reverse_opinion = { who = ROOT value = 20 }
+				}
+			}
+					
+			modifier = {
+				factor = 0
+				any_spouse = {
+					religion_group = christian
+				}
+			}
+					
+			modifier = {
+				factor = 0
+				any_child = {
+					religion_group = christian	
+				}
+			}
+					
+			modifier = {
+				factor = 0
+				trait = kind
+			}
+					
+			modifier = {
+				factor = 1.2
+				trait = zealous
+				trait = arbitrary
+			}
+					
+			modifier = {
+				factor = 1.2
+				has_character_modifier = borrowed_from_jews
+				trait = greedy
+			}
+		}
+	}
+}		
+decisions = {
+	
+	welcome_christians = {
+	
+		potential = {
+			is_ruler = yes
+			age = 16
+			has_character_modifier = expelled_christians
+		}
+		
+		allow = { 
+			religion_group = jewish_group
+			primary_title = { higher_tier_than = COUNT }
+			
+				
+			NOT = {
+				has_character_modifier = expelled_christians_timer
+				trait = incapable
+			}
+		}	 
+			 effect = {
+				remove_character_modifier = expelled_christians
+				custom_tooltip = { text = christians_are_welcome }
+				hidden_tooltip = { narrative_event = { id = Aliyah.10206 } }
+			}			
+		
+		ai_will_do = {
+			factor = 1
+		
+			modifier = {
+				factor = 0.1 #Less likely to do it
+			}
+					
+			modifier = {
+				factor = 0
+				trait = zealous
+			}
+		}
+	}
+}
+decisions = {		
+	expel_pagans = {
+	
+		potential = {
+			is_ruler = yes
+			age = 16
+			any_realm_character = {
+				religion_group = pagan_group
+			}
+			NOR = {
+				religion_group = pagan_group
+				has_character_modifier = expelled_pagans
+				is_nomadic = yes
+				secret_religion_group = jewish_group
+			}
+		}
+			
+		allow = {
+			religion_group = jewish_group
+			primary_title = { higher_tier_than = COUNT }
+					
+			NOT = {
+				trait = incapable
+			}	
+			age = 16
+			prisoner = no
+		}							
+		effect = {
+			add_character_modifier = {
+				name = expelled_pagans
+				duration = -1
+				inherit = yes
+			}
+		
+			custom_tooltip = { text = pagans_are_expelled }
+			hidden_tooltip = { narrative_event = { id = Aliyah.10208 } }
+			add_character_modifier = {
+				name = expelled_pagans_timer
+				duration = 7300
+				hidden = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+				
+			modifier = {
+				factor = 0
+				any_realm_character = {
+					religion_group = pagan_group
+					reverse_opinion = { who = ROOT value = 20 }
+				}
+			}
+					
+			modifier = {
+				factor = 0
+				any_spouse = {
+					religion_group = pagan_group
+				}
+			}
+					
+			modifier = {
+				factor = 0
+				any_child = {
+					religion_group = pagan_group
+				}
+			}
+					
+			modifier = {
+				factor = 0
+				trait = kind
+			}
+					
+			modifier = {
+				factor = 1.2
+				trait = zealous
+				trait = arbitrary
+			}
+					
+			modifier = {
+				factor = 1.2
+				has_character_modifier = borrowed_from_jews
+				trait = greedy
+			}
+		}
+	}
+}		
+
+decisions = {
+
+	welcome_pagans = {
+		potential = {
+			is_ruler = yes
+			age = 16
+			has_character_modifier = expelled_pagans
+		}
+			
+		allow = { 
+			religion_group = jewish_group
+			primary_title = { higher_tier_than = COUNT }
+						
+			NOT = {
+				has_character_modifier = expelled_pagans_timer
+				trait = incapable
+			}
+		}	 
+			 effect = {
+				remove_character_modifier = expelled_pagans
+				custom_tooltip = { text = pagans_are_welcome }
+				hidden_tooltip = { narrative_event = { id = Aliyah.10209 } }
+			}			
+		
+		ai_will_do = {
+			factor = 1
+		
+			modifier = {
+				factor = 0.1 #Less likely to do it
+			}
+					
+			modifier = {
+				factor = 0
+				trait = zealous
+			}
+		}
+	}
+}
+decisions = {		
+	expel_zoroastrians = {
+	
+		potential = {
+			is_ruler = yes
+			age = 16
+			any_realm_character = {
+				religion_group = zoroastrian_group
+			}
+			NOR = {
+				religion_group = zoroastrian_group
+				has_character_modifier = expelled_zoroastrians
+				is_nomadic = yes
+				secret_religion_group = jewish_group
+			}
+		}
+			
+		allow = {
+			religion_group = jewish_group
+			primary_title = { higher_tier_than = COUNT }
+					
+			NOT = {
+				trait = incapable
+			}	
+			age = 16
+			prisoner = no
+		}							
+		effect = {
+			add_character_modifier = {
+				name = expelled_zoroastrians
+				duration = -1
+				inherit = yes
+			}
+		
+			custom_tooltip = { text = zoroastrians_are_expelled }
+			hidden_tooltip = { narrative_event = { id = Aliyah.10212 } }
+			add_character_modifier = {
+				name = expelled_zoroastrians_timer
+				duration = 7300
+				hidden = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+				
+			modifier = {
+				factor = 0
+				any_realm_character = {
+					religion_group = zoroastrian_group
+					reverse_opinion = { who = ROOT value = 20 }
+				}
+			}
+					
+			modifier = {
+				factor = 0
+				any_spouse = {
+					religion_group = zoroastrian_group
+				}
+			}
+					
+			modifier = {
+				factor = 0
+				any_child = {
+					religion_group = zoroastrian_group
+				}
+			}
+					
+			modifier = {
+				factor = 0
+				trait = kind
+			}
+					
+			modifier = {
+				factor = 1.2
+				trait = zealous
+				trait = arbitrary
+			}
+					
+			modifier = {
+				factor = 1.2
+				has_character_modifier = borrowed_from_jews
+				trait = greedy
+			}
+		}
+	}
+}		
+decisions = {	
+	welcome_zoroastrians = {
+		potential = {
+			is_ruler = yes
+			age = 16
+			has_character_modifier = expelled_zoroastrians
+		}
+			
+		allow = { 
+			religion_group = jewish_group
+			primary_title = { higher_tier_than = COUNT }
+						
+			NOT = {
+				has_character_modifier = expelled_zoroastrians_timer
+				trait = incapable
+			}
+		}	 
+			 effect = {
+				remove_character_modifier = expelled_zoroastrians
+				custom_tooltip = { text = zoroastrians_are_welcome }
+				hidden_tooltip = { narrative_event = { id = Aliyah.10213 } }
+			}			
+		
+		ai_will_do = {
+			factor = 1
+		
+			modifier = {
+				factor = 0.1 #Less likely to do it
+			}
+					
+			modifier = {
+				factor = 0
+				trait = zealous
+			}
+		}
+	}
+}
+decisions = {
+		
+	expel_indians = {
+	
+		potential = {
+			is_ruler = yes
+			age = 16
+			any_realm_character = {
+				religion_group = indian_group
+			}
+			NOR = {
+				religion_group = indian_group
+				has_character_modifier = expelled_indians
+				is_nomadic = yes
+				secret_religion_group = jewish_group
+			}
+		}
+			
+		allow = {
+			religion_group = jewish_group
+			primary_title = { higher_tier_than = COUNT }
+					
+			NOT = {
+				trait = incapable
+			}	
+			age = 16
+			prisoner = no
+		}							
+		effect = {
+			add_character_modifier = {
+				name = expelled_indians
+				duration = -1
+				inherit = yes
+			}
+		
+			custom_tooltip = { text = indians_are_expelled }
+			hidden_tooltip = { narrative_event = { id = Aliyah.10216 } }
+			add_character_modifier = {
+				name = expelled_indians_timer
+				duration = 7300
+				hidden = yes
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+				
+			modifier = {
+				factor = 0
+				any_realm_character = {
+					religion_group = indian_group
+					reverse_opinion = { who = ROOT value = 20 }
+				}
+			}
+					
+			modifier = {
+				factor = 0
+				any_spouse = {
+					religion_group = indian_group
+				}
+			}
+					
+			modifier = {
+				factor = 0
+				any_child = {
+					religion_group = indian_group
+				}
+			}
+					
+			modifier = {
+				factor = 0
+				trait = kind
+			}
+					
+			modifier = {
+				factor = 1.2
+				trait = zealous
+				trait = arbitrary
+			}
+					
+			modifier = {
+				factor = 1.2
+				has_character_modifier = borrowed_from_jews
+				trait = greedy
+			}
+		}
+	}
+}		
+decisions = {	
+	welcome_indians = {
+		potential = {
+			is_ruler = yes
+			age = 16
+			has_character_modifier = expelled_indians
+		}
+			
+		allow = { 
+			religion_group = jewish_group
+			primary_title = { higher_tier_than = COUNT }
+						
+			NOT = {
+				has_character_modifier = expelled_indians_timer
+				trait = incapable
+			}
+		}	 
+			 effect = {
+				remove_character_modifier = expelled_indians
+				custom_tooltip = { text = indians_are_welcome }
+				hidden_tooltip = { narrative_event = { id = Aliyah.10217 } }
+			}			
+		
+		ai_will_do = {
+			factor = 1
+		
+			modifier = {
+				factor = 0.1 #Less likely to do it
+			}
+					
+			modifier = {
+				factor = 0
+				trait = zealous
+			}
+		}
+	}
+}
+#decisions = {		
+#	expel_egyptian_pagans = {
+#	
+#		potential = {
+#			is_ruler = yes
+#			age = 16
+#			any_realm_character = {
+#				religion_group = egyptian_pagan_group
+#			}
+#			NOR = {
+#				religion_group = egyptian_pagan_group
+#				has_character_modifier = expelled_egyptian_pagans
+#				is_nomadic = yes
+#				secret_religion_group = jewish_group
+#			}
+#		}
+#			
+#		allow = {
+#			religion_group = jewish_group
+#			primary_title = { higher_tier_than = COUNT }
+#					
+#			NOT = {
+#				trait = incapable
+#			}	
+#			independent = yes
+#			age = 16
+#			prisoner = no
+#		}							
+#		effect = {
+#			add_character_modifier = {
+#				name = expelled_egyptian_pagans
+#				duration = -1
+#				inherit = yes
+#			}
+#		
+#			custom_tooltip = { text = egyptian_pagans_are_expelled }
+#			hidden_tooltip = { narrative_event = { id = Aliyah.10220 } }
+#			add_character_modifier = {
+#				name = expelled_egyptian_pagans_timer
+#				duration = 7300
+#				hidden = yes
+#			}
+#		}
+#		
+#		ai_will_do = {
+#			factor = 1
+#				
+#			modifier = {
+#				factor = 0
+#				any_realm_character = {
+#					religion_group = egyptian_pagan_group
+#					reverse_opinion = { who = ROOT value = 20 }
+#				}
+#			}
+#					
+#			modifier = {
+#				factor = 0
+#				any_spouse = {
+#					religion_group = egyptian_pagan_group
+#				}
+#			}
+#					
+#			modifier = {
+#				factor = 0
+#				any_child = {
+#					religion_group = egyptian_pagan_group
+#				}
+#			}
+#					
+#			modifier = {
+#				factor = 0
+#				trait = kind
+#			}
+#					
+#			modifier = {
+#				factor = 1.2
+#				trait = zealous
+#				trait = arbitrary
+#			}
+#					
+#			modifier = {
+#				factor = 1.2
+#				has_character_modifier = borrowed_from_jews
+#				trait = greedy
+#			}
+#		}
+#	}
+#}
+#decisions = {		
+#	welcome_egyptian_pagans = {
+#		potential = {
+#			is_ruler = yes
+#			age = 16
+#			has_character_modifier = expelled_egyptian_pagans
+#		}
+#			
+#		allow = { 
+#			religion_group = jewish_group
+#			primary_title = { higher_tier_than = COUNT }
+#						
+#			NOT = {
+#				has_character_modifier = expelled_egyptian_pagans_timer
+#				trait = incapable
+#			}
+#		}	 
+#			 effect = {
+#				remove_character_modifier = expelled_egyptian_pagans
+#				custom_tooltip = { text = egyptian_pagans_are_welcome }
+#				hidden_tooltip = { narrative_event = { id = Aliyah.10221 } }
+#			}			
+#		
+#		ai_will_do = {
+#			factor = 1
+#		
+#			modifier = {
+#				factor = 0.1 #Less likely to do it
+#			}
+#					
+#			modifier = {
+#				factor = 0
+#				trait = zealous
+#			}
+#		}
+#	}
+#}
+#decisions = {		
+#	expel_hellenic_pagans = {
+#	
+#		potential = {
+#			is_ruler = yes
+#			age = 16
+#			any_realm_character = {
+#				religion_group = hellenic_pagan_group
+#			}
+#			NOR = {
+#				religion_group = hellenic_pagan_group
+#				has_character_modifier = expelled_hellenic_pagans
+#				is_nomadic = yes
+#				secret_religion_group = jewish_group
+#			}
+#		}
+#			
+#		allow = {
+#			religion_group = jewish_group
+#			primary_title = { higher_tier_than = COUNT }
+#					
+#			NOT = {
+#				trait = incapable
+#			}	
+#			independent = yes
+#			age = 16
+#			prisoner = no
+#		}							
+#		effect = {
+#			add_character_modifier = {
+#				name = expelled_hellenic_pagans
+#				duration = -1
+#				inherit = yes
+#			}
+#		
+#			custom_tooltip = { text = hellenic_pagans_are_expelled }
+#			hidden_tooltip = { narrative_event = { id = Aliyah.10224 } }
+#			add_character_modifier = {
+#				name = expelled_hellenic_pagans_timer
+#				duration = 7300
+#				hidden = yes
+#			}
+#		}
+#		
+#		ai_will_do = {
+#			factor = 1
+#				
+#			modifier = {
+#				factor = 0
+#				any_realm_character = {
+#					religion_group = hellenic_pagan_group
+#					reverse_opinion = { who = ROOT value = 20 }
+#				}
+#			}
+#					
+#			modifier = {
+#				factor = 0
+#				any_spouse = {
+#					religion_group = hellenic_pagan_group
+#				}
+#			}
+#					
+#			modifier = {
+#				factor = 0
+#				any_child = {
+#					religion_group = hellenic_pagan_group
+#				}
+#			}
+#					
+#			modifier = {
+#				factor = 0
+#				trait = kind
+#			}
+#					
+#			modifier = {
+#				factor = 1.2
+#				trait = zealous
+#				trait = arbitrary
+#			}
+#					
+#			modifier = {
+#				factor = 1.2
+#				has_character_modifier = borrowed_from_jews
+#				trait = greedy
+#			}
+#		}
+#	}
+#}		
+#decisions = {	
+#	welcome_hellenic_pagans = {
+#		potential = {
+#			is_ruler = yes
+#			age = 16
+#			has_character_modifier = expelled_hellenic_pagans
+#		}
+#			
+#		allow = { 
+#			religion_group = jewish_group
+#			primary_title = { higher_tier_than = COUNT }
+#						
+#			NOT = {
+#				has_character_modifier = expelled_hellenic_pagans_timer
+#				trait = incapable
+#			}
+#		}	 
+#			 effect = {
+#				remove_character_modifier = expelled_hellenic_pagans
+#				custom_tooltip = { text = hellenic_pagans_are_welcome }
+#				hidden_tooltip = { narrative_event = { id = Aliyah.10225 } }
+#			}			
+#		
+#		ai_will_do = {
+#			factor = 1
+#		
+#			modifier = {
+#				factor = 0.1 #Less likely to do it
+#			}
+#					
+#			modifier = {
+#				factor = 0
+#				trait = zealous
+#			}
+#		}
+#	}
+#}
+# MesoAmerican Expelled
+#decisions = {
+#	expel_mesoamericans = {
+	
+#		potential = {
+#			is_ruler = yes
+#			age = 16
+#			any_realm_character = {
+#				religion = aztec
+#			}
+#			NOR = {
+#				religion_group = aztec
+#				has_character_modifier = expelled_mesoamericans
+#				is_nomadic = yes
+#				secret_religion_group = jewish_group
+#			}
+#		}
+#		}
+#			
+#		allow = {
+#			religion_group = jewish_group
+#			primary_title = { higher_tier_than = COUNT }
+#					
+#			NOT = {
+#				trait = incapable
+#			}	
+#			independent = yes
+#			age = 16
+#			prisoner = no
+#		}							
+#		effect = {
+#			add_character_modifier = {
+#				name = expelled_mesoamericans
+#				duration = -1
+#				inherit = yes
+#			}
+#		
+#			custom_tooltip = { text = mesoamericans_are_expelled }
+#			hidden_tooltip = { narrative_event = { id = Aliyah.10228 } }
+#			add_character_modifier = {
+#				name = expelled_mesoamericans_timer
+#				duration = 7300
+#				hidden = yes
+#			}
+#		}
+#		
+#		ai_will_do = {
+#			factor = 1
+				
+#			modifier = {
+#				factor = 0
+#				any_realm_character = {
+#					religion = aztec
+#					reverse_opinion = { who = ROOT value = 20 }
+#				}
+#			}
+#					
+#			modifier = {
+#				factor = 0
+#				any_spouse = {
+#					religion = aztec
+#				}
+#			}
+#					
+#			modifier = {
+#				factor = 0
+#				any_child = {
+#					religion = aztec
+#				}
+#			}
+#					
+#			modifier = {
+#				factor = 0
+#				trait = kind
+#			}
+#					
+#			modifier = {
+#				factor = 1.2
+#				trait = zealous
+#				trait = arbitrary
+#			}
+#					
+#			modifier = {
+#				factor = 1.2
+#				has_character_modifier = borrowed_from_jews
+#				trait = greedy
+#			}
+#		}
+#	}
+#}		
+#decisions = {	
+#	welcome_mesoamericans = {
+#		potential = {
+#			is_ruler = yes
+#			age = 16
+#			has_character_modifier = expelled_mesoamerican
+#		}
+#			
+#		allow = { 
+#			religion_group = jewish_group
+#			primary_title = { higher_tier_than = COUNT }
+#						
+#			NOT = {
+#				has_character_modifier = expelled_mesoamerican_timer
+#				trait = incapable
+#			}
+#		}	 
+#			 effect = {
+#				remove_character_modifier = expelled_mesoamerican
+#				custom_tooltip = { text = mesoamerican_group_are_welcome }
+#				hidden_tooltip = { narrative_event = { id = Aliyah.10229 } }
+#			}			
+#		
+#		ai_will_do = {
+#			factor = 1
+#		
+#			modifier = {
+#				factor = 0.1 #Less likely to do it
+#			}
+#					
+#			modifier = {
+#				factor = 0
+#				trait = zealous
+#			}
+#		}
+#	}
+#}
+welcome_jews = {
+		only_playable = yes
+		
+		potential = {
+			#has_dlc = "Sons of Abraham"
+			is_playable = yes
+			NOR = {
+				religion_group = jewish_group 
+				has_character_modifier = expelled_jews_timer
+			}
+			has_character_modifier = expelled_jewish
+		}
+		allow = {
+			has_character_modifier = expelled_jewish
+		}
+		effect = {
+			scaled_wealth = -1
+			prestige = 50
+			remove_character_modifier = expelled_jewish
+			if = {
+				limit = {
+					NOT = { trait = zealous }
+					NOT = { trait = sympathy_judaism }
+				}
+				random = {
+					chance = 50
+					add_trait = sympathy_judaism
+				}
+			}
+			custom_tooltip = {
+				text = jews_are_welcome
+			}
+			hidden_tooltip = {
+				character_event = { id = SoA.106 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0.1 # Less likely to do it
+			}
+			modifier = {
+				factor = 0
+				trait = zealous
+			}
+		}
+	}
+	
+	expel_jews = {
+		only_independent = yes
+		
+		potential = {
+			has_dlc = "Sons of Abraham"
+			is_playable = yes
+			OR = {
+				AND = {
+					independent = yes
+					primary_title = { higher_tier_than = DUKE }
+				}
+				ai = no            # So that it shows on player's list anyway
+			}
+			OR = {
+				religion_group = christian
+				religion_group = muslim
+				religion_group = zoroastrian_group
+			}	
+			NOR = {
+				religion_group = jewish_group
+				religion = manichean
+				has_character_modifier = expelled_jewish
+				is_nomadic = yes
+				secret_religion_group = jewish_group
+			}
+			age = 16
+		}
+		allow = {
+			independent = yes
+			primary_title = { higher_tier_than = DUKE }
+			OR = {
+				religion_group = christian
+				religion_group = muslim
+				religion_group = zoroastrian_group
+			}
+			NOT = { any_realm_province = { religion_group = jewish_group } }
+			prisoner = no
+			NOT = { trait = incapable }
+		}
+		effect = {
+			prestige = -100
+			scaled_wealth = 2
+			banish_religion = jewish
+			if = {
+				limit = { trait = sympathy_judaism }
+				remove_trait = sympathy_judaism
+			}
+			if = {
+				limit = {
+					NOT = { trait = arbitrary }
+					has_character_modifier = borrowed_from_jews
+				}
+				add_trait = arbitrary
+			}
+			if = {
+				limit = { has_character_modifier = borrowed_from_jews }
+				remove_character_modifier = borrowed_from_jews
+			}
+			add_character_modifier = {
+				name = expelled_jewish
+				duration = -1
+				inherit = yes
+			}
+			custom_tooltip = {
+				text = jews_are_expelled
+			}
+			hidden_tooltip = {
+				character_event = { id = SoA.105 }
+				add_character_modifier = {
+					name = expelled_jews_timer
+					duration = 7300
+					hidden = yes
+				}
+			}
+			any_friend = {
+				limit = { religion_group = jewish_group }
+				remove_friend = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0.001 # Less likely to do it
+			}
+			modifier = {
+				factor = 0
+				any_courtier = {
+					religion_group = jewish_group
+					reverse_opinion = { who = ROOT value = 20 }
+				}
+			}
+			modifier = {
+				factor = 0
+				any_friend = {
+					religion_group = jewish_group
+				}
+			}
+			modifier = {
+				factor = 0
+				any_spouse = {
+					religion_group = jewish_group
+				}
+			}
+			modifier = {
+				factor = 0
+				any_child = {
+					religion_group = jewish_group
+				}
+			}
+			modifier = {
+				factor = 0
+				trait = kind
+			}
+			modifier = {
+				factor = 0
+				trait = just
+				has_character_modifier = borrowed_from_jews
+			}
+			modifier = {
+				factor = 1.2
+				trait = zealous
+				trait = arbitrary
+			}
+			modifier = {
+				factor = 2
+				has_character_modifier = borrowed_from_jews
+				trait = greedy
+			}
+		}
+	}
+#####Rebuild Jerusalem
+	rebuild_jerusalem = {
+		is_high_prio = yes
+		potential = {
+			is_ruler = yes
+			age = 16
+			religion_group = jewish_group
+			NOT = { has_global_flag = jerusalem_rebuilt }
+			NOT = { has_global_flag = rebuilding_jerusalem }
+		}
+		allow = {
+			wealth = 9000
+			has_landed_title = b_mirabel
+			OR = {
+				has_landed_title = k_israel
+				has_landed_title = e_israel
+			}
+			
+			b_mirabel = {
+					has_building = ca_wall_5
+					has_building = ca_keep_6
+					has_building = ca_militia_barracks_4
+					has_building = ca_training_grounds_3
+					has_building = ca_barracks_6
+					has_building = ca_stable_6
+					has_building = ca_town_6
+					has_building = ca_culture_jewish_4
+			}
+			war = no
+			prisoner = no		
+		}
+		effect = {
+			province_event = { id = Aliyah.10121 }
+			set_global_flag = rebuilding_jerusalem
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				NOT = {
+					scaled_wealth = 5.0
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					learning = 8
+				}
+			}
+		}
+	}
+	
+	destroy_siqariqim = {
+		potential = {
+			is_ruler = yes
+			age = 16
+			is_reformed_religion = yes
+			is_title_active = d_siqariqim
+		}
+		
+		allow = {
+			wealth = 500
+			realm_intrigue = 30
+			has_landed_title = k_israel
+		}
+		
+		effect = {
+			narrative_event = { id = Aliyah.10123 }
+			set_character_flag = destroyed_siqariqim
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	rebuild_siqariqim = {
+		potential = {
+			is_ruler = yes
+			age = 16
+			religion_group = jewish_group
+			NOT = { has_character_flag = "destroyed_siqariqim" }
+			NOT = { has_character_flag = "rebuilt_siqariqim" }
+		}
+		
+		allow = {
+			wealth = 750
+			realm_intrigue = 30
+			trait = zealous
+			has_landed_title = k_israel
+		}
+		
+		effect = {
+			narrative_event = { id = Aliyah.10124 }
+			set_character_flag = "rebuilt_siqariqim"
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+#Karaite and Jewish Reformation Decisions
+reform_karaite = {
+		is_high_prio = yes
+		
+		potential = {
+			has_landed_title = k_israel
+			is_ruler = yes
+			age = 16
+			religion = karaite
+		}
+		
+		allow = {
+				religion = karaite
+				num_of_holy_sites = 3
+				piety = 750
+				religion_authority = 0.50
+							
+			NOT = { 
+				OR = {
+				religion = jewish
+				religion = grand_sanhedrin
+				religion = rabbinic_judaism
+				religion = samaritan
+				religion = haymenot_judaism
+				religion = nazarene
+				religion = ebionite
+			}
+			}
+		}
+		
+		effect = {
+			# Reformer converts
+			religion = temple_judaism
+			hidden_tooltip = {narrative_event = { id = Aliyah.10800 } }
+		}
+				
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+reform_rabbinic_judaism = {
+		is_high_prio = yes
+		
+		potential = {
+			has_landed_title = k_israel
+			is_ruler = yes
+			age = 16
+			religion = rabbinic_judaism
+		}
+		
+		allow = {
+				religion = rabbinic_judaism
+				num_of_holy_sites = 3
+				piety = 750
+				religion_authority = 0.50
+							
+			NOT = { 
+				OR = {
+				religion = jewish
+				religion = grand_sanhedrin
+				religion = kariate
+				religion = temple_judaism
+				religion = samaritan
+				religion = haymenot_judaism
+				religion = nazarene
+				religion = ebionite
+			}
+			}
+		}
+		
+		effect = {
+			# Reformer converts
+			religion = grand_sanhedrin
+			hidden_tooltip = {narrative_event = { id = Aliyah.10801 } }
+		}
+				
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}

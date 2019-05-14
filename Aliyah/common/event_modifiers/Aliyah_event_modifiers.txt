@@ -1,0 +1,67 @@
+expelled_muslims = {
+	icon = 21
+	diplomacy = -2
+}
+
+expelled_pagans_timer = { icon = 1 }
+
+expelled_pagans = {
+	icon = 21
+	diplomacy = -2
+}
+
+expelled_muslims_timer = { icon = 1 }
+
+expelled_christians = {
+	icon = 21
+	diplomacy = -2
+}
+
+expelled_christians_timer = { icon = 1 }
+
+expelled_zoroastrians = {
+	icon = 21
+	diplomacy = -2
+}
+
+expelled_zoroastrians_timer = { icon = 1 }
+
+expelled_indians = {
+	icon = 21
+	diplomacy = -2
+}
+
+expelled_indians_timer = { icon = 1 }
+
+expelled_egyptian_pagans = {
+	icon = 21
+	diplomacy = -2
+}
+
+expelled_egyptian_pagans_timer = { icon = 1 }
+
+expelled_hellenic_pagans = {
+	icon = 21
+	diplomacy = -2
+}
+
+expelled_hellenic_pagans_timer = { icon = 1 }
+
+expelled_mesoamericans = {
+	icon = 21
+	diplomacy = -2
+}
+
+expelled_mesoamericans_timer = { icon = 1 }
+
+held_purim_timer = { icon = 1 }
+
+held_rosh_hashanah_timer = { icon = 1 }
+
+held_yom_kippur_timer = { icon = 1 }
+
+held_hanukkah_timer = { icon = 1 }
+
+held_shavuot_timer = { icon = 1 }
+
+held_sukkot_timer = { icon = 1 }

@@ -1,0 +1,95 @@
+#Aliyah On Actions
+
+on_startup = {
+	events = {
+		Aliyah.10001
+		Aliyah.10003
+		Aliyah.10004
+		Aliyah.10005
+		Aliyah.10006
+		Aliyah.10007
+		Aliyah.10008
+		Aliyah.10009
+		Aliyah.10010
+		Aliyah.10011
+		Aliyah.10012
+		Aliyah.10013
+		Aliyah.10014
+		Aliyah.10015
+		Aliyah.10016
+		Aliyah.10017
+		Aliyah.10018
+		Aliyah.10019
+		Aliyah.10020
+		Aliyah.10021
+		Aliyah.10022
+		Aliyah.10023
+		Aliyah.10024
+		Aliyah.10025
+		Aliyah.10026
+		Aliyah.10027
+		Aliyah.10028
+		Aliyah.10029
+		Aliyah.10030
+		Aliyah.10031
+		Aliyah.10032
+		Aliyah.10033
+		Aliyah.10034
+		Aliyah.10035
+		Aliyah.10036
+		Aliyah.10037
+		Aliyah.10038
+		Aliyah.10039
+		Aliyah.10040
+		Aliyah.10041
+		Aliyah.10042
+		Aliyah.10043
+		Aliyah.10044
+		Aliyah.10045
+		Aliyah.10046
+		Aliyah.10047
+		Aliyah.10048
+		Aliyah.10049
+		Aliyah.10050
+		Aliyah.10051
+		Aliyah.10052
+		Aliyah.10053
+		Aliyah.10054
+		Aliyah.10055
+		Aliyah.10056
+		Aliyah.10057
+		Aliyah.10058
+		Aliyah.10059
+		Aliyah.10060
+		Aliyah.10061
+		Aliyah.10062
+		Aliyah.10063
+		Aliyah.10064
+	}
+}
+on_yearly_pulse = {
+	events = {
+		Aliyah.10002
+		Aliyah.10065
+	}
+}
+		
+# An indestructible society failed to find a new leader from existing characters
+# Root = Society
+# From = Previous leader
+#on_society_failed_to_find_new_leader = {
+#	events = {
+#		Aliyah.1000 #Create Nazarene Society Member
+		#Aliyah.1001	#Create Nazarene Society Member
+		#Aliyah.1002	#Create Nazarene Society Member
+		#Aliyah.1003 #Create Nazarene Society Member
+		#Aliyah.1004	#Create Nazarene Society Member
+		#Aliyah.1005	#Create Nazarene Society Member
+		#Aliyah.1006	#Create Nazarene Society Member
+		#Aliyah.1007	#Create Nazarene Society Member
+		#Aliyah.1008	#Create Nazarene Society Member
+		#Aliyah.1009	#Create Nazarene Society Member
+		#Aliyah.1010	#Create Nazarene Society Member
+		#Aliyah.1011	#Create Nazarene Society Member
+#	}
+#}

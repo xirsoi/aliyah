@@ -1,0 +1,123 @@
+###SOCIETIES###
+defined_text = {
+	name = GetSocietyName # Returns the name of target's society
+
+	text = {
+		localisation_key = String_the_Daliyowtaw_Nazirites
+		trigger = { society_member_of = monastic_order_nazarene }
+	}
+}
+
+defined_text = {
+	name = GetSocietyNameCap # Returns the name of target's society with inital Capital letter
+
+	text = {
+		localisation_key = the_Daliyowtaw_Nazirites
+		trigger = { society_member_of = monastic_order_nazarene }
+	}
+}
+defined_text = { #Does not work for jain and buddhist
+	name = GetMOGod
+
+	text = {
+		localisation_key = String_God
+		trigger = {
+			OR = {
+				society_member_of = monastic_order_nazarene
+			}
+		}
+	}
+}
+
+defined_text = {
+	name = GetMOSaint
+	
+	text = {
+		localisation_key = String_Daliyowtaw_Nazirites
+		trigger = { society_member_of = monastic_order_nazarene }
+	}
+}
+
+defined_text = {
+	name = GetMOBuilding
+
+	text = {
+		localisation_key = String_monastery
+		trigger = {
+					society_member_of = monastic_order_nazarene
+		}
+	}
+}
+
+defined_text = {
+	name = GetMOCode
+
+	text = {
+		localisation_key = String_the_Rule_of_Daliyowtaw_Nazirites
+		trigger = { society_member_of = monastic_order_nazarene }
+	}
+}
+
+defined_text = {
+	name = GetSocietyCurrency #use [Root.Society.GetCurrency] or [From.Society.GetCurrency] to refere to any society currency in your localization
+
+	text = {
+		localisation_key = currency_name_monastic_order_nazarene #the currency name seen in the society and localization file
+		trigger = { society_member_of = monastic_order_nazarene }
+	}
+}
+
+defined_text = { #the various ranks names, use [From.GetSocietyRank] or [Root.GetSocietyRank]
+	name = GetSocietyRank
+
+	text = {
+		localisation_key = monastic_order_nazarene_rank_1_female #all of these need to be the sames as the code rank names in localization
+		trigger = { is_female = yes society_rank = { society = monastic_order_nazarene rank == 1 } }
+	}
+	text = {
+		localisation_key = monastic_order_nazarene_rank_1_male
+		trigger = { is_female = no society_rank = { society = monastic_order_nazarene rank == 1 } }
+	}
+	text = {
+		localisation_key = monastic_order_nazarene_rank_2_female
+		trigger = { is_female = yes society_rank = { society = monastic_order_nazarene rank == 2 } }
+	}
+	text = {
+		localisation_key = monastic_order_nazarene_rank_2_male
+		trigger = { is_female = no society_rank = { society = monastic_order_nazarene rank == 2 } }
+	}
+	text = {
+		localisation_key = monastic_order_nazarene_rank_3_female
+		trigger = { is_female = yes society_rank = { society = monastic_order_nazarene rank == 3 } }
+	}
+	text = {
+		localisation_key = monastic_order_nazarene_rank_3_male
+		trigger = { is_female = no society_rank = { society = monastic_order_nazarene rank == 3 } }
+	}
+	text = {
+		localisation_key = monastic_order_nazarene_rank_4_female
+		trigger = { is_female = yes society_rank = { society = monastic_order_nazarene rank == 4 } }
+	}
+	text = {
+		localisation_key = monastic_order_nazarene_rank_4_male
+		trigger = { is_female = no society_rank = { society = monastic_order_nazarene rank == 4 } }
+	}
+}
+
+defined_text = {
+	name = GetSocietyName # Returns the name of target's society, with [From.GetSocietyName] for example
+	
+	text = {
+		localisation_key = string_monastic_order_nazarene #the word to localize
+		trigger = { society_member_of = monastic_order_nazarene }
+	}
+}
+
+defined_text = {
+	name = GetSocietyNameCap # Returns the name of target's society with inital Capital letter, use [From.GetSocietyNameCap]
+
+	text = {
+		localisation_key = monastic_order_nazarene #should be the society name
+		trigger = { society_member_of = monastic_order_nazarene }
+	}
+}

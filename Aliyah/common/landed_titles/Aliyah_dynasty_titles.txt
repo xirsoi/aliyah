@@ -1,0 +1,1348 @@
+#Aliyah Dynasty Titles
+#Tribe of Asher
+d_bet_achav = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154000
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = romaniote
+	religion = rabbinic_judaism
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+
+d_bet_aviram = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154001
+	}
+	
+	# Always exists
+	landless = yes	
+
+	culture = romaniote
+	religion = rabbinic_judaism
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_daniyyel = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154002
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = romaniote
+	religion = nazarene
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_alechsandri = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+
+	allow = {
+		dynasty = 100154003
+	}
+	
+	# Always exists
+	landless = yes	
+
+	culture = romaniote
+	religion = rabbinic_judaism
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_jau = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154004
+	}
+	
+	# Always exists
+	landless = yes	
+
+	culture = romaniote
+	religion = rabbinic_judaism
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_abbaye = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154005
+	}
+	
+	# Always exists
+	landless = yes	
+
+	culture = bene_hamizrah
+	religion = nazarene
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+
+#Tribe of Binyamin
+	
+d_bet_labrat = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154006
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = iberiani
+	religion = rabbinic_judaism
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_surek = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154007
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = iberiani
+	religion = rabbinic_judaism
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_shaprut = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154008
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = iberiani
+	religion = rabbinic_judaism
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_chaim = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154009
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = iberiani
+	religion = rabbinic_judaism
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_ravya = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154010
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = iberiani
+	religion = rabbinic_judaism
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+#Tribe of Dan
+
+d_bet_barukh = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154011
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = bene_hamizrah
+	religion = karaite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_dan = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154012
+	}
+	
+	# Always exists
+	landless = yes	
+
+	culture = bene_hamizrah
+	religion = karaite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_delayahu = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154013
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = bene_hamizrah
+	religion = karaite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_moshe = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154014
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = bene_hamizrah
+	religion = nazarene
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_mishael = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154015
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = cochin_jews
+	religion = karaite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+#Tribe of Efrayim
+
+d_bet_gabirol = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154016
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = samaritan
+	religion = samaritan
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_janah = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154017
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = samaritan
+	religion = samaritan
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_halen = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154018
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = samaritan
+	religion = samaritan
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_elyakim = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154019
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = cochin_jews
+	religion = karaite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+#Tribe of Gad
+
+d_bet_nasiiyah = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154020
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = bene_hamizrah
+	religion = karaite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_benayahu = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154021
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = bene_hamizrah
+	religion = karaite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_hiram = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154022
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = bene_hamizrah
+	religion = nazarene
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_malcha = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154023
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = bene_hamizrah
+	religion = karaite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_natronai = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154024
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = bene_hamizrah
+	religion = karaite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+#Tribe of Issachar
+
+d_bet_baasha = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154025
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = bene_hamizrah
+	religion = karaite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_zimri = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154026
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = bene_hamizrah
+	religion = nazarene
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_omri = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154027
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = bene_hamizrah
+	religion = ebionite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_kafnai = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154028
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = bene_hamizrah
+	religion = karaite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_gedalyah = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154029
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = bene_hamizrah
+	religion = karaite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+#Tribe of Levi
+
+d_bet_cohen = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154030
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = bene_hamizrah
+	religion = nazarene
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_koyen = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154031
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = iberiani
+	religion = rabbinic_judaism
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_sacredote = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154032
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = itali
+	religion = rabbinic_judaism
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+#Tribe of Manasseh
+
+d_bet_eliezer = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154033
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = samaritan
+	religion = samaritan
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_enoch = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154034
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = samaritan
+	religion = samaritan
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+#Tribe of Naphatali
+
+d_bet_amnon = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154035
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = bene_hamizrah
+	religion = karaite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_chananya = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154036
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = bene_hamizrah
+	religion = nazarene
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_eitan = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154037
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = bene_hamizrah
+	religion = karaite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_cephas = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154038
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = bene_hamizrah
+	religion = karaite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_shemaryah = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154039
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = bene_hamizrah
+	religion = nazarene
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+#Tribe of Rueven
+
+d_bet_amos = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154040
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = mizrahim
+	religion = rabbinic_judaism
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_chanokh = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154041
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = itali
+	religion = rabbinic_judaism
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_elazar = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154042
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = khazar_j
+	religion = rabbinic_judaism
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_yehoshua = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154043
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = itali
+	religion = rabbinic_judaism
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_matiyahu = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154044
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = itali
+	religion = rabbinic_judaism
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+#Tribe of Simeon
+
+d_bet_anat = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154045
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = itali
+	religion = rabbinic_judaism
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_chavaqquq = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154046
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = itali
+	religion = rabbinic_judaism
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_eli = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154047
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = itali
+	religion = rabbinic_judaism
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_yoshiah = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154048
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = itali
+	religion = rabbinic_judaism
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+#Tribe of Yudah
+
+d_bet_david = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154049
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = bene_hamizrah
+	religion = karaite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_dayyon = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154050
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = bene_hamizrah
+	religion = nazarene
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_yoash = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154051
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = itali
+	religion = rabbinic_judaism
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_shlomo = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154052
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = cochin_jews
+	religion = karaite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+#Tribe of Zevulun
+
+d_bet_yechezkel = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154053
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = cochin_jews
+	religion = karaite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_adinah = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154054
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = cochin_jews
+	religion = karaite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_elifalet = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154055
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = bene_hamizrah
+	religion = ebionite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_gershom = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154056
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = bene_hamizrah
+	religion = nazarene
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_yitzchak = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154057
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = bene_hamizrah
+	religion = karaite
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+d_bet_elchanan = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154058
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = bene_hamizrah
+	religion = nazarene
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}
+	
+#Beta Yisrael
+
+d_bet_shemayah = {
+	color = { 0 80 255 }
+	
+	short_name = yes
+	title = Nasi
+	
+	allow = {
+		dynasty = 100154059
+	}
+	
+	# Always exists
+	landless = yes	
+	
+	culture = beta_yisrael
+	religion = haymenot_judaism
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+}

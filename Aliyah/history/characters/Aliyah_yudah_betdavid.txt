@@ -1,0 +1,3556 @@
+1006600= {
+name = "Huna V"
+dynasty = 10015449
+dna = nhienkockbi
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 1
+diplomacy = 3
+stewardship = 8
+intrigue = 0
+learning = 4 trait = yudah trait = davidic_line
+trait = elusive_shadow
+trait = duelist
+trait = chaste
+trait = cynical
+trait = proud
+trait = cruel
+410.1.1= {birth=yes}
+436.2.18 = {add_spouse=1006601}
+470.7.20= {death=yes}
+}
+
+1006601= {
+name = "No'ah"
+female=yes
+dynasty = 10015434
+dna = ibfmgbllcme
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 0
+diplomacy = 4
+stewardship = 6
+intrigue = 7
+learning = 5 trait = yudah trait = davidic_line
+trait = charismatic_negotiator
+trait = arbitrary
+trait = diligent
+trait = deceitful
+410.5.24= {birth=yes}
+436.2.18 = {add_spouse=1006600}
+475.4.22= {death=yes}
+}
+
+1006602= {
+name = "Huna VI"
+dynasty = 10015449
+dna = nbfegkaccbe
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 8
+stewardship = 7
+intrigue = 4
+learning = 0 trait = yudah trait = davidic_line
+trait = flamboyant_schemer
+trait = hedonist
+trait = content
+trait = honest
+father=1006600
+mother=1006601
+440.5.25= {birth=yes}
+460.12.11 = {add_spouse=1006606}
+508.7.1= {death=yes}
+}
+
+1006603= {
+name = "Diklah"
+female=yes
+dynasty = 10015449
+dna = nbfenblckbi
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 2
+diplomacy = 6
+stewardship = 7
+intrigue = 4
+learning = 2 trait = yudah trait = davidic_line
+trait = thrifty_clerk
+trait = slothful
+trait = cynical
+father=1006600
+mother=1006601
+441.11.15= {birth=yes}
+510.8.12= {death=yes}
+}
+
+1006604= {
+name = "Shlomo"
+dynasty = 10015449
+dna = iblenkolcbe
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 0
+diplomacy = 5
+stewardship = 4
+intrigue = 3
+learning = 4 trait = yudah trait = davidic_line
+trait = flamboyant_schemer
+trait = humble
+trait = content
+trait = lustful
+father=1006600
+mother=1006601
+442.12.24= {birth=yes}
+508.12.24= {death=yes}
+}
+
+1006605= {
+name = "Yuval"
+female=yes
+dynasty = 10015449
+dna = ihfegblckbi
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 2
+diplomacy = 5
+stewardship = 4
+intrigue = 7
+learning = 4 trait = yudah trait = davidic_line
+trait = charismatic_negotiator
+trait = cruel
+trait = slothful
+trait = greedy
+trait = ambitious
+father=1006600
+mother=1006601
+444.5.15= {birth=yes}
+509.5.4= {death=yes}
+}
+
+1006606= {
+name = "Sarai"
+female=yes
+dynasty = 10015435
+dna = eboiedclfnc
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 2
+diplomacy = 8
+stewardship = 4
+intrigue = 4
+learning = 1 trait = yudah trait = davidic_line
+trait = tough_soldier
+trait = proud
+446.12.13= {birth=yes}
+464.12.11 = {add_spouse=1006602}
+512.1.10= {death=yes}
+}
+
+1006607= {
+name = "Mar Zuta II"
+dynasty = 10015449
+dna = nboemdlccnc
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 4
+stewardship = 1
+intrigue = 3
+learning = 4 trait = yudah trait = davidic_line
+trait = intricate_webweaver
+trait = craven
+trait = lustful
+trait = brave
+father=1006602
+mother=1006606
+488.8.31= {birth=yes}
+508.4.17 = {add_spouse=1006608}
+520.1.17= {death=yes}
+}
+
+1006608= {
+name = "Rut" 
+female=yes
+dynasty = 10015436
+dna = balgghilahe
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 6
+diplomacy = 2
+stewardship = 2
+intrigue = 7
+learning = 5 trait = yudah trait = davidic_line
+trait = misguided_warrior
+488.2.29= {birth=yes}
+508.4.17 = {add_spouse=1006607}
+549.10.12= {death=yes}
+}
+
+1006609= {
+name = "Ahunai"
+female=yes
+dynasty = 10015449
+dna = bbogghocajc
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 6
+diplomacy = 3
+stewardship = 6
+intrigue = 6
+learning = 2 trait = yudah trait = davidic_line
+trait = skilled_tactician
+trait = patient
+trait = trusting
+trait = arbitrary
+father=1006607
+mother=1006608
+508.10.7= {birth=yes}
+526.1.4 = {add_spouse=1006613}
+560.4.14= {death=yes}
+}
+
+1006610= {
+name = "Mar Ahunai" 
+dynasty = 10015449
+dna = nbohghlcahc
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 4
+stewardship = 7
+intrigue = 6
+learning = 4 trait = yudah trait = davidic_line
+trait = intricate_webweaver
+trait = craven
+trait = just
+father=1006607
+mother=1006608
+530.12.27= {birth=yes}
+609.2.3= {death=yes}
+}
+
+1006611= {
+name = "Yedidah" 
+female=yes
+dynasty = 10015449
+dna = nalemhmlahe
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 8
+diplomacy = 2
+stewardship = 6
+intrigue = 5
+learning = 2 trait = yudah trait = davidic_line
+trait = flamboyant_schemer
+trait = ambitious
+trait = proud
+trait = temperate
+trait = ill
+father=1006607
+mother=1006608
+540.6.17= {birth=yes}
+580.7.23= {death=yes}
+}
+
+1006612= {
+name = "Merav" 
+female=yes
+dynasty = 10015449
+dna = nbdgmhilake
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 5
+stewardship = 1
+intrigue = 4
+learning = 6 trait = yudah trait = davidic_line
+trait = fortune_builder
+trait = humble
+father=1006607
+mother=1006608
+543.4.27= {birth=yes}
+577.9.2= {death=yes}
+}
+
+1006613= {
+name = "Kafnai" 
+dynasty = 10015437
+dna = lmbbdiolfme
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 7
+diplomacy = 4
+stewardship = 1
+intrigue = 5
+learning = 6 trait = yudah trait = davidic_line
+trait = charismatic_negotiator
+trait = wroth
+trait = gregarious
+father=1006610
+551.8.16= {birth=yes}
+567.1.4 = {add_spouse=1006609}
+601.2.21= {death=yes}
+}
+
+1006614= {
+name = "Haninai" 
+dynasty = 10015449
+dna = pmogdholame
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 0
+diplomacy = 1
+stewardship = 5
+intrigue = 8
+learning = 4 trait = yudah trait = davidic_line
+trait = brilliant_strategist
+trait = paranoid
+father=1006613
+mother=1006609
+560.10.28= {birth=yes}
+583.5.29 = {add_spouse=1006618}
+590.6.23= {death=yes}
+}
+
+1006615= {
+name = "Yechezkel"
+dynasty = 10015449
+dna = lmobgholfjg
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 3
+diplomacy = 3
+stewardship = 0
+intrigue = 2
+learning = 5 trait = yudah trait = davidic_line
+trait = tough_soldier
+trait = lustful
+father=1006613
+mother=1006609
+564.10.14= {birth=yes}
+619.12.19= {death=yes}
+}
+
+1006616= {
+name = "Penuel" 
+dynasty = 10015449
+dna = bbbggiolajc
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 7
+diplomacy = 8
+stewardship = 5
+intrigue = 3
+learning = 4 trait = yudah trait = davidic_line
+trait = detached_priest
+trait = arbitrary
+trait = chaste
+trait = slothful
+father=1006613
+mother=1006609
+566.6.21= {birth=yes}
+612.1.13= {death=yes}
+}
+
+1006617= {
+name = "Yechi'el" 
+dynasty = 10015449
+dna = bbegmhoefmf
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 6
+diplomacy = 4
+stewardship = 6
+intrigue = 5
+learning = 7 trait = yudah trait = davidic_line
+trait = skilled_tactician
+trait = lustful
+trait = trusting
+trait = envious
+father=1006613
+mother=1006609
+568.9.14= {birth=yes}
+624.12.10= {death=yes}
+}
+
+1006618= {
+name = Ashtoret 
+female=yes
+dynasty = 10015438
+dna = ifbpnoenpnc
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 3
+stewardship = 4
+intrigue = 8
+learning = 5 trait = yudah trait = davidic_line
+trait = underhanded_rogue
+trait = humble
+564.10.10= {birth=yes}
+583.5.29 = {add_spouse=1006614}
+607.6.8= {death=yes}
+}
+
+1006619= {
+name = Tamar 
+female=yes
+dynasty = 10015449
+dna = pmopdoolamc
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 3
+diplomacy = 5
+stewardship = 4
+intrigue = 6
+learning = 0 trait = yudah trait = davidic_line
+trait = intricate_webweaver
+trait = kind
+trait = cynical
+trait = honest
+trait = drunkard
+father=1006614
+mother=1006618
+586.4.28= {birth=yes}
+609.4.30 = {add_spouse=1006623}
+648.2.22= {death=yes}
+}
+
+1006620= {
+name = Shulammit 
+female=yes
+dynasty = 10015449
+dna = ifognoenpme
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 1
+diplomacy = 7
+stewardship = 4
+intrigue = 6
+learning = 4 trait = yudah trait = davidic_line
+trait = thrifty_clerk
+trait = honest
+trait = gregarious
+trait = wroth
+father=1006614
+mother=1006618
+591.12.17= {birth=yes}
+651.7.3= {death=yes}
+}
+
+1006621= {
+name = Devorah 
+female=yes
+dynasty = 10015449
+dna = ifopdhenpnh
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 0
+stewardship = 6
+intrigue = 0
+learning = 4 trait = yudah trait = davidic_line
+trait = midas_touched
+trait = chaste
+trait = zealous
+trait = craven
+father=1006614
+mother=1006618
+595.7.27= {birth=yes}
+644.10.21= {death=yes}
+}
+
+1006622= {
+name = Hagar 
+female=yes
+dynasty = 10015449
+dna = pmoonobfppc
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 1
+diplomacy = 2
+stewardship = 4
+intrigue = 7
+learning = 6 trait = yudah trait = davidic_line
+trait = midas_touched
+father=1006614
+mother=1006618
+599.8.14= {birth=yes}
+667.12.3= {death=yes}
+}
+
+1006623= {
+name = Bostanai 
+dynasty = 10015439
+dna = jjbbbffhlbk
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 6
+stewardship = 7
+intrigue = 6
+learning = 4 trait = yudah trait = davidic_line
+trait = underhanded_rogue
+trait = slothful
+589.8.7= {birth=yes}
+609.4.30 = {add_spouse=1006619}
+638.10.16= {death=yes}
+}
+
+1006624= {
+name = Tzillah 
+female=yes
+dynasty = 10015449
+dna = jaopaofllbc
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 7
+diplomacy = 1
+stewardship = 4
+intrigue = 1
+learning = 5 trait = yudah trait = davidic_line
+trait = thrifty_clerk
+trait = patient
+trait = cruel
+trait = deceitful
+trait = charitable
+father=1006623
+mother=1006619
+610.8.27= {birth=yes}
+654.1.19= {death=yes}
+}
+
+1006625= {
+name = Hanina 
+dynasty = 10015449
+dna = pmopgfflamk
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 0
+stewardship = 0
+intrigue = 5
+learning = 4 trait = yudah trait = davidic_line
+trait = indulgent_wastrel
+trait = greedy
+trait = paranoid
+father=1006623
+mother=1006619
+628.12.4= {birth=yes}
+646.8.25 = {add_spouse=1006627}
+689.6.17= {death=yes}
+}
+
+1006626= {
+name = Levi 
+dynasty = 10015449
+dna = pmbpdoollbk
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 7
+diplomacy = 4
+stewardship = 6
+intrigue = 3
+learning = 5 trait = yudah trait = davidic_line
+trait = grey_eminence
+trait = proud
+trait = cynical
+father=1006623
+mother=1006619
+618.2.12= {birth=yes}
+674.6.5= {death=yes}
+}
+
+1006627= {
+name = "Yedidah" 
+female=yes
+dynasty = 10015440
+dna = fanojkdnlhf
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 3
+diplomacy = 3
+stewardship = 7
+intrigue = 4
+learning = 4 trait = yudah trait = davidic_line
+trait = midas_touched
+trait = deceitful
+trait = trusting
+616.12.1= {birth=yes}
+636.8.25 = {add_spouse=1006625}
+672.2.29= {death=yes}
+}
+
+1006628= {
+name = Achinoam 
+female=yes
+dynasty = 10015449
+dna = fhoogffnamm
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 7
+stewardship = 3
+intrigue = 4
+learning = 6 trait = yudah trait = davidic_line
+trait = skilled_tactician
+trait = wroth
+trait = arbitrary
+trait = drunkard
+father=1006625
+mother=1006627
+638.2.15= {birth=yes}
+679.3.30= {death=yes}
+}
+
+1006629= {
+name = Hasdai 
+dynasty = 10015449
+dna = pmnpjkflagf
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 0
+diplomacy = 4
+stewardship = 5
+intrigue = 1
+learning = 3 trait = yudah trait = davidic_line
+trait = underhanded_rogue
+trait = gregarious
+trait = chaste
+trait = wounded
+father=1006625
+mother=1006627
+639.12.1= {birth=yes}
+660.6.13 = {add_spouse=1006633}
+685.9.26= {death=yes}
+}
+
+1006630= {
+name = Achinoam 
+female=yes
+dynasty = 10015449
+dna = faepjkfplhk
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 6
+stewardship = 5
+intrigue = 4
+learning = 0 trait = yudah trait = davidic_line
+trait = detached_priest
+trait = patient
+trait = slothful
+father=1006625
+mother=1006627
+641.6.9= {birth=yes}
+695.4.30= {death=yes}
+}
+
+1006631= {
+name = Zekharyah 
+dynasty = 10015449
+dna = paoogkdnamf
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 6
+stewardship = 2
+intrigue = 0
+learning = 2 trait = yudah trait = davidic_line
+trait = elusive_shadow
+trait = temperate
+trait = paranoid
+trait = kind
+father=1006625
+mother=1006627
+645.6.17= {birth=yes}
+682.8.2= {death=yes}
+}
+
+1006632= {
+name = "Yechi'el" 
+dynasty = 10015449
+dna = paoogffnamf
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 2
+diplomacy = 5
+stewardship = 5
+intrigue = 1
+learning = 1 trait = yudah trait = davidic_line
+trait = flamboyant_schemer
+trait = celibate
+trait = kind
+father=1006625
+mother=1006627
+646.6.13= {birth=yes}
+691.8.9= {death=yes}
+}
+
+1006633= {
+name = Meheitav'el 
+female=yes
+dynasty = 10015441
+dna = picnpfdepke
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 6
+diplomacy = 4
+stewardship = 5
+intrigue = 7
+learning = 5 trait = yudah trait = davidic_line
+trait = tough_soldier
+trait = zealous
+trait = envious
+trait = trusting
+643.6.29= {birth=yes}
+660.6.13 = {add_spouse=1006629}
+688.8.5= {death=yes}
+}
+
+1006634= {
+name = Ester 
+female=yes
+dynasty = 10015449
+dna = ppnnjffeake
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 4
+stewardship = 2
+intrigue = 7
+learning = 6 trait = yudah trait = davidic_line
+trait = brilliant_strategist
+trait = celibate
+trait = drunkard
+father=1006629
+mother=1006633
+664.4.23= {birth=yes}
+717.12.19= {death=yes}
+}
+
+1006635= {
+name = Avital 
+female=yes
+dynasty = 10015449
+dna = pinnpkdlpkf
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 4
+stewardship = 5
+intrigue = 1
+learning = 0 trait = yudah trait = davidic_line
+trait = charismatic_negotiator
+father=1006629
+mother=1006633
+669.5.28= {birth=yes}
+710.8.15= {death=yes}
+}
+
+1006636= {
+name = Shlomo 
+dynasty = 10015449
+dna = picpokfemgf
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 2
+diplomacy = 0
+stewardship = 5
+intrigue = 3
+learning = 3 trait = yudah trait = davidic_line
+trait = underhanded_rogue
+trait = arbitrary
+trait = patient
+trait = humble
+trait = charitable
+father=1006629
+mother=1006633
+680.10.26= {birth=yes}
+700.9.9 = {add_spouse=1006640}
+761.8.23= {death=yes}
+}
+
+1006637= {
+name = Lemuel 
+dynasty = 10015449
+dna = picmjkflane
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 4
+stewardship = 5
+intrigue = 3
+learning = 4 trait = yudah trait = davidic_line
+trait = elusive_shadow
+trait = chaste
+trait = just
+father=1006629
+mother=1006633
+677.5.4= {birth=yes}
+735.9.21= {death=yes}
+}
+
+1006638= {
+name = Golyat 
+dynasty = 10015449
+dna = pmnnpfleake
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 3
+stewardship = 6
+intrigue = 4
+learning = 2 trait = yudah trait = davidic_line
+trait = tough_soldier
+trait = zealous
+father=1006629
+mother=1006633
+679.6.15= {birth=yes}
+745.4.27= {death=yes}
+}
+
+1006639= {
+name = Chanokh 
+dynasty = 10015449
+dna = picnpfdepgf
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 2
+diplomacy = 4
+stewardship = 6
+intrigue = 3
+learning = 0 trait = yudah trait = davidic_line
+trait = intricate_webweaver
+trait = charitable
+father=1006629
+mother=1006633
+681.6.26= {birth=yes}
+744.7.4= {death=yes}
+}
+
+1006640= {
+name = "Yemima"
+female=yes
+dynasty = 10015442
+dna = dfhggnjenne
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 6
+diplomacy = 2
+stewardship = 6
+intrigue = 1
+learning = 1 trait = yudah trait = davidic_line
+trait = fortune_builder
+trait = wroth
+trait = cruel
+trait = chaste
+trait = diligent
+672.6.19= {birth=yes}
+700.9.9 = {add_spouse=1006636}
+726.6.17= {death=yes}
+}
+
+1006641= {
+name = "Yitzhak Iskawi I"
+dynasty = 10015449
+dna = dihgokjenje
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 5
+stewardship = 8
+intrigue = 4
+learning = 3 trait = yudah trait = davidic_line
+trait = underhanded_rogue
+trait = lustful
+trait = gluttonous
+trait = shy
+father=1006636
+mother=1006640
+700.6.7= {birth=yes}
+720.1.27 = {add_spouse=1006643}
+767.9.27= {death=yes}
+}
+
+1006642= {
+name = "Uzzi" 
+dynasty = 10015449
+dna = dihpgnfemne
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 1
+diplomacy = 7
+stewardship = 4
+intrigue = 4
+learning = 5 trait = yudah trait = davidic_line
+trait = thrifty_clerk
+trait = cruel
+trait = patient
+father=1006636
+mother=1006640
+700.9.3= {birth=yes}
+753.6.7= {death=yes}
+}
+
+1006643= {
+name = "Tirtzah" 
+female=yes
+dynasty = 10015443
+dna = afbjknnjoem
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 6
+diplomacy = 5
+stewardship = 6
+intrigue = 5
+learning = 5 trait = yudah trait = davidic_line
+trait = fortune_builder
+trait = content
+trait = envious
+trait = diligent
+691.6.15= {birth=yes}
+720.1.27 = {add_spouse=1006641}
+759.3.24= {death=yes}
+}
+
+1006644= {
+name = "Yehuda Zakkai" 
+dynasty = 10015449
+dna = dfbgoknenee
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 3
+diplomacy = 4
+stewardship = 1
+intrigue = 4
+learning = 0 trait = yudah trait = davidic_line
+trait = charismatic_negotiator
+trait = gardener
+trait = shy
+trait = paranoid
+father=1006641
+mother=1006643
+721.12.16= {birth=yes}
+740.6.25 = {add_spouse=1006647}
+771.6.7= {death=yes}
+}
+
+1006645= {
+name = Bityah 
+female=yes
+dynasty = 10015449
+dna = dghgohngdie
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 0
+diplomacy = 4
+stewardship = 3
+intrigue = 3
+learning = 2 trait = yudah trait = davidic_line
+trait = indulgent_wastrel
+father=1006641
+mother=1006643
+722.5.10= {birth=yes}
+792.10.21= {death=yes}
+}
+
+1006646= {
+name = Reuven 
+dynasty = 10015449
+dna = dfbjonnjoee
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 3
+diplomacy = 4
+stewardship = 8
+intrigue = 8
+learning = 7 trait = yudah trait = davidic_line
+trait = fortune_builder
+trait = mystic
+trait = chaste
+trait = cynical
+father=1006641
+mother=1006643
+724.12.8= {birth=yes}
+776.8.13= {death=yes}
+}
+
+1006647= {
+name = Shulammit 
+female=yes
+dynasty = 10015444
+dna = mlbhjkingpf
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 1
+diplomacy = 3
+stewardship = 6
+intrigue = 7
+learning = 4 trait = yudah trait = davidic_line
+trait = charismatic_negotiator
+trait = scholar
+trait = cruel
+trait = kind
+trait = stressed
+719.3.4= {birth=yes}
+740.6.25 = {add_spouse=1006644}
+768.2.19= {death=yes}
+}
+
+1006648= {
+name = Moshe 
+dynasty = 10015449
+dna = dfbhoknenef
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 2
+diplomacy = 4
+stewardship = 7
+intrigue = 4
+learning = 4 trait = yudah trait = davidic_line
+trait = flamboyant_schemer
+trait = scholar
+trait = diligent
+trait = ill
+father=1006644
+mother=1006647
+740.10.13= {birth=yes}
+760.5.17 = {add_spouse=1006650}
+810.7.13= {death=yes}
+}
+
+1006649= {
+name = Tamar 
+female=yes
+dynasty = 10015449
+dna = dlbhjkiehpf
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 6
+diplomacy = 2
+stewardship = 4
+intrigue = 1
+learning = 5 trait = yudah trait = davidic_line
+trait = brilliant_strategist
+trait = mystic
+trait = slothful
+trait = humble
+father=1006644
+mother=1006647
+744.8.4= {birth=yes}
+762.2.25 = {add_spouse=1006651}
+807.1.9= {death=yes}
+}
+
+1006650= {
+name = Nogah 
+female=yes
+dynasty = 10015445
+dna = holfbeehndc
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 0
+diplomacy = 2
+stewardship = 6
+intrigue = 2
+learning = 4 trait = yudah trait = davidic_line
+trait = intricate_webweaver
+743.11.29= {birth=yes}
+760.5.17 = {add_spouse=1006648}
+794.2.2= {death=yes}
+}
+
+1006651= {
+name = "Yitzhak Iskawi II "
+dynasty = 10015446
+dna = aohlabbnhbb
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 3
+diplomacy = 4
+stewardship = 1
+intrigue = 2
+learning = 5 trait = yudah trait = davidic_line
+trait = charismatic_negotiator
+745.4.3= {birth=yes}
+762.2.25 = {add_spouse=1006649}
+820.2.24= {death=yes}
+}
+
+1006652= {
+name = "No'ah" 
+female=yes
+dynasty = 10015449
+dna = dobhakinhbi
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 2
+stewardship = 2
+intrigue = 7
+learning = 3 trait = yudah trait = davidic_line
+trait = tough_soldier
+trait = hunter
+trait = slothful
+trait = paranoid
+father=1006651
+mother=1006649
+765.8.22= {birth=yes}
+828.8.11= {death=yes}
+}
+
+1006653= {
+name = David 
+dynasty = 10015449
+dna = aobhabbnhkb
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 7
+diplomacy = 6
+stewardship = 3
+intrigue = 2
+learning = 5 trait = yudah trait = davidic_line
+trait = intricate_webweaver
+trait = chaste
+trait = gluttonous
+father=1006651
+mother=1006649
+770.10.26= {birth=yes}
+792.10.14 = {add_spouse=1006656}
+840.8.19= {death=yes}
+}
+
+1006654= {
+name = Basmat 
+female=yes
+dynasty = 10015449
+dna = dlkkakinhbb
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 7
+diplomacy = 2
+stewardship = 3
+intrigue = 5
+learning = 5 trait = yudah trait = davidic_line
+trait = fortune_builder
+trait = proud
+trait = content
+father=1006651
+mother=1006649
+775.1.4= {birth=yes}
+834.2.1= {death=yes}
+}
+
+1006655= {
+name = Hadassah 
+female=yes
+dynasty = 10015449
+dna = dlbljbiehbb
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 7
+diplomacy = 3
+stewardship = 4
+intrigue = 6
+learning = 7 trait = yudah trait = davidic_line
+trait = tough_soldier
+father=1006651
+mother=1006649
+777.5.11= {birth=yes}
+816.9.8= {death=yes}
+}
+
+1006656= {
+name = Leah 
+female=yes
+dynasty = 10015447
+dna = jldmmlfbnbb
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 2
+diplomacy = 6
+stewardship = 3
+intrigue = 2
+learning = 4 trait = yudah trait = davidic_line
+trait = flamboyant_schemer
+trait = lustful
+trait = ambitious
+775.2.25= {birth=yes}
+792.10.14 = {add_spouse=1006653}
+817.6.14= {death=yes}
+}
+
+1006657= {
+name = Aviyah 
+female=yes
+dynasty = 10015449
+dna = jlbbmbbnnbb
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 0
+diplomacy = 7
+stewardship = 3
+intrigue = 4
+learning = 4 trait = yudah trait = davidic_line
+trait = skilled_tactician
+trait = celibate
+trait = zealous
+father=1006653
+mother=1006656
+797.4.21= {birth=yes}
+815.3.21 = {add_spouse=1006658}
+851.12.14= {death=yes}
+}
+
+1006658= {
+name = Anan 
+dynasty = 10015448
+dna = lahbijahdbc
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 7
+diplomacy = 7
+stewardship = 4
+intrigue = 1
+learning = 3 trait = yudah trait = davidic_line
+trait = naive_appeaser
+trait = honest
+trait = paranoid
+trait = drunkard
+trait = maimed
+799.1.2= {birth=yes}
+815.3.21 = {add_spouse=1006657}
+845.2.26= {death=yes}
+}
+
+1006659= {
+name = "Yedidah" 
+female=yes
+dynasty = 10015449
+dna = jlhbibahdbb
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 4
+stewardship = 2
+intrigue = 8
+learning = 8 trait = yudah trait = davidic_line
+trait = charismatic_negotiator
+trait = temperate
+trait = patient
+trait = deceitful
+father=1006658
+mother=1006657
+818.1.4= {birth=yes}
+893.8.9= {death=yes}
+}
+
+1006660= {
+name = "Sha'ul"
+dynasty = 10015449
+dna = jphbmjbhdbc
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 4
+stewardship = 2
+intrigue = 8
+learning = 3 trait = yudah trait = davidic_line
+trait = flamboyant_schemer
+trait = lustful
+trait = honest
+father=1006658
+mother=1006657
+822.5.24= {birth=yes}
+843.1.19 = {add_spouse=1006665}
+861.10.7= {death=yes}
+}
+
+1006661= {
+name = Yerushah 
+female=yes
+dynasty = 10015449
+dna = llhbibandbc
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 6
+diplomacy = 4
+stewardship = 4
+intrigue = 6
+learning = 1 trait = yudah trait = davidic_line
+trait = thrifty_clerk
+trait = chaste
+trait = honest
+father=1006658
+mother=1006657
+825.6.2= {birth=yes}
+877.2.25= {death=yes}
+}
+
+1006662= {
+name = Nethanel 
+dynasty = 10015449
+dna = llbbibbhnfc
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 7
+diplomacy = 3
+stewardship = 2
+intrigue = 3
+learning = 4 trait = yudah trait = davidic_line
+trait = tough_soldier
+trait = hunter
+trait = wroth
+trait = cynical
+trait = charitable
+trait = gregarious
+father=1006658
+mother=1006657
+827.11.17= {birth=yes}
+860.9.12= {death=yes}
+}
+
+1006663= {
+name = Tzipporah 
+female=yes
+dynasty = 10015449
+dna = labbmbahnco
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 6
+diplomacy = 5
+stewardship = 3
+intrigue = 5
+learning = 2 trait = yudah trait = davidic_line
+trait = detached_priest
+trait = paranoid
+trait = blinded
+father=1006658
+mother=1006657
+832.12.27= {birth=yes}
+902.8.18= {death=yes}
+}
+
+1006664= {
+name = "Merav" 
+female=yes
+dynasty = 10015449
+dna = jahbmjannbb
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 1
+diplomacy = 8
+stewardship = 5
+intrigue = 4
+learning = 1 trait = yudah trait = davidic_line
+trait = elusive_shadow
+trait = craven
+trait = slothful
+trait = just
+trait = drunkard
+father=1006658
+mother=1006657
+837.8.23= {birth=yes}
+901.2.2= {death=yes}
+}
+
+1006665= {
+name = Mikhal 
+female=yes
+dynasty = 10015449
+dna = ihbikdimifb
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 5
+stewardship = 1
+intrigue = 7
+learning = 5 trait = yudah trait = davidic_line
+trait = flamboyant_schemer
+trait = celibate
+trait = craven
+trait = slothful
+827.2.5= {birth=yes}
+843.1.19 = {add_spouse=1006660}
+870.4.20= {death=yes}
+}
+
+1006666= {
+name = Yoshiyahu 
+dynasty = 10015449
+dna = ahhbmjbhibc
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 1
+diplomacy = 4
+stewardship = 4
+intrigue = 8
+learning = 7 trait = yudah trait = davidic_line
+trait = fortune_builder
+trait = celibate
+trait = temperate
+trait = diligent
+father=1006660
+mother=1006665
+845.3.1= {birth=yes}
+863.10.22 = {add_spouse=1006667}
+895.5.6= {death=yes}
+}
+
+1006667= {
+name = Ashtoret 
+female=yes
+dynasty = 10015450
+dna = klkelnbeane
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 3
+diplomacy = 6
+stewardship = 3
+intrigue = 4
+learning = 3 trait = yudah trait = davidic_line
+trait = charismatic_negotiator
+trait = paranoid
+trait = cruel
+845.12.2= {birth=yes}
+863.10.22 = {add_spouse=1006666}
+901.11.14= {death=yes}
+}
+
+1006668= {
+name = Miriam 
+female=yes
+dynasty = 10015449
+dna = alhemjbeinc
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 6
+diplomacy = 4
+stewardship = 7
+intrigue = 5
+learning = 5 trait = yudah trait = davidic_line
+trait = elusive_shadow
+trait = gluttonous
+trait = just
+trait = paranoid
+trait = stressed
+father=1006666
+mother=1006667
+869.12.17= {birth=yes}
+899.11.23= {death=yes}
+}
+
+1006669= {
+name = Yehoshafat 
+dynasty = 10015449
+dna = ahhbmjbeibc
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 7
+diplomacy = 4
+stewardship = 4
+intrigue = 0
+learning = 6 trait = yudah trait = davidic_line
+trait = midas_touched
+father=1006666
+mother=1006667
+875.9.17= {birth=yes}
+896.12.25 = {add_spouse=1006671}
+934.2.20= {death=yes}
+}
+
+1006670= {
+name = Hillel 
+dynasty = 10015449
+dna = kphbmjbeiic
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 2
+diplomacy = 1
+stewardship = 4
+intrigue = 1
+learning = 6 trait = yudah trait = davidic_line
+trait = tough_soldier
+father=1006666
+mother=1006667
+881.9.7= {birth=yes}
+936.7.6= {death=yes}
+}
+
+1006671= {
+name = Mikhayhu 
+female=yes
+dynasty = 10015451
+dna = fhnenlhnlmo
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 4
+stewardship = 5
+intrigue = 7
+learning = 4 trait = yudah trait = davidic_line
+trait = midas_touched
+trait = deceitful
+trait = brave
+trait = gluttonous
+trait = stressed
+877.7.3= {birth=yes}
+896.12.25 = {add_spouse=1006669}
+939.6.28= {death=yes}
+}
+
+1006672= {
+name = Boaz 
+dynasty = 10015449
+dna = fhnbnlhnlmc
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 3
+diplomacy = 5
+stewardship = 5
+intrigue = 4
+learning = 1 trait = yudah trait = davidic_line
+trait = thrifty_clerk
+trait = kind
+father=1006669
+mother=1006671
+901.4.3= {birth=yes}
+919.3.21 = {add_spouse=1006674}
+965.12.17= {death=yes}
+}
+
+1006673= {
+name = Zilpah
+female=yes
+dynasty = 10015449
+dna = ahhbmjhelmo
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 3
+diplomacy = 7
+stewardship = 0
+intrigue = 7
+learning = 4 trait = yudah trait = davidic_line
+trait = brilliant_strategist
+trait = cruel
+trait = greedy
+father=1006669
+mother=1006671
+907.6.7= {birth=yes}
+940.4.17= {death=yes}
+}
+
+1006674= {
+name = Delilah 
+female=yes
+dynasty = 10015452
+dna = gbdakfpolio
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 7
+stewardship = 6
+intrigue = 6
+learning = 3 trait = yudah trait = davidic_line
+trait = underhanded_rogue
+trait = cruel
+903.5.5= {birth=yes}
+919.3.21 = {add_spouse=1006672}
+934.4.21= {death=yes}
+}
+
+1006675= {
+name = David 
+dynasty = 10015449
+dna = fbkbkfpnlic
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 6
+diplomacy = 3
+stewardship = 1
+intrigue = 2
+learning = 8 trait = yudah trait = davidic_line
+trait = flamboyant_schemer
+trait = shy
+father=1006672
+mother=1006674
+924.12.2= {birth=yes}
+945.4.17 = {add_spouse=1006677}
+974.7.16= {death=yes}
+}
+
+1006676= {
+name = No'ah 
+female=yes
+dynasty = 10015449
+dna = fhdbklholmo
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 3
+diplomacy = 4
+stewardship = 3
+intrigue = 5
+learning = 6 trait = yudah trait = davidic_line
+trait = underhanded_rogue
+trait = mystic
+trait = gluttonous
+trait = gregarious
+father=1006672
+mother=1006674
+927.7.22= {birth=yes}
+981.3.5= {death=yes}
+}
+
+1006677= {
+name = Efrat 
+female=yes
+dynasty = 10015453
+dna = gljeicepdlh
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 2
+diplomacy = 5
+stewardship = 2
+intrigue = 1
+learning = 5 trait = yudah trait = davidic_line
+trait = fortune_builder
+trait = scholar
+trait = humble
+trait = drunkard
+929.8.22= {birth=yes}
+945.4.17 = {add_spouse=1006675}
+980.9.2= {death=yes}
+}
+
+1006678= {
+name = Shlomo 
+dynasty = 10015449
+dna = gljbcfpnllh
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 2
+diplomacy = 4
+stewardship = 4
+intrigue = 6
+learning = 6 trait = yudah trait = davidic_line
+trait = charismatic_negotiator
+trait = temperate
+trait = diligent
+father=1006675
+mother=1006677
+951.4.10= {birth=yes}
+972.6.25 = {add_spouse=1006681}
+1007.12.16= {death=yes}
+}
+
+1006679= {
+name = Devorah 
+female=yes
+dynasty = 10015449
+dna = gljbialplih
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 3
+stewardship = 1
+intrigue = 6
+learning = 3 trait = yudah trait = davidic_line
+trait = fortune_builder
+trait = mystic
+trait = temperate
+father=1006675
+mother=1006677
+956.11.25= {birth=yes}
+1002.3.1= {death=yes}
+}
+
+1006680= {
+name = Sarai 
+female=yes
+dynasty = 10015449
+dna = nbkpifedfih
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 2
+diplomacy = 1
+stewardship = 1
+intrigue = 4
+learning = 2 trait = yudah trait = davidic_line
+trait = fortune_builder
+trait = scholar
+trait = just
+trait = wroth
+father=1006675
+mother=1006677
+958.4.12= {birth=yes}
+1009.3.12= {death=yes}
+}
+
+1006681= {
+name = Tirtzah 
+female=yes
+dynasty = 10015454
+dna = fbakcbffifj
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 4
+stewardship = 5
+intrigue = 3
+learning = 3 trait = yudah trait = davidic_line
+trait = thrifty_clerk
+trait = gardener
+trait = temperate
+trait = craven
+trait = content
+956.3.26= {birth=yes}
+972.6.25 = {add_spouse=1006678}
+1001.7.24= {death=yes}
+}
+
+1006682= {
+name = Chizqiyahu 
+dynasty = 10015449
+dna = fbjkcfpnllj
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 3
+stewardship = 4
+intrigue = 5
+learning = 5 trait = yudah trait = davidic_line
+trait = thrifty_clerk
+trait = ambitious
+trait = proud
+father=1006678
+mother=1006681
+975.10.30= {birth=yes}
+995.6.15 = {add_spouse=1006684}
+1055.10.21= {death=yes}
+}
+
+1006683= {
+name = Hiram 
+dynasty = 10015449
+dna = gbjkcopnlfh
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 6
+diplomacy = 3
+stewardship = 1
+intrigue = 6
+learning = 7 trait = yudah trait = davidic_line
+trait = tough_soldier
+trait = cruel
+trait = slothful
+father=1006678
+mother=1006681
+982.1.6= {birth=yes}
+1044.2.9= {death=yes}
+}
+
+1006684= {
+name = Leah 
+female=yes
+dynasty = 10015455
+dna = imcohihaemf
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 3
+diplomacy = 4
+stewardship = 6
+intrigue = 7
+learning = 5 trait = yudah trait = davidic_line
+trait = fortune_builder
+trait = charitable
+trait = brave
+trait = deceitful
+trait = content
+977.8.8= {birth=yes}
+995.6.15 = {add_spouse=1006682}
+1024.10.30= {death=yes}
+}
+
+1006685= {
+name = Hasdai 
+dynasty = 10015449
+dna = fbjocihnlcf
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 6
+stewardship = 4
+intrigue = 2
+learning = 0 trait = yudah trait = davidic_line
+trait = flamboyant_schemer
+trait = stressed
+father=1006682
+mother=1006684
+998.7.3= {birth=yes}
+1020.9.11 = {add_spouse=1006689}
+1060.4.18= {death=yes}
+}
+
+1006686= {
+name = Yemima 
+female=yes
+dynasty = 10015449
+dna = imjocihnelf
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 3
+diplomacy = 4
+stewardship = 3
+intrigue = 3
+learning = 2 trait = yudah trait = davidic_line
+trait = underhanded_rogue
+trait = content
+father=1006682
+mother=1006684
+10000.10.24= {birth=yes}
+1054.5.18= {death=yes}
+}
+
+1006687= {
+name = Nechemyah 
+dynasty = 10015449
+dna = fmjghfhalmf
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 5
+stewardship = 0
+intrigue = 3
+learning = 4 trait = yudah trait = davidic_line
+trait = underhanded_rogue
+trait = charitable
+trait = slothful
+father=1006682
+mother=1006684
+1005.1.14= {birth=yes}
+1062.8.23= {death=yes}
+}
+
+1006688= {
+name = Atarah 
+female=yes
+dynasty = 10015449
+dna = fbcocfhalmf
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 7
+stewardship = 3
+intrigue = 4
+learning = 4 trait = yudah trait = davidic_line
+trait = tough_soldier
+trait = patient
+trait = lustful
+trait = chaste
+father=1006682
+mother=1006684
+1008.6.6= {birth=yes}
+1060.5.15= {death=yes}
+}
+
+1006689= {
+name = Avigayil 
+female=yes
+dynasty = 10015456
+dna = lmgknmdojgj
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 6
+diplomacy = 6
+stewardship = 3
+intrigue = 5
+learning = 4 trait = yudah trait = davidic_line
+trait = intricate_webweaver
+trait = scholar
+trait = envious
+trait = content
+1002.12.27= {birth=yes}
+1020.9.11 = {add_spouse=1006685}
+1076.11.26= {death=yes}
+}
+
+1006690= {
+name = Shlomo 
+dynasty = 10015449
+dna = fmgkcmiojgf
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 0
+stewardship = 4
+intrigue = 7
+learning = 2 trait = yudah trait = davidic_line
+trait = intricate_webweaver
+father=1006685
+mother=1006689
+1021.12.2= {birth=yes}
+1044.8.23 = {add_spouse=1006691}
+1077.11.13= {death=yes}
+}
+
+1006691= {
+name = Moriah 
+female=yes
+dynasty = 10015457
+dna = fjnflpbcdbh
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 3
+diplomacy = 8
+stewardship = 2
+intrigue = 2
+learning = 4 trait = yudah trait = davidic_line
+trait = intricate_webweaver
+1025.11.19= {birth=yes}
+1044.8.23 = {add_spouse=1006690}
+1079.11.19= {death=yes}
+}
+
+1006692= {
+name = Natronai 
+dynasty = 10015449
+dna = fmnfcmicjgf
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 2
+diplomacy = 2
+stewardship = 7
+intrigue = 6
+learning = 5 trait = yudah trait = davidic_line
+trait = charismatic_negotiator
+trait = gregarious
+trait = arbitrary
+trait = honest
+trait = envious
+father=1006690
+mother=1006691
+1047.3.23= {birth=yes}
+1068.12.4 = {add_spouse=1006695}
+1100.6.2= {death=yes}
+}
+
+1006693= {
+name = Tirtzah 
+female=yes
+dynasty = 10015449
+dna = fagklmiogjh
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 6
+diplomacy = 3
+stewardship = 5
+intrigue = 4
+learning = 2 trait = yudah trait = davidic_line
+trait = fortune_builder
+trait = kind
+trait = greedy
+father=1006690
+mother=1006691
+1048.10.18= {birth=yes}
+1100.12.16= {death=yes}
+}
+
+1006694= {
+name = Shem 
+dynasty = 10015449
+dna = fmgkcpmodgh
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 2
+stewardship = 2
+intrigue = 6
+learning = 1 trait = yudah trait = davidic_line
+trait = detached_priest
+trait = proud
+trait = shy
+father=1006690
+mother=1006691
+1050.7.16= {birth=yes}
+1124.2.5= {death=yes}
+}
+
+1006695= {
+name = Washti 
+female=yes
+dynasty = 10015458
+dna = bhkhgpjfmkl
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 6
+diplomacy = 5
+stewardship = 6
+intrigue = 3
+learning = 3 trait = yudah trait = davidic_line
+trait = flamboyant_schemer
+trait = chaste
+1050.10.20= {birth=yes}
+1068.12.4 = {add_spouse=1006692}
+1114.12.20= {death=yes}
+}
+
+1006696= {
+name = Atalyah 
+female=yes
+dynasty = 10015449
+dna = bmnhgkifmkl
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 5
+stewardship = 6
+intrigue = 2
+learning = 2 trait = yudah trait = davidic_line
+trait = grey_eminence
+trait = trusting
+trait = drunkard
+father=1006692
+mother=1006695
+1071.1.23= {birth=yes}
+1137.10.8= {death=yes}
+}
+
+1006697= {
+name = Mikhal 
+female=yes
+dynasty = 10015449
+dna = fhhhcpihjkl
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 3
+diplomacy = 3
+stewardship = 0
+intrigue = 4
+learning = 6 trait = yudah trait = davidic_line
+trait = charismatic_negotiator
+trait = duelist
+trait = paranoid
+trait = proud
+trait = gluttonous
+father=1006692
+mother=1006695
+1073.4.16= {birth=yes}
+1116.10.14= {death=yes}
+}
+
+1006698= {
+name = Hasdai 
+dynasty = 10015449
+dna = fhkhgpicmkf
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 6
+stewardship = 4
+intrigue = 2
+learning = 3 trait = yudah trait = davidic_line
+trait = brilliant_strategist
+trait = gluttonous
+trait = honest
+trait = arbitrary
+trait = envious
+trait = drunkard
+father=1006692
+mother=1006695
+1075.9.8= {birth=yes}
+1092.3.16 = {add_spouse=1006699}
+1141.7.7= {death=yes}
+}
+
+1006699= {
+name = Moriah 
+female=yes
+dynasty = 10015459
+dna = fdgpaghhdao
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 3
+diplomacy = 3
+stewardship = 5
+intrigue = 3
+learning = 2 trait = yudah trait = davidic_line
+trait = intricate_webweaver
+trait = paranoid
+1076.3.24= {birth=yes}
+1092.3.16 = {add_spouse=1006698}
+1133.12.27= {death=yes}
+}
+
+1006700= {
+name = Ketzi'ah 
+female=yes
+dynasty = 10015449
+dna = fhghagihdki
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 4
+stewardship = 0
+intrigue = 8
+learning = 2 trait = yudah trait = davidic_line
+trait = thrifty_clerk
+trait = shy
+trait = gregarious
+father=1006698
+mother=1006699
+1093.1.24= {birth=yes}
+1159.12.22= {death=yes}
+}
+
+1006701= {
+name = Ukba 
+dynasty = 10015449
+dna = fhkhgghemao
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 8
+diplomacy = 1
+stewardship = 7
+intrigue = 3
+learning = 7 trait = yudah trait = davidic_line
+trait = detached_priest
+trait = cruel
+trait = arbitrary
+father=1006698
+mother=1006699
+1099.4.10= {birth=yes}
+1120.3.26 = {add_spouse=1006704}
+1151.12.12= {death=yes}
+}
+
+1006702= {
+name = Moshe 
+dynasty = 10015449
+dna = fdgpggihlap
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 6
+diplomacy = 2
+stewardship = 0
+intrigue = 5
+learning = 2 trait = yudah trait = davidic_line
+trait = tough_soldier
+trait = shy
+trait = proud
+trait = gluttonous
+father=1006698
+mother=1006699
+1104.12.16= {birth=yes}
+1185.10.12= {death=yes}
+}
+
+1006703= {
+name = Avital 
+female=yes
+dynasty = 10015449
+dna = fdkhaphcmko
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 1
+stewardship = 3
+intrigue = 2
+learning = 1 trait = yudah trait = davidic_line
+trait = brilliant_strategist
+trait = just
+trait = deceitful
+trait = gluttonous
+father=1006698
+mother=1006699
+1108.10.15= {birth=yes}
+1169.4.2= {death=yes}
+}
+
+1006704= {
+name = Yerushah 
+female=yes
+dynasty = 0
+dna = hcajmpphkgg
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 3
+stewardship = 3
+intrigue = 3
+learning = 5 trait = yudah trait = davidic_line
+trait = skilled_tactician
+trait = impaler
+trait = greedy
+trait = slothful
+1100.5.30= {birth=yes}
+1120.3.26 = {add_spouse=1006701}
+1167.1.31= {death=yes}
+}
+
+1006705= {
+name = Chaggit 
+female=yes
+dynasty = 10015449
+dna = fckjmpphmao
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 2
+diplomacy = 4
+stewardship = 6
+intrigue = 5
+learning = 1 trait = yudah trait = davidic_line
+trait = thrifty_clerk
+trait = honest
+trait = just
+father=1006701
+mother=1006704
+1121.9.23= {birth=yes}
+1182.4.20= {death=yes}
+}
+
+1006706= {
+name = Atalyah 
+female=yes
+dynasty = 10015449
+dna = hhkhmghekag
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 6
+stewardship = 2
+intrigue = 3
+learning = 5 trait = yudah trait = davidic_line
+trait = charismatic_negotiator
+trait = humble
+father=1006701
+mother=1006704
+1122.10.22= {birth=yes}
+1186.10.13= {death=yes}
+}
+
+1006707= {
+name = David 
+dynasty = 10015449
+dna = dcahgppekag
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 8
+diplomacy = 5
+stewardship = 4
+intrigue = 5
+learning = 3 trait = yudah trait = davidic_line
+trait = thrifty_clerk
+trait = shy
+trait = kind
+father=1006701
+mother=1006704
+1125.12.19= {birth=yes}
+1147.10.21 = {add_spouse=1006710}
+1182.2.16= {death=yes}
+}
+
+1006708= {
+name = Mordokhay 
+dynasty = 10015449
+dna = hhakgohemao
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 6
+diplomacy = 4
+stewardship = 5
+intrigue = 8
+learning = 4 trait = yudah trait = davidic_line
+trait = thrifty_clerk
+trait = envious
+father=1006701
+mother=1006704
+1128.4.15= {birth=yes}
+1173.4.16= {death=yes}
+}
+
+1006709= {
+name = Aviyah 
+female=yes
+dynasty = 10015449
+dna = fhkjlphhmge
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 8
+diplomacy = 3
+stewardship = 4
+intrigue = 6
+learning = 2 trait = yudah trait = davidic_line
+trait = brilliant_strategist
+trait = temperate
+father=1006701
+mother=1006704
+1131.5.20= {birth=yes}
+1182.10.5= {death=yes}
+}
+
+1006710= {
+name = Izevel 
+female=yes
+dynasty = 0
+dna = ekmmdfeijhg
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 3
+diplomacy = 3
+stewardship = 4
+intrigue = 4
+learning = 6 trait = yudah trait = davidic_line
+trait = detached_priest
+trait = mystic
+trait = gluttonous
+trait = patient
+trait = humble
+trait = temperate
+1129.9.14= {birth=yes}
+1147.10.21 = {add_spouse=1006707}
+1188.2.1= {death=yes}
+}
+
+1006711= {
+name = Yehuda 
+dynasty = 10015449
+dna = ecmhdpeejab
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 6
+diplomacy = 6
+stewardship = 4
+intrigue = 7
+learning = 1 trait = yudah trait = davidic_line
+trait = indulgent_wastrel
+trait = slothful
+trait = greedy
+father=1006707
+mother=1006710
+1150.2.26= {birth=yes}
+1172.2.6 = {add_spouse=1006716}
+1198.3.9= {death=yes}
+}
+
+1006712= {
+name = Chawwah 
+female=yes
+dynasty = 10015449
+dna = ecahgfeejag
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 2
+diplomacy = 3
+stewardship = 7
+intrigue = 2
+learning = 4 trait = yudah trait = davidic_line
+trait = detached_priest
+trait = charitable
+trait = chaste
+father=1006707
+mother=1006710
+1156.3.24= {birth=yes}
+1202.1.14= {death=yes}
+}
+
+1006713= {
+name = Seraiah 
+dynasty = 10015449
+dna = ecmhdfhijag
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 7
+diplomacy = 2
+stewardship = 1
+intrigue = 7
+learning = 4 trait = yudah trait = davidic_line
+trait = detached_priest
+trait = mystic
+trait = charitable
+trait = just
+father=1006707
+mother=1006710
+1158.11.4= {birth=yes}
+1213.1.16= {death=yes}
+}
+
+1006714= {
+name = Lemuel 
+dynasty = 10015449
+dna = ekmhgfpejjg
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 3
+diplomacy = 3
+stewardship = 4
+intrigue = 2
+learning = 4 trait = yudah trait = davidic_line
+trait = intricate_webweaver
+trait = hedonist
+trait = patient
+trait = paranoid
+trait = deceitful
+father=1006707
+mother=1006710
+1160.6.22= {birth=yes}
+1208.1.27= {death=yes}
+}
+
+1006715= {
+name = "Merav" 
+female=yes
+dynasty = 10015449
+dna = ekahdppikag
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 6
+stewardship = 5
+intrigue = 2
+learning = 7 trait = yudah trait = davidic_line
+trait = underhanded_rogue
+trait = lustful
+father=1006707
+mother=1006710
+1165.3.6= {birth=yes}
+1230.5.28= {death=yes}
+}
+
+1006716= {
+name = Cheftzi-Bah 
+female=yes
+dynasty = 0
+dna = mjnlekkdjnc
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 6
+diplomacy = 4
+stewardship = 5
+intrigue = 3
+learning = 0 trait = yudah trait = davidic_line
+trait = underhanded_rogue
+trait = wroth
+trait = kind
+trait = proud
+1154.5.22= {birth=yes}
+1172.2.6 = {add_spouse=1006711}
+1200.1.7= {death=yes}
+}
+
+1006717= {
+name = Machalat 
+female=yes
+dynasty = 10015449
+dna = mjnldpkejac
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 6
+stewardship = 3
+intrigue = 5
+learning = 3 trait = yudah trait = davidic_line
+trait = misguided_warrior
+trait = trusting
+trait = brave
+trait = envious
+father=1006711
+mother=1006716
+1175.8.27= {birth=yes}
+1234.9.22= {death=yes}
+}
+
+1006718= {
+name = Dinah 
+female=yes
+dynasty = 10015449
+dna = ejnhekeejnc
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 5
+stewardship = 7
+intrigue = 5
+learning = 4 trait = yudah trait = davidic_line
+trait = skilled_tactician
+trait = proud
+father=1006711
+mother=1006716
+1176.8.25= {birth=yes}
+1245.3.30= {death=yes}
+}
+
+1006719= {
+name = Belshatzzar 
+dynasty = 10015449
+dna = ecnhekkehnm
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 6
+diplomacy = 4
+stewardship = 5
+intrigue = 0
+learning = 1 trait = yudah trait = davidic_line
+trait = tough_soldier
+trait = gregarious
+trait = content
+trait = stressed
+father=1006711
+mother=1006716
+1180.11.15= {birth=yes}
+1201.9.4 = {add_spouse=1006722}
+1231.8.17= {death=yes}
+}
+
+1006720= {
+name = "Rut" 
+female=yes
+dynasty = 10015449
+dna = mcnhdpkelnb
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 3
+diplomacy = 2
+stewardship = 3
+intrigue = 0
+learning = 5 trait = yudah trait = davidic_line
+trait = flamboyant_schemer
+trait = impaler
+trait = cruel
+trait = kind
+father=1006711
+mother=1006716
+1186.11.22= {birth=yes}
+1248.7.4= {death=yes}
+}
+
+1006721= {
+name = Ketzi'ah 
+female=yes
+dynasty = 10015449
+dna = mcmhdpkejnc
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 2
+diplomacy = 3
+stewardship = 1
+intrigue = 3
+learning = 3 trait = yudah trait = davidic_line
+trait = thrifty_clerk
+trait = trusting
+trait = envious
+father=1006711
+mother=1006716
+1192.1.9= {birth=yes}
+1249.11.3= {death=yes}
+}
+
+1006722= {
+name = Nogah 
+female=yes
+dynasty = 0
+dna = bjeljmpjdib
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 3
+diplomacy = 8
+stewardship = 7
+intrigue = 5
+learning = 4 trait = yudah trait = davidic_line
+trait = underhanded_rogue
+trait = temperate
+trait = kind
+trait = zealous
+trait = patient
+1184.5.8= {birth=yes}
+1201.9.4 = {add_spouse=1006719}
+1244.7.4= {death=yes}
+}
+
+1006723= {
+name = Chizqiyahu 
+dynasty = 10015449
+dna = bjeljkkehim
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 7
+diplomacy = 4
+stewardship = 0
+intrigue = 3
+learning = 5 trait = yudah trait = davidic_line
+trait = thrifty_clerk
+trait = chaste
+trait = zealous
+trait = temperate
+trait = depressed
+father=1006719
+mother=1006722
+1205.7.20= {birth=yes}
+1225.6.16 = {add_spouse=1006724}
+1257.12.27= {death=yes}
+}
+
+1006724= {
+name = No'ah 
+female=yes
+dynasty = 0
+dna = ielohdgmdoi
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 4
+stewardship = 4
+intrigue = 6
+learning = 4 trait = yudah trait = davidic_line
+trait = charismatic_negotiator
+trait = craven
+1206.10.29= {birth=yes}
+1225.6.16 = {add_spouse=1006723}
+1274.8.31= {death=yes}
+}
+
+1006725= {
+name = Barak 
+dynasty = 10015449
+dna = ijeljkgeooi
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 1
+diplomacy = 5
+stewardship = 2
+intrigue = 6
+learning = 4 trait = yudah trait = davidic_line
+trait = fortune_builder
+father=1006723
+mother=1006724
+1228.9.17= {birth=yes}
+1253.1.13 = {add_spouse=1006730}
+1271.1.22= {death=yes}
+}
+
+1006726= {
+name = Yuval 
+female=yes
+dynasty = 10015449
+dna = bcllfkkpdom
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 6
+stewardship = 1
+intrigue = 5
+learning = 2 trait = yudah trait = davidic_line
+trait = thrifty_clerk
+trait = proud
+father=1006723
+mother=1006724
+1233.11.28= {birth=yes}
+1276.6.27= {death=yes}
+}
+
+1006727= {
+name = Yerushah 
+female=yes
+dynasty = 10015449
+dna = ijlogkgegim
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 7
+diplomacy = 5
+stewardship = 6
+intrigue = 3
+learning = 4 trait = yudah trait = davidic_line
+trait = underhanded_rogue
+father=1006723
+mother=1006724
+1235.5.29= {birth=yes}
+1274.6.7= {death=yes}
+}
+
+1006728= {
+name = Chuldah 
+female=yes
+dynasty = 10015449
+dna = beeohkdedii
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 2
+diplomacy = 3
+stewardship = 3
+intrigue = 4
+learning = 3 trait = yudah trait = davidic_line
+trait = fortune_builder
+trait = temperate
+trait = zealous
+father=1006723
+mother=1006724
+1236.12.19= {birth=yes}
+1287.3.17= {death=yes}
+}
+
+1006729= {
+name = Bat-Sheva 
+female=yes
+dynasty = 10015449
+dna = bjllhdgmhoi
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 7
+diplomacy = 5
+stewardship = 3
+intrigue = 8
+learning = 3 trait = yudah trait = davidic_line
+trait = charismatic_negotiator
+trait = diligent
+trait = humble
+trait = paranoid
+father=1006723
+mother=1006724
+1238.7.24= {birth=yes}
+1292.5.28= {death=yes}
+}
+
+1006730= {
+name = Chuldah 
+female=yes
+dynasty = 0
+dna = gljalapkmph
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 2
+stewardship = 4
+intrigue = 1
+learning = 3 trait = yudah trait = davidic_line
+trait = fortune_builder
+trait = diligent
+trait = honest
+1233.10.6= {birth=yes}
+1253.1.13 = {add_spouse=1006725}
+1311.7.27= {death=yes}
+}
+
+1006731= {
+name = Cheftzi-Bah 
+female=yes
+dynasty = 10015449
+dna = jlealapkmph
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 3
+stewardship = 5
+intrigue = 3
+learning = 5 trait = yudah trait = davidic_line
+trait = flamboyant_schemer
+trait = brave
+father=1006725
+mother=1006730
+1257.2.8= {birth=yes}
+1309.5.25= {death=yes}
+}
+
+1006732= {
+name = Aviram 
+dynasty = 10015449
+dna = ilellagempi
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 3
+stewardship = 4
+intrigue = 4
+learning = 8 trait = yudah trait = davidic_line
+trait = skilled_tactician
+trait = cynical
+trait = envious
+father=1006725
+mother=1006730
+1263.3.22= {birth=yes}
+1288.3.1 = {add_spouse=1006737}
+1324.8.10= {death=yes}
+}
+
+1006733= {
+name = Daniyyel 
+dynasty = 10015449
+dna = gjjalapeapi
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 3
+diplomacy = 3
+stewardship = 5
+intrigue = 3
+learning = 6 trait = yudah trait = davidic_line
+trait = charismatic_negotiator
+trait = shy
+trait = arbitrary
+father=1006725
+mother=1006730
+1265.3.29= {birth=yes}
+1319.5.8= {death=yes}
+}
+
+1006734= {
+name = Ednah 
+female=yes
+dynasty = 10015449
+dna = oljalkkemph
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 3
+diplomacy = 4
+stewardship = 0
+intrigue = 8
+learning = 5 trait = yudah trait = davidic_line
+trait = naive_appeaser
+trait = cynical
+father=1006725
+mother=1006730
+1266.9.9= {birth=yes}
+1307.6.7= {death=yes}
+}
+
+1006735= {
+name = Yemima 
+female=yes
+dynasty = 10015449
+dna = gcjhlkakkpi
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 6
+stewardship = 3
+intrigue = 5
+learning = 3 trait = yudah trait = davidic_line
+trait = indulgent_wastrel
+trait = content
+trait = deceitful
+father=1006725
+mother=1006730
+1268.5.4= {birth=yes}
+1329.4.28= {death=yes}
+}
+
+1006736= {
+name = Tamar 
+female=yes
+dynasty = 10015449
+dna = ijeljkpeioh
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 6
+diplomacy = 7
+stewardship = 4
+intrigue = 5
+learning = 7 trait = yudah trait = davidic_line
+trait = tough_soldier
+trait = charitable
+trait = deceitful
+trait = leper
+father=1006725
+mother=1006730
+1270.12.7= {birth=yes}
+1319.5.1= {death=yes}
+}
+
+1006737= {
+name = Efrat 
+female=yes
+dynasty = 0
+dna = llefkedigha
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 3
+stewardship = 1
+intrigue = 3
+learning = 3 trait = yudah trait = davidic_line
+trait = thrifty_clerk
+trait = kind
+trait = wroth
+1268.8.4= {birth=yes}
+1288.3.1 = {add_spouse=1006732}
+1318.5.25= {death=yes}
+}
+
+1006738= {
+name = Sarai 
+female=yes
+dynasty = 10015449
+dna = loeflegempi
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 0
+diplomacy = 5
+stewardship = 1
+intrigue = 4
+learning = 3 trait = yudah trait = davidic_line
+trait = brilliant_strategist
+trait = hunter
+trait = cruel
+trait = shy
+father=1006732
+mother=1006737
+1289.3.13= {birth=yes}
+1369.1.14= {death=yes}
+}
+
+1006739= {
+name = Pinchas 
+dynasty = 10015449
+dna = llefledigca
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 5
+stewardship = 3
+intrigue = 3
+learning = 4 trait = yudah trait = davidic_line
+trait = underhanded_rogue
+trait = gregarious
+father=1006732
+mother=1006737
+1291.10.4= {birth=yes}
+1312.2.2 = {add_spouse=1006743}
+1338.12.3= {death=yes}
+}
+
+1006740= {
+name = Yiskah 
+female=yes
+dynasty = 10015449
+dna = llelkegigga
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 0
+stewardship = 4
+intrigue = 1
+learning = 6 trait = yudah trait = davidic_line
+trait = fortune_builder
+trait = diligent
+trait = chaste
+father=1006732
+mother=1006737
+1292.8.23= {birth=yes}
+1350.4.2= {death=yes}
+}
+
+1006741= {
+name = Yerushah 
+female=yes
+dynasty = 10015449
+dna = llefkageghi
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 3
+stewardship = 3
+intrigue = 5
+learning = 1 trait = yudah trait = davidic_line
+trait = tough_soldier
+trait = lustful
+trait = cynical
+father=1006732
+mother=1006737
+1297.9.5= {birth=yes}
+1343.2.7= {death=yes}
+}
+
+1006742= {
+name = Elisha 
+dynasty = 10015449
+dna = llefkagegaa
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 3
+stewardship = 6
+intrigue = 5
+learning = 5 trait = yudah trait = davidic_line
+trait = thrifty_clerk
+trait = craven
+trait = arbitrary
+father=1006732
+mother=1006737
+1302.4.17= {birth=yes}
+1353.8.21= {death=yes}
+}
+
+1006743= {
+name = Dinah 
+female=yes
+dynasty = 0
+dna = paemhmnefla
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 4
+stewardship = 4
+intrigue = 6
+learning = 3 trait = yudah trait = davidic_line
+trait = flamboyant_schemer
+trait = mystic
+trait = wroth
+trait = diligent
+trait = ambitious
+1295.3.6= {birth=yes}
+1312.2.2 = {add_spouse=1006739}
+1352.7.4= {death=yes}
+}
+
+1006744= {
+name = Elifelet 
+dynasty = 10015449
+dna = llefheninla
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 6
+diplomacy = 0
+stewardship = 3
+intrigue = 1
+learning = 6 trait = yudah trait = davidic_line
+trait = elusive_shadow
+trait = charitable
+trait = gregarious
+trait = content
+father=1006739
+mother=1006743
+1313.8.8= {birth=yes}
+1334.1.4 = {add_spouse=1006749}
+1368.2.5= {death=yes}
+}
+
+1006745= {
+name = Devorah 
+female=yes
+dynasty = 10015449
+dna = laefhedifla
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 3
+diplomacy = 2
+stewardship = 4
+intrigue = 2
+learning = 0 trait = yudah trait = davidic_line
+trait = detached_priest
+trait = brave
+trait = chaste
+trait = proud
+father=1006739
+mother=1006743
+1319.9.6= {birth=yes}
+1376.8.22= {death=yes}
+}
+
+1006746= {
+name = Ofir 
+female=yes
+dynasty = 10015449
+dna = mlemlenefla
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 1
+diplomacy = 4
+stewardship = 8
+intrigue = 3
+learning = 6 trait = yudah trait = davidic_line
+trait = intricate_webweaver
+trait = brave
+trait = trusting
+trait = content
+father=1006739
+mother=1006743
+1321.5.7= {birth=yes}
+1365.9.30= {death=yes}
+}
+
+1006747= {
+name = Leah 
+female=yes
+dynasty = 10015449
+dna = llemoedegca
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 1
+diplomacy = 7
+stewardship = 8
+intrigue = 5
+learning = 3 trait = yudah trait = davidic_line
+trait = skilled_tactician
+trait = gluttonous
+trait = zealous
+trait = proud
+father=1006739
+mother=1006743
+1323.5.29= {birth=yes}
+1373.3.9= {death=yes}
+}
+
+1006748= {
+name = Tzidkiyahu 
+dynasty = 10015449
+dna = llemdedigci
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 8
+stewardship = 4
+intrigue = 2
+learning = 4 trait = yudah trait = davidic_line
+trait = underhanded_rogue
+trait = cruel
+father=1006739
+mother=1006743
+1324.5.16= {birth=yes}
+1347.7.27 = {add_spouse=1006750}
+1361.7.29= {death=yes}
+}
+
+1006749= {
+name = Cheftzi-Bah 
+female=yes
+dynasty = 0
+dna = cijkoleflko
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 5
+stewardship = 3
+intrigue = 3
+learning = 4 trait = yudah trait = davidic_line
+trait = tough_soldier
+trait = greedy
+trait = patient
+trait = gregarious
+1314.8.23= {birth=yes}
+1334.1.4 = {add_spouse=1006744}
+1370.6.22= {death=yes}
+}
+
+1006750= {
+name = Miriam 
+female=yes
+dynasty = 0
+dna = hcljlkgmcgg
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 5
+stewardship = 4
+intrigue = 6
+learning = 3 trait = yudah trait = davidic_line
+trait = thrifty_clerk
+trait = greedy
+trait = ill
+1327.12.24= {birth=yes}
+1347.7.27 = {add_spouse=1006748}
+1376.12.28= {death=yes}
+}
+
+1006751= {
+name = Elisheba 
+female=yes
+dynasty = 10015449
+dna = llejdkdmggg
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 2
+diplomacy = 3
+stewardship = 0
+intrigue = 0
+learning = 0 trait = yudah trait = davidic_line
+trait = midas_touched
+trait = celibate
+trait = trusting
+trait = gregarious
+trait = craven
+father=1006748
+mother=1006750
+1352.3.26= {birth=yes}
+1375.12.10 = {add_spouse=1006754}
+1403.6.7= {death=yes}
+}
+
+1006752= {
+name = Chuldah 
+female=yes
+dynasty = 10015449
+dna = hlemlklicgi
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 2
+diplomacy = 8
+stewardship = 4
+intrigue = 3
+learning = 5 trait = yudah trait = davidic_line
+trait = brilliant_strategist
+trait = ambitious
+trait = greedy
+trait = honest
+trait = ill
+trait = blinded
+father=1006748
+mother=1006750
+1354.2.1= {birth=yes}
+1414.3.4= {death=yes}
+}
+
+1006753= {
+name = Dinah 
+female=yes
+dynasty = 10015449
+dna = lllfnkgigcg
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 6
+diplomacy = 5
+stewardship = 4
+intrigue = 5
+learning = 4 trait = yudah trait = davidic_line
+trait = intricate_webweaver
+father=1006748
+mother=1006750
+1356.3.19= {birth=yes}
+1403.10.25= {death=yes}
+}
+
+1006754= {
+name = "Yechi'el" 
+dynasty = 0
+dna = oiopladmbld
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 8
+diplomacy = 7
+stewardship = 6
+intrigue = 4
+learning = 0 trait = yudah trait = davidic_line
+trait = brilliant_strategist
+trait = chaste
+trait = slothful
+1356.2.28= {birth=yes}
+1375.12.10 = {add_spouse=1006751}
+1427.1.8= {death=yes}
+}
+
+1006755= {
+name = Miriam 
+female=yes
+dynasty = 10015449
+dna = olomladobld
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 3
+diplomacy = 5
+stewardship = 0
+intrigue = 5
+learning = 4 trait = yudah trait = davidic_line
+trait = flamboyant_schemer
+trait = brave
+father=1006754
+mother=1006751
+1377.7.1= {birth=yes}
+1395.7.8 = {add_spouse=1006756}
+1431.6.2= {death=yes}
+}
+
+1006756= {
+name = David 
+dynasty = 0
+dna = fblmeaegcle
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 6
+diplomacy = 5
+stewardship = 8
+intrigue = 3
+learning = 3 trait = yudah trait = davidic_line
+trait = elusive_shadow
+trait = craven
+trait = cruel
+1378.8.18= {birth=yes}
+1395.7.8 = {add_spouse=1006755}
+1445.5.29= {death=yes}
+}
+
+1006757= {
+name = Tirtzah 
+female=yes
+dynasty = 10015449
+dna = ollmlgdoble
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 2
+diplomacy = 1
+stewardship = 5
+intrigue = 5
+learning = 4 trait = yudah trait = davidic_line
+trait = tough_soldier
+trait = envious
+trait = shy
+father=1006756
+mother=1006755
+1399.5.16= {birth=yes}
+1443.5.7= {death=yes}
+}
+
+1006758= {
+name = Mikha'el 
+dynasty = 10015449
+dna = oblmlaeocle
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 2
+diplomacy = 3
+stewardship = 3
+intrigue = 5
+learning = 6 trait = yudah trait = davidic_line
+trait = thrifty_clerk
+father=1006756
+mother=1006755
+1401.7.8= {birth=yes}
+1419.4.11 = {add_spouse=1006761}
+1453.5.30= {death=yes}
+}
+
+1006759= {
+name = Leah 
+female=yes
+dynasty = 10015449
+dna = flomladogle
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 2
+diplomacy = 7
+stewardship = 4
+intrigue = 3
+learning = 4 trait = yudah trait = davidic_line
+trait = thrifty_clerk
+trait = content
+trait = brave
+trait = paranoid
+father=1006756
+mother=1006755
+1402.11.25= {birth=yes}
+1463.9.4= {death=yes}
+}
+
+1006760= {
+name = Ednah 
+female=yes
+dynasty = 10015449
+dna = oblmlaeocld
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 1
+stewardship = 5
+intrigue = 0
+learning = 3 trait = yudah trait = davidic_line
+trait = intricate_webweaver
+trait = shy
+father=1006756
+mother=1006755
+1407.9.13= {birth=yes}
+1468.6.27= {death=yes}
+}
+
+1006761= {
+name = Rachel 
+female=yes
+dynasty = 0
+dna = eaglogcmhdj
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 5
+stewardship = 3
+intrigue = 1
+learning = 6 trait = yudah trait = davidic_line
+trait = tough_soldier
+trait = brave
+trait = charitable
+trait = zealous
+trait = patient
+1402.1.1= {birth=yes}
+1419.4.11 = {add_spouse=1006758}
+1454.12.23= {death=yes}
+}
+
+1006762= {
+name = Chaggit 
+female=yes
+dynasty = 10015449
+dna = ebgmoacoclj
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 2
+diplomacy = 8
+stewardship = 3
+intrigue = 7
+learning = 5 trait = yudah trait = davidic_line
+trait = indulgent_wastrel
+trait = craven
+trait = kind
+trait = patient
+father=1006758
+mother=1006761
+1424.7.19= {birth=yes}
+1471.5.5= {death=yes}
+}
+
+1006763= {
+name = Benayahu 
+dynasty = 10015449
+dna = ebalkgeocle
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 5
+diplomacy = 4
+stewardship = 1
+intrigue = 6
+learning = 4 trait = yudah trait = davidic_line
+trait = intricate_webweaver
+trait = lustful
+trait = humble
+trait = stressed
+father=1006758
+mother=1006761
+1429.3.10= {birth=yes}
+1450.3.2 = {add_spouse=1006767}
+1482.12.13= {death=yes}
+}
+
+1006764= {
+name = Rafa'el 
+dynasty = 10015449
+dna = ebllbgcohlj
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 3
+diplomacy = 5
+stewardship = 8
+intrigue = 4
+learning = 4 trait = yudah trait = davidic_line
+trait = skilled_tactician
+trait = craven
+trait = brave
+father=1006758
+mother=1006761
+1431.7.1= {birth=yes}
+1473.11.29= {death=yes}
+}
+
+1006765= {
+name = Chaggit 
+female=yes
+dynasty = 10015449
+dna = eblmogemhde
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 6
+diplomacy = 5
+stewardship = 3
+intrigue = 2
+learning = 6 trait = yudah trait = davidic_line
+trait = fortune_builder
+trait = brave
+trait = paranoid
+father=1006758
+mother=1006761
+1436.4.9= {birth=yes}
+1490.1.17= {death=yes}
+}
+
+1006766= {
+name = Basmat 
+female=yes
+dynasty = 10015449
+dna = bjlloacmcle
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 8
+diplomacy = 6
+stewardship = 4
+intrigue = 2
+learning = 4 trait = yudah trait = davidic_line
+trait = flamboyant_schemer
+trait = cruel
+father=1006758
+mother=1006761
+1440.10.7= {birth=yes}
+1497.8.4= {death=yes}
+}
+
+1006767= {
+name = Tzillah 
+female=yes
+dynasty = 0
+dna = fghnjokllig
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 5
+stewardship = 1
+intrigue = 3
+learning = 6 trait = yudah trait = davidic_line
+trait = thrifty_clerk
+trait = just
+trait = proud
+trait = zealous
+trait = paranoid
+trait = syphilitic
+1433.4.8= {birth=yes}
+1450.3.2 = {add_spouse=1006763}
+1509.2.1= {death=yes}
+}
+
+1006768= {
+name = Uriy'el 
+dynasty = 10015449
+dna = ibhnjgkocle
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 4
+diplomacy = 4
+stewardship = 4
+intrigue = 5
+learning = 3 trait = yudah trait = davidic_line
+trait = charismatic_negotiator
+trait = poet
+trait = cynical
+trait = craven
+trait = greedy
+father=1006763
+mother=1006767
+1455.2.6= {birth=yes}
+1504.8.7= {death=yes}
+}
+
+1006769= {
+name = Yiskah 
+female=yes
+dynasty = 10015449
+dna = ebacjoklcig
+culture = bene_hamizrah
+religion = rabbinic_judaism
+martial = 7
+diplomacy = 2
+stewardship = 4
+intrigue = 6
+learning = 1 trait = yudah trait = davidic_line
+trait = underhanded_rogue
+trait = celibate
+trait = temperate
+trait = envious
+trait = content
+trait = gregarious
+father=1006763
+mother=1006767
+1457.8.9= {birth=yes}
+1527.5.1= {death=yes}
+}
+

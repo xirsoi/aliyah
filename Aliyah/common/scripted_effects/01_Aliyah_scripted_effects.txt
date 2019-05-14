@@ -1,0 +1,10 @@
+###TRAIT ADDING EFFECTS###
+#Add new ones in alphabetical order.
+
+join_prev_monastic_order_society = {
+	if = {
+		limit = { PREV = { society_member_of = monastic_order_nazarene } }
+		join_society = monastic_order_nazarene
+	}
+}
+

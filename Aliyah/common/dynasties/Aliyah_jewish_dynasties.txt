@@ -1,0 +1,977 @@
+##Jewish Tribal Dynasties by Patriot1776
+#Tribe of Asher
+100154000 = {
+	name = ""bet Ach'av"
+	culture = romaniote
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 1
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+10015401 = {
+	name = "bet Aviram"
+	culture = romaniote
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 8
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+10015402 = {
+	name = "bet Daniyyel"
+	culture = romaniote
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 19
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015403 = {
+	name = "bet Alechsandri"
+	culture = romaniote
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 4
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015404 = {
+	name = "bet Jau"
+	culture = romaniote
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 36
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015405 = {
+	name = "bet Abbaye"
+	culture = bene_hamizrah
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 0
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+#Tribe of Binyamin
+
+10015406 = {
+	name = "bet Labrat"
+	culture = iberiani
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 39
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+10015407 = {
+	name = "bet Surek"
+	culture = iberiani
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 52
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+10015408 = {
+	name = "bet Shaprut"
+	culture = iberiani
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 48
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+10015409 = {
+	name = "bet Chaim"
+	culture = iberiani
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 13
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015410 = {
+	name = "bet Ravya"
+	culture = iberiani
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 46
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+#Tribe of Dan
+
+10015411 = {
+	name = "bet Barukh"
+	culture = bene_hamizrah
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 10
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+10015412 = {
+	name = "bet Dan"
+	culture = bene_hamizrah
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 18
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+10015413 = {
+	name = "bet Delayahu"
+	culture = bene_hamizrah
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 22
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015414 = {
+	name = "bet Moshe"
+	culture = bene_hamizrah
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 42
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015415 = {
+	name = "bet Mishael"
+	culture = cochin_jews
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 41
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+#Tribe of Efrayim
+
+10015416 = {
+	name = "bet Gabirol"
+	culture = samaritan
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 30
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015417 = {
+	name = "bet Janah"
+	culture = samaritan
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 35
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015418 = {
+	name = "bet Halen"
+	culture = samaritan
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 33
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015419 = {
+	name = "bet Elyakim"
+	culture = cochin_jews
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 28
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+#Tribe of Gad
+
+10015420 = {
+	name = "bet Adoniyah"
+	culture = bene_hamizrah
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 3
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015421 = {
+	name = "bet Benayahu"
+	culture = bene_hamizrah
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 11
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015422 = {
+	name = "bet Hiram"
+	culture = bene_hamizrah
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 34
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015423 = {
+	name = "bet Malcha"
+	culture = bene_hamizrah
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 40
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015424 = {
+	name = "bet Natronai"
+	culture = bene_hamizrah
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 44
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+#Tribe of Issachar
+
+10015425 = {
+	name = "bet Ba'asha"
+	culture = bene_hamizrah
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 9
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015426 = {
+	name = "bet Zimri"
+	culture = bene_hamizrah
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 58
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015427 = {
+	name = "bet Omri"
+	culture = bene_hamizrah
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 45
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015428 = {
+	name = "bet Kafnai"
+	culture = bene_hamizrah
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 37
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015429 = {
+	name = "bet Gedalyah"
+	culture = bene_hamizrah
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 31
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+#Tribe of Levi
+
+10015430 = {
+	name = "bet Cohen"
+	culture = bene_hamizrah
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 17
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015431 = {
+	name = "bet Koyen"
+	culture = iberiani
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 38
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015432 = {
+	name = "bet Sacredote"
+	culture = itali
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 47
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+#Tribe of Manasseh
+10015433  = {
+	name = "bet Eliezer"
+	culture = samaritan
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 26
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015434 = {
+	name = "bet Enoch"
+	culture = samaritan
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 29
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+#Tribe of Naphatali
+
+10015435 = {
+	name = "bet Amnon"
+	culture = bene_hamizrah
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 5
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015436 = {
+	name = "bet Chananya"
+	culture = bene_hamizrah
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 14
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015437 = {
+	name = "bet Eitan"
+	culture = bene_hamizrah
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 23
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015438 = {
+	name = "bet Cephas"
+	culture = bene_hamizrah
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 12
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015439 = {
+	name = "bet Shemaryah"
+	culture = bene_hamizrah
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 49
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+#Tribe of Rueven
+
+10015440 = {
+	name = "bet Amos"
+	culture = itali
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 6
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015441 = {
+	name = "bet Chanokh"
+	culture = itali
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 15
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015442 = {
+	name = "bet El'Azar"
+	culture = itali
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 24
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015443 = {
+	name = "bet Yehoshua"
+	culture = itali
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 54
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015444 = {
+	name = "bet Matiyahu"
+	culture = itali
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 41
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+#Tribe of Simeon
+10015445 = {
+	name = "bet Anat"
+	culture = itali
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 7
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015446 = {
+	name = "bet Chavaqquq"
+	culture = itali
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 16
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015447 = {
+	name = "bet Eli"
+	culture = itali
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 26
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015448 = {
+	name = "bet Yoshiah"
+	culture = itali
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 57
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+#Tribe of Yudah
+10015449 = {
+	name = "bet David"
+	culture = bene_hamizrah
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 20
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015450 = {
+	name = "bet Dayyon"
+	culture = bene_hamizrah
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 21
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015451 = {
+	name = "bet Yoash"
+	culture = itali
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 56
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015452 = {
+	name = "bet Shlomo"
+	culture = cochin_jews
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 51
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+#Tribe of Zevulun
+10015453 = {
+	name = "bet Yechezkel"
+	culture = cochin_jews
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 53
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015454 = {
+	name = "bet Adinah"
+	culture = cochin_jews
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 2
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015455 = {
+	name = "bet Elifalet"
+	culture = bene_hamizrah
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 27
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015456 = {
+	name = "bet Gershom"
+	culture = bene_hamizrah
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 32
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015457 = {
+	name = "bet Yitzchak"
+	culture = bene_hamizrah
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 55
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+10015458 = {
+	name = "bet Elchanan"
+	culture = bene_hamizrah
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 24
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+#"beta Yisrael
+
+10015459 = {
+	name = "bet Shema'yah"
+	culture = beta_yisrael
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 0
+			texture_internal = 60
+			color = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+

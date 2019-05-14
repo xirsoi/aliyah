@@ -1,0 +1,144 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_trait_davidic_line"
+		texturefile = "gfx/traits/davidic_line.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_trait_maccabee"
+		texturefile = "gfx/traits/maccabee.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_trait_asher"
+		texturefile = "gfx/traits/asher.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_trait_binyamin"
+		texturefile = "gfx/traits/binyamin.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_trait_dan"
+		texturefile = "gfx/traits/dan.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_trait_efrayim"
+		texturefile = "gfx/traits/efrayim.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_trait_gad"
+		texturefile = "gfx/traits/gad.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_trait_issachar"
+		texturefile = "gfx/traits/issachar.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_trait_joseph"
+		texturefile = "gfx/traits/joseph.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_trait_levi"
+		texturefile = "gfx/traits/levi.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_trait_manasseh"
+		texturefile = "gfx/traits/manasseh.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_trait_naphatali"
+		texturefile = "gfx/traits/naphatali.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_trait_reuven"
+		texturefile = "gfx/traits/reuven.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_trait_simeon"
+		texturefile = "gfx/traits/simeon.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_trait_yudah"
+		texturefile = "gfx/traits/yudah.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}
+spriteTypes = {
+	spriteType = {
+		name = "GFX_trait_zevulun"
+		texturefile = "gfx/traits/zevulun.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}

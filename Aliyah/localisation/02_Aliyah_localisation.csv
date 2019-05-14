@@ -1,0 +1,876 @@
+#Aliyah Localization
+####Religion Localization
+#Jewish Religions
+rabbinic_judaism;Rabbinic Judaism;;;;;;;;;;;;;x
+rabbinic_judaism_DESC;Rabbinic Judaism is the major religion of the Ashkenazi and Sephardic Jews in Europe.;;;;;;;;;;;;;x
+grand_sanhedrin;Grand Sanhedrin;;;;;;;;;;;;;x
+grand_sanhedrin_DESC;The Grand Sanhedrin is the reformation of Rabbinic Judaism where the courts are more important than the kohens from the Tribe of Levi. This has caused a schism between them and Temple Judaism.;;;;;;;;;;;;;x
+haymanot_judaism;Haymanot Judaism;;;;;;;;;;;;;x
+haymanot_judaism_DESC;This is a branch of Judaism that Beta-Israel follows.;;;;;;;;;;;;;x
+temple_judaism;Temple Judaism;;;;;;;;;;;;;x
+temple_judaism_DESC;Temple Judaism rejects the Sanhedrin and follows the Torah only. This has created a schism between Temple Judaism and the Rabbis of Rabbinic Judaism and the Grand Sanhedrin.;;;;;;;;;;;;;x
+grand_sanhedrin;Grand Sanhedrin;;;;;;;;;;;;;x
+grand_sanhedrin_DESC;The Grand Sanhedrin is the reformation of Rabbinic Judaism where the courts are more important than the kohens from the Tribe of Levi. This has caused a schism between them and Temple Judaism.;;;;;;;;;;;;;x
+torah_shomronit;Samaritan Pentatauch;;;;;;;;;;;;;x
+torah_shomronit_desc;The Samaritan Pentatauch is the Samaritan version of the Pentatauch. It contains 6,000 differences between it and the Hebrew Torah.;;;;;;;;;;;;;x
+milchemet_kodesh;Milchemet Kodesh;;;;;;;;;;;;;x
+milchemet_kodesh_desc;Milchemet Kodesh is Hebrew for Holy War.;;;;;;;;;;;;;x
+MILCHEMET_KODESH;Milchemet Kodesh;;;;;;;;;;;;;x
+MILCHEMET_KODESH_desc;Milchemet Kodesh is Hebrew for Holy War.;;;;;;;;;;;;;x
+chasid;Chasid;;;;;;;;;;;;;x
+chasid_desc;Chasid is the Hebrew word for Piety.;;;;;;;;;;;;;x
+stat_piety_chasid;Chasid;;;;;;;;;;;;;x
+stat_piety_chasid_desc;Chasid is the Hebrew word for Piety.;;;;;;;;;;;;;x
+monthly_piety_chasid;Monthly Chasid;;;;;;;;;;;;;x
+mashafa_kedus;Mashafa Kedus;;;;;;;;;;;;;x
+mashafa_kedus_desc;Mashafa Kedus is the Haymanot Judaism name for their holy scriptures.;;;;;;;;;;;;;x
+
+#Jewish Reformation Events
+reform_rabbinic_judaism;Reform Rabbinic Judaism;;;;;;;;;;;;;x
+reform_rabbinic_judaism_desc;Reforming of Rabbinic Judaism into the Grand Sanhedrin.;;;;;;;;;;;;;x
+reform_karaite;Reform Karaite;;;;;;;;;;;;;x
+reform_karaite_desc;Reforming of Karaite into Temple Judaism.;;;;;;;;;;;;;x
+ 
+#Title and Honorifics
+nazarene;Nazarene;;;;;;;;;;;;;x
+nazarene_DESC;Nazarenes are the original Christians, but were never referred as such. They were the first followers of Yeshua Im'manua'el during his earthly ministry to the Jews. It wasn't until after the Bar Kokhba Revolt that Gentile followers of Yeshua distanced themselves from their Jewish counterparts with the use of Christian.;;;;;;;;;;;;;x
+ebionite;Ebionite;;;;;;;;;;;;;x
+ebionite_DESC;Ebionites were the first schism in the Nazarene church. Ebionites rejected the divinity of Yeshua and incorporated gnosticism.;;;;;;;;;;;;;x
+shammashim;Shammashim(Priest);;;;;;;;;;;;;x
+shammashim_desc;Hebrew name for Nazarene Shammashim(Priest).;;;;;;;;;;;;;x
+GOD_HASHEM;Hashem;;;;;;;;;;;;;x
+GOD_ADONAI;Adonai;;;;;;;;;;;;;x
+temple_barony_of_nazarene;Shammashim;;;;;;;;;;;;;x
+temple_barony_of_ebionite;Shammashim;;;;;;;;;;;;;x
+NAGID_OF;Nagid of Jerusalem;;;;;;;;;;;;;x
+NAGID;Nagid;;;;;;;;;;;;;x
+NAGID_FOA;Your holiness;;;;;;;;;;;;;x
+kohen;Kohen;;;;;;;;;;;;;x
+kohen_desc;Kohens are the priests from the Tribe of Levi that administer the Jewish rites.;;;;;;;;;;;;;x
+TOOLTIPKOHEN;Kohens are the priests from the Tribe of Levi that administer the Jewish rites.;;;;;;;;;;;;;x
+HEAD_CHIEF_RABBI;Chief Rabbi;;;;;;;;;;;;;x
+d_rabbinic_judaism;Rabbinic Judaism;;;;;;;;;;;;;x
+d_rabbinic_judaism_adj;Rabbinic Judaism;;;;;;;;;;;;;x
+d_grand_sanhedrin;The Grand Sanhedrin;;;;;;;;;;;;;x
+d_grand_sanhedrin_adj;The Grand Sanhedrin;;;;;;;;;;;;;x
+d_karaite;Karaite Judaism;;;;;;;;;;;;x
+d_karaite_adj;Karaite Judaism;;;;;;;;;;;;;x
+d_temple_judaism;Temple Judaism High Priesthood;;;;;;;;;;;;;x
+d_temple_judaism_adj;Temple Judaism;;;;;;;;;;;;;x
+k_exilarch_rabbinic;Babylonian Exilarch;;;;;;;;;;;;;x
+k_exilarch_rabbinic_adj;Exilarch;;;;;;;;;;;;;x
+k_exilarch_karaite;Jerusalem Exilarch;;;;;;;;;;;;;x
+k_exilarch_karaite_adj;Exilarch;;;;;;;;;;;;;x
+EXILARCH;Exilarch;;;;;;;;;;;;;x
+EXILARCH_DESC;Exilarchs are descended from King David's line and control the Jewish people under various empires.;;;;;;;;;;;;;x
+kes;Kes;;;;;;;;;;;;;x
+kes_desc;Kes is the title of the priests of Haymanot Judaism.;;;;;;;;;;;;;x
+liqa_kahnet;Liqa Kahnet;;;;;;;;;x
+liqa_kahnet_desc;Liqa Kahnet is the high priest of Haymanot Judaism that is equal to the Kohen Gadol.;;;;;;;;;x
+#mufla;Mufla;;;;;;;;;;;;;x
+#mufla_desc;Muflas are members of the Sanhedrin that oversee the courts and religious functions of the Rabbinic branch of Judaism.;;;;;;;;;;;;;x
+#title_mufla_cardinal;Mufla;;;;;;;;;;;;;x
+#title_mufla_cardinal_desc;Muflas are members of the Sanhedrin that oversee the courts and religious functions of the Rabbinic branch of Judaism.;;;;;;;;;;;;;x
+#expected_title_mufla_cardinal;Mufla;;;;;;;;;;;;;x
+#best_candidate_title_mufla_cardinal;Mufla;;;;;;;;;;;;;x
+#expected_d_grand_sanhedrin;Grand Sanhedrin
+#best_candidate_d_grand_sanhedrin;Grand Sanhedrin
+
+
+#Jewish Royal and Job Titles
+melech;Melech;;;;;;;;;;;;;x
+melech_desc;Melech is the ancient Hebrew name for King.;;;;;;;;;;;;;x
+TOOLTIPMELECH;;Melech is the ancient Hebrew name for King.;;;;;;;;;;;;;x
+malkah;Malkah;;;;;;;;;;;;;x
+malkah_desc;Malkah is the ancient Hebrew name for Queen.;;;;;;;;;;;;;x
+TOOLTIPMALKAH;Malkah is the ancient Hebrew name for Queen.;;;;;;;;;;;;;x
+duke_jewish_group;Adon;;;;;;;;;;;;;x
+duke_female_jewish_group;Adonait;;;;;;;;;;;;;x
+count_jewish_group;Rozen;;;;;;;;;;;;;x
+count_female_jewish_group;Rozen;;;;;;;;;;;;;x
+title_prince_jewish_group;Nasich;;;;;;;;;;;;;x
+title_prince_female_jewish_group;Nesichah;;;;;;;;;;;;;x
+job_chancellor_jewish_group;Shagrir;;;;;;;;;;;;;x
+job_marshal_jewish_group;Sar HaTzava;;;;;;;;;;;;;x
+job_treasurer_jewish_group;Sar HaOtzar;;;;;;;;;;;;;x
+job_spymaster_jewish_group;Rav-Meraglim;;;;;;;;;;;;;x
+job_spiritual_jewish_group;Kohen HaKhatzer;;;;;;;;;;;;;x
+king_jewish;Melech_group;;;;;;;;;;;;;x
+king_female_jewish_group;Malkah;;;;;;;;;;;;;x
+emperor_jewish_group;Melech HaMelachim;;;;;;;;;;;;;x
+emperor_female_jewish_group;Malkat HaMelachim;;;;;;;;;;;;;x
+barony_of_jewish_group;Roznoot;;;;;;;;;;;;;x
+county_of_jewish_group;Mekhoz;;;;;;;;;;;;;x
+duchy_of_jewish_group;Dochsoot;;;;;;;;;;;;;x
+kingdom_of_jewish_group;Mamlacha;;;;;;;;;;;;;x
+empire_of_jewish_group;Empire;;;;;;;;;;;;;x
+temple_baron_karaite;Kohen;;;;;;;;;;;;;x
+temple_baron_temple_judaism;Kohen;;;;;;;;;;;;;x
+temple_baron_rabbinic_judaism;Rabbi;;;;;;;;;;;;;x
+temple_baron_grand_sanhedrin;Rabbi;;;;;;;;;;;;;x
+temple_barony_jewish_group;Beth T'fila;;;;;;;;;;;;;x
+temple_barony_jewish_group;Beth T'fila;;;;;;;;;;;;;x
+temple_baron_of_jewish_group;Beth T'fila;;;;;;;;;;;;;x
+title_alluph;Alluph;;;;;;;;;;;;;x
+title_alluph_desc;The Alluph is the champion of the realm.;;;;;;;;;;;;;x
+title_navi;Navi;;;;;;;;;;;;;x
+title_navi_desc;Navi's are prophets ordained by G-d.;;;;;;;;;;;;;x
+title_shofet;Shofet;;;;;;;;;;;;;x
+title_shofet_desc;Shofet's are judges that are ordained by Yahweh.;;;;;;;;;;;;;x
+title_tehillim;Tehillim;;;;;;;;;;;;;x
+title_tehillim_desc;Psalmists sang or wrote psalms that praised Adonai.;;;;;;;;;;;;;x
+title_adrichal;Adrichal;;;;;;;;;;;;;x
+title_adrichal_desc;The Architect is responsible for the creation of new buildings and their designs.;;;;;;;;;;;;;x
+k_exilarch;Exilarch;;;;;;;;;;;;;x
+k_exilarch_adj;Exilarch;;;;;;;;;;;;;x
+
+#Jewish Dynasties as landed titles
+#Tribe of Asher
+d_bet_achav;Bayith of Ach'av;;;;;;;;;;;;;x
+d_bet_achav_desc;Bayith of Ach'av is a dynasty in the Tribe of Asher.;;;;;;;;;;;;;x
+d_bet_aviram;Bayith of Aviram;;;;;;;;;;;;;x
+d_bet_aviram_desc;Bayith of Aviram is a dynasty in the Tribe of Asher.;;;;;;;;;;;;;x
+d_bet_daniyyel;Bayith of Daniyyel;;;;;;;;;;;;;x
+d_bet_daniyyel_desc;Bayith of Daniyyel is a dynasty in the Tribe of Asher.;;;;;;;;;;;;;x
+d_bet_alechsandri;Bayith of Alechsandri;;;;;;;;;;;;;x
+d_bet_alechsandri_desc;Bayith of Alechsandri is a dynasty in the Tribe of Asher.;;;;;;;;;;;;;x
+d_bet_jau;Bayith of Jau;;;;;;;;;;;;;x
+d_bet_jau_desc;Bayith of Jau is a dynasty in the Tribe of Asher.;;;;;;;;;;;;;x
+d_bet_abbaye;Bayith of Abbaye;;;;;;;;;;;;;x
+d_bet_abbaye_desc;Bayith of Abbaye is a dynasty in the Tribe of Asher.;;;;;;;;;;;;;x
+#Tribe of Binyamin
+d_bet_labrat;Bayith of Labrat;;;;;;;;;;;;;x
+d_bet_labrat_desc;Bayith of Labrat is a dynasty in the Tribe of Binyamin.;;;;;;;;;;;;;x
+d_bet_surek;Bayith of Surek;;;;;;;;;;;;;x
+d_bet_surek_desc;Bayith of Surek is a dynasty in the Tribe of Binyamin.;;;;;;;;;;;;;x
+d_bet_shaprut;Bayith of Shaprut;;;;;;;;;;;;;x
+d_bet_shaprut_desc;Bayith of Shaprut is a dynasty in the Tribe of Binyamin.;;;;;;;;;;;;;x
+d_bet_chaim;Bayith of Chaim;;;;;;;;;;;;;x
+d_bet_chaim_desc;Bayith of Chaim is a dynasty in the Tribe of Binyamin.;;;;;;;;;;;;;x
+d_bet_ravya;Bayith of Ravya;;;;;;;;;;;;;x
+d_bet_ravya_desc;Bayith of Ravya is a dynasty in the Tribe of Binyamin.;;;;;;;;;;;;;x
+#Tribe of Dan
+d_bet_barukh;Bayith of Barukh;;;;;;;;;;;;;x
+d_bet_barukh_desc;Bayith of Barukh is a dynasty in the Tribe of Dan.;;;;;;;;;;;;;x
+d_bet_dan;Bayith of Dan;;;;;;;;;;;;;x
+d_bet_dan_desc;Bayith of Dan is a dynasty in the Tribe of Dan.;;;;;;;;;;;;;x
+d_bet_delayahu;Bayith of Delayahu;;;;;;;;;;;;;x
+d_bet_delayahu_desc;Bayith of Delayahu is a dynasty in the Tribe of Dan.;;;;;;;;;;;;;x
+d_bet_moshe;Bayith of Moshe;;;;;;;;;;;;;x
+d_bet_moshe_desc;Bayith of Moshe is a dynasty in the Tribe of Dan.;;;;;;;;;;;;;x
+d_bet_mishael;Bayith of Mishael;;;;;;;;;;;;;x
+d_bet_mishael_desc;Bayith of Mishael is a dynasty in the Tribe of Dan.;;;;;;;;;;;;;x
+#Tribe of Efrayim
+d_bet_gabirol;Bayith of Gabirol;;;;;;;;;;;;;x
+d_bet_gabirol_desc;Bayith of Gabirol is a dynasty in the Tribe of Efrayim.;;;;;;;;;;;;;x
+d_bet_janah;Bayith of Janah;;;;;;;;;;;;;x
+d_bet_janah_desc;Bayith of Janah is a dynasty in the Tribe of Efrayim.;;;;;;;;;;;;;x
+d_bet_halen;Bayith of Halen;;;;;;;;;;;;;x
+d_bet_halen_desc;Bayith of Halen is a dynasty in the Tribe of Efrayim.;;;;;;;;;;;;;x
+d_bet_elyakim;Bayith of Elyakim;;;;;;;;;;;;;x
+d_bet_elyakim_desc;Bayith of Elyakim is a dynasty in the Tribe of Efrayim.;;;;;;;;;;;;;x
+#Tribe of Gad
+d_bet_nasiiyah;Bayith of Nasiiyah;;;;;;;;;;;;;x
+d_bet_nasiiyah_desc;Bayith of Nasiiyah is a dynasty in the Tribe of Gad.;;;;;;;;;;;;;x
+d_bet_benayahu;Bayith of Benayahu;;;;;;;;;;;;;x
+d_bet_benayahu_desc;Bayith of Benayahu is a dynasty in the Tribe of Gad.;;;;;;;;;;;;;x
+d_bet_hiram;Bayith of Hiram;;;;;;;;;;;;;x
+d_bet_hiram_desc;Bayith of Hiram is a dynasty in the Tribe of Gad.;;;;;;;;;;;;;x
+d_bet_malcha;Bayith of Malcha;;;;;;;;;;;;;x
+d_bet_malcha_desc;Bayith of Malcha is a dynasty in the Tribe of Gad.;;;;;;;;;;;;;x
+d_bet_natronai;Bayith of Natronai;;;;;;;;;;;;;x
+d_bet_natronai_desc;Bayith of Natronai is a dynasty in the Tribe of Gad.;;;;;;;;;;;;;x
+#Tribe of Issachar
+d_bet_baasha;Bayith of Ba'asha;;;;;;;;;;;;;x
+d_bet_baasha_desc;Bayith of Ba'asha is a dynasty in the Tribe of Issachar.;;;;;;;;;;;;;x
+d_bet_zimri;Bayith of Zimri;;;;;;;;;;;;;x
+d_bet_zimri_desc;Bayith of Zimri is a dynasty in the Tribe of Issachar.;;;;;;;;;;;;;x
+d_bet_omri;Bayith of Omri;;;;;;;;;;;;;x
+d_bet_omri_desc;Bayith of Omri is a dynasty in the Tribe of Issachar.;;;;;;;;;;;;;x
+d_bet_kafnai;Bayith of Kafnai;;;;;;;;;;;;;x
+d_bet_kafnai_desc;Bayith of Kafnai is a dynasty in the Tribe of Issachar.;;;;;;;;;;;;;x
+d_bet_gedalyah;Bayith of Gedalyah;;;;;;;;;;;;;x
+d_bet_gedalyah_desc;Bayith of Gedalyah is a dynasty in the Tribe of Issachar.;;;;;;;;;;;;;x
+#Tribe of Levi
+d_bet_cohen;Bayith of Cohen;;;;;;;;;;;;;x
+d_bet_cohen_desc;Bayith of Cohen is a dynasty in the Tribe of Levi.;;;;;;;;;;;;;x
+d_bet_koyen;Bayith of Koyen;;;;;;;;;;;;;x
+d_bet_koyen_desc;Bayith of Koyen is a dynasty in the Tribe of Levi.;;;;;;;;;;;;;x
+d_bet_sacredote;Bayith of Sacredote;;;;;;;;;;;;;x
+d_bet_sacredote_desc;Bayith of Sacredote is a dynasty in the Tribe of Levi.;;;;;;;;;;;;;x
+#Tribe of Manasseh
+d_bet_eliezer;Bayith of Eliezer;;;;;;;;;;;;;x
+d_bet_eliezer_desc;Bayith of Eliezer is a dynasty in the Tribe of Manasseh.;;;;;;;;;;;;;x
+d_bet_enoch;Bayith of Enoch;;;;;;;;;;;;;x
+d_bet_enoch_desc;Bayith of Enoch is a dynasty in the Tribe of Manasseh.;;;;;;;;;;;;;x
+#Tribe of Naphatali
+d_bet_amnon;Bayith of Amnon;;;;;;;;;;;;;x
+d_bet_amnon_desc;Bayith of Amnon is a dynasty in the Tribe of Naphatali.;;;;;;;;;;;;;x
+d_bet_chananya;Bayith of Chananya;;;;;;;;;;;;;x
+d_bet_chananya_desc;Bayith of Chananya is a dynasty in the Tribe of Naphatali.;;;;;;;;;;;;;x
+d_bet_eitan;Bayith of Eitan;;;;;;;;;;;;;x
+d_bet_eitan_desc;Bayith of Eitan is a dynasty in the Tribe of Naphatali.;;;;;;;;;;;;;x
+d_bet_cephas;Bayith of Cephas;;;;;;;;;;;;;x
+d_bet_cephas_desc;Bayith of Cephas is a dynasty in the Tribe of Naphatali.;;;;;;;;;;;;;x
+d_bet_shemaryah;Bayith of Shemaryah;;;;;;;;;;;;;x
+d_bet_shemaryah_desc;Bayith of Shemaryah is a dynasty in the Tribe of Naphatali.;;;;;;;;;;;;;x
+#Tribe of Reuven
+d_bet_amos;Bayith of Amos;;;;;;;;;;;;;x
+d_bet_amos_desc;Bayith of Amos is a dynasty in the Tribe of Reuven.;;;;;;;;;;;;;x
+d_bet_chanokh;Bayith of Chanokh;;;;;;;;;;;;;x
+d_bet_chanokh_desc;Bayith of Chanokh is a dynasty in the Tribe of Reuven.;;;;;;;;;;;;;x
+d_bet_elazar;Bayith of Elazar;;;;;;;;;;;;;x
+d_bet_elazar_desc;Bayith of Elazar is a dynasty in the Tribe of Reuven.;;;;;;;;;;;;;x
+d_bet_yehoshua;Bayith of Yehoshua;;;;;;;;;;;;;x
+d_bet_yehoshua_desc;Bayith of Yehoshua is a dynasty in the Tribe of Reuven.;;;;;;;;;;;;;x
+d_bet_matiyahu;Bayith of Matiyahu;;;;;;;;;;;;;x
+d_bet_matiyahu_desc;Bayith of Matiyahu is a dynasty in the Tribe of Reuven.;;;;;;;;;;;;;x
+#Tribe of Simeon
+d_bet_anat;Bayith of Anat;;;;;;;;;;;;;x
+d_bet_anat_desc;Bayith of Anat is a dynasty in the Tribe of Simeon.;;;;;;;;;;;;;x
+d_bet_chavaqquq;Bayith of Chavaqquq;;;;;;;;;;;;;x
+d_bet_chavaqquq_desc;Bayith of Chavaqquq is a dynasty in the Tribe of Simeon.;;;;;;;;;;;;;x
+d_bet_eli;Bayith of Eli;;;;;;;;;;;;;x
+d_bet_eli_desc;Bayith of Eli is a dynasty in the Tribe of Simeon.;;;;;;;;;;;;;x
+d_bet_yoshiah;Bayith of Yoshiah;;;;;;;;;;;;;x
+d_bet_yoshiah_desc;Bayith of Yoshiah is a dynasty in the Tribe of Simeon.;;;;;;;;;;;;;x
+#Tribe of Yudah
+d_bet_david;Bayith of David;;;;;;;;;;;;;x
+d_bet_david_desc;Bayith of David is a dynasty in the Tribe of Yudah.;;;;;;;;;;;;;x
+d_bet_dayyon;Bayith of Dayyon;;;;;;;;;;;;;x
+d_bet_dayyon_desc;Bayith of Dayyon is a dynasty in the Tribe of Yudah.;;;;;;;;;;;;;x
+d_bet_yoash;Bayith of Yoash;;;;;;;;;;;;;x
+d_bet_yoash_desc;Bayith of Yoash is a dynasty in the Tribe of Yudah.;;;;;;;;;;;;;x
+d_bet_shlomo;Bayith of Schlomo;;;;;;;;;;;;;x
+d_bet_shlomo_desc;Bayith of Schlomo is a dynasty in the Tribe of Yudah.;;;;;;;;;;;;;x
+#Tribe of Zevulun
+d_bet_yechezkel;Bayith of Yechezkel;;;;;;;;;;;;;x
+d_bet_yechezkel_desc;Bayith of Yechezkel is a dynasty in the Tribe of Zevulun.;;;;;;;;;;;;;x
+d_bet_adinah;Bayith of Adinah;;;;;;;;;;;;;x
+d_bet_adinah_desc;Bayith of Adinah is a dynasty in the Tribe of Zevulun.;;;;;;;;;;;;;x
+d_bet_elifalet;Bayith of Elifalet;;;;;;;;;;;;;x
+d_bet_elifalet_desc;Bayith of Elifalet is a dynasty in the Tribe of Zevulun.;;;;;;;;;;;;;x
+d_bet_gershom;Bayith of Gershom;;;;;;;;;;;;;x
+d_bet_gershom_desc;Bayith of Gershom is a dynasty in the Tribe of Zevulun.;;;;;;;;;;;;;x
+d_bet_yitzchak;Bayith of Yitzchak;;;;;;;;;;;;;x
+d_bet_yitzchak_desc;Bayith of Yitzchak is a dynasty in the Tribe of Zevulun.;;;;;;;;;;;;;x
+d_bet_elchanan;Bayith of Elchanan;;;;;;;;;;;;;x
+d_bet_elchanan_desc;Bayith of Elchanan is a dynasty in the Tribe of Zevulun.;;;;;;;;;;;;;x
+#Beta Yisrael
+d_bet_shemayah;Bayith of Shemayah;;;;;;;;;;;;;x
+d_bet_shemayah_desc;Bayith of Shemayah is a dynasty in Beta-Israel.;;;;;;;;;;;;;x
+
+#12 Tribes of Israel Traits
+levi;Tribe of Levi;;;;;;;;;;;;;x
+levi_desc;This character belongs to the Tribe of Levi. It is the Israelite tribe of priests and scholars.;;;;;;;;;;;;;x
+TOOLTIPLEVITE;A Levite denotes a member of the Tribe of Levi and that they are priests.;;;;;;;;;;;;;x
+binyamin;Tribe of Binyamin;;;;;;;;;;;;;x
+binyamin_desc;This character belongs to the Tribe of Binyamin.;;;;;;;;;;;;;x
+TOOLTIPBINYAMIN;A Binyaminite denotes a member of the Tribe of Binyamin.;;;;;;;;;;;;;x
+yudah;Tribe of Yudah;;;;;;;;;;;;;x
+yudah_desc;This character belongs to the Tribe of Yudah.;;;;;;;;;;;;;x
+TOOLTIPYUDAH;A Yudahite denotes a member of the Tribe of Yudah.;;;;;;;;;;;;;x
+manasseh;Tribe of Manasseh;;;;;;;;;;;;;x
+manasseh_desc;This character belongs to the Tribe of Manasseh.;;;;;;;;;;;;;x
+TOOLTIPMANASSEH;A Manassehite denotes a member of the Tribe of Yudah.;;;;;;;;;;;;;x
+efrayim;Tribe of Efrayim;;;;;;;;;;;;;x
+efrayim_desc;This character belongs to the Tribe of Efrayim.;;;;;;;;;;;;;x
+TOOLTIPEFRAYIM;A Efrayimite denotes a member of the Tribe of Efrayim.;;;;;;;;;;;;;x
+dan;Tribe of Dan;;;;;;;;;;;;;x
+dan_desc;This character belongs to the Tribe of Dan.;;;;;;;;;;;;;x
+TOOLTIPDAN;A Danite denotes a member of the Tribe of Dan.;;;;;;;;;;;;;x
+reuven;Tribe of Reuven;;;;;;;;;;;;;x
+reuven_desc;This character belongs to the Tribe of Reuven.;;;;;;;;;;;;;x
+TOOLTIPReuven;A Reuvenite denotes a member of the Tribe of Reuven.;;;;;;;;;;;;;x
+simeon;Tribe of Simeon;;;;;;;;;;;;;x
+simeon_desc;This character belongs to the Tribe of Simeon.;;;;;;;;;;;;;x
+TOOLTIPSIMEON;A Simeonite denotes a member of the Tribe of Simeon.;;;;;;;;;;;;;x
+naphatali;Naphatali;;;;;;;;;;;;;x
+naphatali_desc;This character belongs to the Tribe of Naphatali.;;;;;;;;;;;;;x
+TOOLTIPNAPHATALI;A Naphatalite denotes a member of the Tribe of Naphatali.;;;;;;;;;;;;;x
+gad;Tribe of Gad;;;;;;;;;;;;;x
+gad_desc;This character belongs to the Tribe of Gad.;;;;;;;;;;;;;x
+TOOLTIPGAD;A Gadite denotes a member of the Tribe of Gad.;;;;;;;;;;;;;x
+asher;Tribe of Asher;;;;;;;;;;;;;x
+asher_desc;This character belongs to the Tribe of Asher.;;;;;;;;;;;;;x
+TOOLTIPASHER;A Asherite denotes a member of the Tribe of Asher.;;;;;;;;;;;;;x
+issachar;Tribe of Issachar;;;;;;;;;;;;;x
+issachar_desc;This character belongs to the Tribe of Issachar.;;;;;;;;;;;;;x
+TOOLTIPISSACHAR;A Issacharian denotes a member of the Tribe of Issachar.;;;;;;;;;;;;;x
+zevulun;Tribe of Zevulun;;;;;;;;;;;;;x
+zevulun_desc;This character belongs to the Tribe of Zevulun.;;;;;;;;;;;;;x
+TOOLTIPZEVULUN;A Zevulunite denotes a member of the Tribe of Zevulun.;;;;;;;;;;;;;x
+joseph;Tribe of Joseph;;;;;;;;;;;;;x
+joseph_desc;This character belongs to the Tribe of Joseph.;;;;;;;;;;;;;x
+TOOLTIPJOSEPH;A Josephite denotes a member of the Tribe of Joseph.;;;;;;;;;;;;;x
+davidic_line;Line of David;;;;;;;;;;;;;x
+davidic_line_desc;This character is a descendent of King David.;;;;;;;;;;;;;x
+TOOLTIPLINEOFDAVID;A descendent of King David.;;;;;;;;;;;;;x
+maccabean;Maccabean Guards;;;;;;;;;;;;;x
+maccabean_desc;A member of the Maccabean Guards.;;;;;;;;;;;;;x
+
+####Society Localization
+monastic_order_nazarene;Daliyowtaw Nazirite;;;;;;;;;;;;;x
+monastic_order_nazarene_desc;Nazarenes that are also Nazarites and follow the vow found in Numbers Chapter 6.;;;;;;;;;;;;;x
+monastic_order_nazarene_rank_1_male;Ger Tsedheq;;;;;;;;;;;;;x
+monastic_order_nazarene_rank_1_female;Ger Tsedheq;;;;;;;;;;;;;x
+monastic_order_nazarene_rank_2_male;Shaliah;;;;;;;;;;;;;x
+monastic_order_nazarene_rank_2_female;Shaliah;;;;;;;;;;;;;x
+monastic_order_nazarene_rank_3_male;Paqid;;;;;;;;;;;;;x
+monastic_order_nazarene_rank_3_female;Paqid;;;;;;;;;;;;;x
+monastic_order_nazarene_rank_4_male;Shammashim;;;;;;;;;;;;;x
+monastic_order_nazarene_rank_4_female;Shammashim;;;;;;;;;;;;;x
+monastic_order_nazarene_leader_desc;Nagid#title of the leader of the society;;;;;;;;;;;;;x
+currency_name_monastic_order_nazarene;Elohút;;;;;;;;;;;;;x
+String_the_Daliyowtaw_Nazirites;Daliyowtaw Nazirite;;;;;;;;;;;;;x
+the_Daliyowtaw_Nazirites;Daliyowtaw Nazirite;;;;;;;;;;;;;x
+String_Daliyowtaw_Nazirites;Daliyowtaw Nazirite;;;;;;;;;;;;;x
+String_the_Rule_of_Daliyowtaw_Nazirites;the Rule of Daliyowtaw Nazirite;;;;;;;;;;;;;x
+string_monastic_order_nazarene;Daliyowtaw Nazirite;;;;;;;;;;;;;x
+
+##Culture Localization
+mizrahim_desc;Mizrahim are Jewish people from the first diaspora that began when the Babylonians expelled many Jews from Israel in 722 BC.;;;;;;;;;;;;;x
+TOOLTIPMIZRAHIM;Mizrahim are Jewish people from the first diaspora that began when the Babylonians expelled many Jews from Israel in 722 BC.;;;;;;;;;;;;;x
+cochin_jews;Cochin Jews;;;;;;;;;;;;;x
+cochin_jews_desc;Cochin Jews are descended from the Jews that traveled to India during the reign of Melech Shlomo.;;;;;;;;;;;;;x
+itali;Itali Jews;;;;;;;;;;;;;x
+itali_desc;The Itali Jews are the ancestors of the Ashkenazi of Europe;;;;;;;;;;;;;x
+iberiani;Iberian Jews;;;;;;;;;;;;;x
+iberiani_desc;Iberian Jews are the ancestors of the Sephardic Jews of Hispania.;;;;;;;;;;;;;x
+khazar_j;Khazarian Jews;;;;;;;;;;;;;x
+khazar_j_desc;Khazarian Jews are the children of Mizrahi Jews and Khazarian locals.;;;;;;;;;;;;;x
+romaniote;Romaniote Jews;;;;;;;;;;;;;x
+romaniote_desc;Romaniote Jews are Jews that settled in Greece circa 70 CE.;;;;;;;;;;;;;x
+beta_yisrael;Beta Yisrael;;;;;;;;;;;;;x
+beta_yisrael_desc;The Jews of Beta Yisrael are descended from members of the Tribe of Dan that had settled in Ethiopia.;;;;;;;;;;;;;x
+bene_hamizrah;Bene HaMizrah;;;;;;;;;;;;;x
+bene_hamizrah_desc;Sons of the East are Jews descended from Persians and other near East peoples.;;;;;;;;;;;;;x
+
+#Jewish Culture Modifiers
+isralite_culture_modifer;Israelite Culture Modifiers;;;;;;;;;;;;;x
+TOOLTIPISRAELITE_CULTURE_MODIFIERS;Israelite Culture Modifiers;;;;;;;;;;;;;x
+
+#Jewish Holy Orders
+b_maccabean_guard;The Maccabean Guard;;;;;;;;;;;;;x
+b_maccabean_guard_adj;Maccabean;;;;;;;;;;;;;x
+d_knights_khazaria;Knights of Khazaria;;;;;;;;;;;;;x
+d_knights_khazaria_adj;Khazarian;;;;;;;;;;;;;x
+d_shahaz_shlomo;Lions of Solomon;;;;;;;;;;;;;x
+d_shahaz_shlomo_adj;Lion;;;;;;;;;;;;;x
+d_knights_goshen;Knights of Goshen;;;;;;;;;;;;;x
+d_knights_goshen_adj;Goshen;;;;;;;;;;;;;x
+d_siqariqim;Siqariqim;;;;;;;;;;;;;x
+d_siqariqim_adj;Siqariqim;;;;;;;;;;;;;x
+d_mishkan_guardians;The Mishkan Guardians;;;;;;;;;;;;;x
+d_mishkan_guardians_adj;Mishkan;;;;;;;;;;;;;x
+d_martyrs_james;The Martyrs of James the Just;;;;;;;;;;;;;x
+d_martyrs_james_adj;Martyr;;;;;;;;;;;;;x
+OMMAN-RAV;Omman-Rav;
+OMMAN-RAV_desc;Omman-Rav is the grandmaster of the order.;
+
+##Landed Titles
+d_nazarene;Nagid of Nazarene;;;;;;;;;;;;;x
+d_nazarene_adj;Nagid of Nazarene;;;;;;;;;;;;;x
+d_ebionite;Nagid of Ebionite;;;;;;;;;;;;;x
+d_ebionite_adj;Nagid of Ebionite;;;;;;;;;;;;;x
+k_nagid_jerusalem;Nagid of Jerusalem;;;;;;;;;;;;;x
+k_nagid_jerusalem_adj;Nagid of Jerusalem;;;;;;;;;;;;;x
+
+#Events
+#Beginning of Israel Game (Event Troops and Dynasty Traits)																			10000-10099
+#Creation of Israel Associated Events
+EVTNAME_Aliyah_10063;Exilarch Period Ends;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10063;The time of the Exilarch has ended with the creation of the Kingdom of Israel by the Jews.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10063;Blessed be Yahweh and may his light shine forever.;;;;;;;;;;;;;x
+EVTTOOLTIP_Aliyah_10068;The Kingdom of Israel is reborn.;Le royaume d'Israël renaît.;Das Königreich Israel ist neu geboren.;;Renace el Reino de Israel.;;;;;;;;;x
+EVTNAME_Aliyah_10068;The Promised Land;La Terre promise;Das Gelobte Land;;La Tierra Prometida;;;;;;;;;x
+EVTDESC_Aliyah_10068;With Jerusalem and the Promised Land under Jewish control, the time is ripe for the creation of a new United Monarchy named Israel - like the great kingdom of ancient times under David and Solomon.\n\nThe long-suffering Jewish people are finally in control of their own destiny again. No longer shall the Holy Land be torn asunder by warring Christian and Muslim lords. May this new kingdom usher in an era of peace and prosperity for the region!;Maintenant que Jérusalem et la Terre promise sont sous contrôl juif, il est temps de recréer une monarchie unie, Israël, semblable au grand royaume des temps anciens qui brilla sous le règne du légendaire roi David, son fondateur, et Salomon, fils de David et bâtisseur du Premier Temple.\n\nLe peuple juif, qui a tant souffert, reprend enfin sa destinée en main. La Terre Promise ne sera plus jamais déchirée par les luttes ces belliqueux chrétiens et musulmans. Que ce nouveau royaume annonce, c'est une ère de paix et de prospérité pour la région !;Mit Jerusalem und dem Gelobten Land unter jüdischer Herrschaft ist die Zeit reif für die Schaffung einer neuen Vereinigten Monarchie namens Israel - wie das große Königreich der Antike unter Salomo und David. \n\nNach der langen Leidenszeit der Vertreibung ist das jüdische Volk endlich wieder Herr seines Schicksals. Nie wieder soll das Heilige Land zerrissen werden durch die Kriege christlicher und muslimischer Herrscher. Möge das neue Königreich der Region eine Ära von Frieden und Wohlstand bescheren!;;Con Jerusalén y la Tierra Prometida bajo control judío, es el momento oportuno para crear una nueva monarquía unida llamada Israel, como el gran reino de la antigüedad gobernado por David y Salomón.\n\nEl pueblo judío, que tanto ha sufrido, controlará por fin su propio destino de nuevo. La Tierra Santa ya no será nunca más despedazada por los señores de la guerra cristianos y musulmanes. ¡Que este nuevo reino traiga una era de paz y prosperidad a la región!;;;;;;;;;x
+EVTOPTA_Aliyah_10068;Long live Israel!;Longue vie à Israël !;Lang lebe Israel!;;¡Viva Israel!;;;;;;;;;x
+
+
+#Jewish Coming of Age Events																										10100-10199
+EVTNAME_Aliyah_10100;Bar Mitzvah;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10100;I have become responsible for my own actions and sins. No longer will I hide behind my parents for my irresponsibilities or sins. My parents should be proud of who I have become.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10100;I am a man!;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10101;Bar Mitzvah;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10101;My son is growing up fast. Today, he is now accountable for his own actions. I'm no longer held responsible for his sins and failures before the community and Yahweh.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10101;He is a man now!;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10102;;Bat Mitzvah;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10102;I have become responsible for my own actions and sins. No longer will I hide behind my parents for my irresponsibilities or sins. My parents should be proud of who I have become.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10102;I am a woman!;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10103;Bat Mitzvah;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10103;My daughter is growing up fast. Today, she is now accountable for her own actions. I'm no longer held responsible for her sins and failures before the community and Yahweh.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10103;She is a woman now!;;;;;;;;;;;;;x
+
+#Expulsion and Welcome Back Events																									10200-10299
+#Muslims
+expel_muslims;Expel Muslims;;;;;;;;;;;;;x
+expel_muslims_desc;All Muslims will be expelled from the realm and will not return for many years.;;;;;;;;;;;;;x
+muslims_are_expelled;All Muslims are expelled from the realm.;;;;;;;;;;;;;x
+expelled_muslims;Expelled Muslims;;;;;;;;;;;;;x
+expelled_muslims_timer;Expelled Muslims Timer;;;;;;;;;;;;;x
+welcome_muslims;Welcome Muslims;;;;;;;;;;;;;x
+welcome_muslims_desc;Muslims will be welcomed back into the realm with open arms, enjoying the same rights and liberties as your other citizens.;;;;;;;;;;;;;x
+muslims_are_welcome;Muslims are welcomed back into the realm.;;;;;;;;;;;;;x
+#Christians
+expel_christians;Expel Christians;;;;;;;;;;;;;x
+expel_christians_desc;All Christians will be expelled from the realm and will not return for many years.;;;;;;;;;;;;;x
+christians_are_expelled;All Christians are expelled from the realm.;;;;;;;;;;;;;x
+expelled_christians;Expelled Christians;;;;;;;;;;;;;x
+expelled_christians_timer;Expelled Christians Timer;;;;;;;;;;;;;x
+welcome_christians;Welcome Christians;;;;;;;;;;;;;x
+welcome_christians_desc;Christians will be welcomed back into the realm with open arms, enjoying the same rights and liberties as your other citizens.;;;;;;;;;;;;;x
+christians_are_welcome;Christians are welcomed back into the realm.;;;;;;;;;;;;;x
+#Pagans
+expel_pagans;Expel Pagans;;;;;;;;;;;;;x
+expel_pagans_desc;All Pagans will be expelled from the realm and will not return for many years.;;;;;;;;;;;;;x
+pagans_are_expelled;All Pagans are expelled from the realm.;;;;;;;;;;;;;x
+expelled_pagans;Expelled Pagans;;;;;;;;;;;;;x
+expelled_pagans_timer;Expelled Pagans Timer;;;;;;;;;;;;;x
+welcome_pagans;Welcome Pagans;;;;;;;;;;;;;x
+welcome_pagans_desc;Pagans will be welcomed back into the realm with open arms, enjoying the same rights and liberties as your other citizens.;;;;;;;;;;;;;x
+pagans_are_welcome;Pagans are welcomed back into the realm.;;;;;;;;;;;;;x
+#Zoroastrians
+expel_zoroastrians;Expel zoroastrians;;;;;;;;;;;;;x
+expel_zoroastrians_desc;All zoroastrians will be expelled from the realm and will not return for many years.;;;;;;;;;;;;;x
+zoroastrians_are_expelled;All zoroastrians are expelled from the realm.;;;;;;;;;;;;;x
+expelled_zoroastrians;Expelled zoroastrians;;;;;;;;;;;;;x
+expelled_zoroastrians_timer;Expelled zoroastrians Timer;;;;;;;;;;;;;x
+welcome_zoroastrians;Welcome zoroastrians;;;;;;;;;;;;;x
+welcome_zoroastrians_desc;zoroastrians will be welcomed back into the realm with open arms, enjoying the same rights and liberties as your other citizens.;;;;;;;;;;;;;x
+zoroastrians_are_welcome;zoroastrians are welcomed back into the realm.;;;;;;;;;;;;;x
+#Indians
+expel_indians;Expel Indians;;;;;;;;;;;;;x
+expel_indians_desc;All Indians will be expelled from the realm and will not return for many years.;;;;;;;;;;;;;x
+indians_are_expelled;All Indians are expelled from the realm.;;;;;;;;;;;;;x
+expelled_indians;Expelled Indians;;;;;;;;;;;;;x
+expelled_indians_timer;Expelled Indians Timer;;;;;;;;;;;;;x
+welcome_indians;Welcome Indians;;;;;;;;;;;;;x
+welcome_indians_desc;Indians will be welcomed back into the realm with open arms, enjoying the same rights and liberties as your other citizens.;;;;;;;;;;;;;x
+indians_are_welcome;Indians are welcomed back into the realm.;;;;;;;;;;;;;x
+#Egyptian Pagans
+expel_egyptian_pagans;Expel Egyptian Pagans;;;;;;;;;;;;;x
+expel_egyptian_pagans_desc;All Egyptian Pagans will be expelled from the realm and will not return for many years.;;;;;;;;;;;;;x
+egyptian_pagans_are_expelled;All Egyptian Pagans are expelled from the realm.;;;;;;;;;;;;;x
+expelled_egyptian_pagans;Expelled Egyptian Pagans;;;;;;;;;;;;;x
+expelled_egyptian_pagans_timer;Expelled Egyptian Pagans Timer;;;;;;;;;;;;;x
+welcome_egyptian_pagans;Welcome Egyptian Pagans;;;;;;;;;;;;;x
+welcome_egyptian_pagans_desc;Egyptian Pagans will be welcomed back into the realm with open arms, enjoying the same rights and liberties as your other citizens.;;;;;;;;;;;;;x
+egyptian_pagans_are_welcome;Egyptian Pagans are welcomed back into the realm.;;;;;;;;;;;;;x
+#Hellenic Pagans
+expel_hellenic_pagans;Expel Hellenic Pagans;;;;;;;;;;;;;x
+expel_hellenic_pagans_desc;All Hellenic Pagans will be expelled from the realm and will not return for many years.;;;;;;;;;;;;;x
+hellenic_pagans_are_expelled;All Hellenic Pagans are expelled from the realm.;;;;;;;;;;;;;x
+expelled_hellenic_pagans;Expelled Hellenic Pagans;;;;;;;;;;;;;x
+expelled_hellenic_pagans_timer;Expelled Hellenic Pagans Timer;;;;;;;;;;;;;x
+welcome_hellenic_pagans;Welcome Hellenic Pagans;;;;;;;;;;;;;x
+welcome_hellenic_pagans_desc;Hellenic Pagans will be welcomed back into the realm with open arms, enjoying the same rights and liberties as your other citizens.;;;;;;;;;;;;;x
+hellenic_pagans_are_welcome;Hellenic Pagans are welcomed back into the realm.;;;;;;;;;;;;;x
+#MesoAmericans
+expel_mesoamericans;Expel MesoAmericans;;;;;;;;;;;;;x
+expel_mesoamericans_desc;All MesoAmericans will be expelled from the realm and will not return for many years.;;;;;;;;;;;;;x
+mesoamericans_are_expelled;All MesoAmericans are expelled from the realm.;;;;;;;;;;;;;x
+expelled_mesoamericans;Expelled MesoAmericans;;;;;;;;;;;;;x
+expelled_mesoamericans_timer;Expelled MesoAmericans Timer;;;;;;;;;;;;;x
+welcome_mesoamericans;Welcome MesoAmericans;;;;;;;;;;;;;x
+welcome_mesoamericans_desc;MesoAmericans will be welcomed back into the realm with open arms, enjoying the same rights and liberties as your other citizens.;;;;;;;;;;;;;x
+mesoamericans_are_welcome;MesoAmericans are welcomed back into the realm.;;;;;;;;;;;;;x	
+#Expel Muslims Events
+EVTNAME_Aliyah_10200;Expel Muslims;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10200;All Muslims will be expelled from the realm and will not return for many years.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10200;All Muslims are expelled from the realm.;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10201;Welcome Muslims;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10201;Muslims will be welcomed back into the realm with open arms, enjoying the same rights and liberties as your other citizens.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10201;Muslims are welcomed back into the realm.;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10202;Expel Muslims;;;;;;;;;;;;;x			#Vassal Notification
+EVTDESC_Aliyah_10202;All Muslims will be expelled from the realm and will not return for many years.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10202;Expel Muslims;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10203;Welcome Muslims;;;;;;;;;;;;;x		#Vassal Notification
+EVTDESC_Aliyah_10203;Muslims will be welcomed back into the realm with open arms, enjoying the same rights and liberties as your other citizens.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10203;Muslims are welcomed back into the realm.;;;;;;;;;;;;;x
+#Expel Christians Events
+EVTNAME_Aliyah_10204;Expel Christians;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10204;All Christians will be expelled from the realm and will not return for many years.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10204;All Christians are expelled from the realm.;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10205;Welcome Christians;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10205;Christians will be welcomed back into the realm with open arms, enjoying the same rights and liberties as your other citizens.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10205;Christians are welcomed back into the realm.;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10206;All Christians are expelled from the realm.;;;;;;;;;;;;;x #Vassal Notification
+EVTDESC_Aliyah_10206;All Christians will be expelled from the realm and will not return for many years.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10206;Expel Christians;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10207;Welcome Christians;;;;;;;;;;;;;x		#Vassal Notification
+EVTDESC_Aliyah_10207;Christians will be welcomed back into the realm with open arms, enjoying the same rights and liberties as your other citizens.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10207;Christians are welcomed back into the realm.;;;;;;;;;;;;;x
+#Expel Pagans Events
+EVTNAME_Aliyah_10208;Expel Pagans;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10208;All Pagans will be expelled from the realm and will not return for many years.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10208;All Pagans are expelled from the realm.;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10209;Welcome Pagans;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10209;Pagans will be welcomed back into the realm with open arms, enjoying the same rights and liberties as your other citizens.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10209;Pagans are welcomed back into the realm.;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10210;Expel Pagans;;;;;;;;;;;;;x			#Vassal Notification
+EVTDESC_Aliyah_10210;All Pagans will be expelled from the realm and will not return for many years.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10210;Expel Pagans;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10211;Welcome Pagans;;;;;;;;;;;;;x		#Vassal Notification
+EVTDESC_Aliyah_10211;Pagans will be welcomed back into the realm with open arms, enjoying the same rights and liberties as your other citizens.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10211;Pagans are welcomed back into the realm.;;;;;;;;;;;;;x
+#Expel Zoroastrians Events
+EVTNAME_Aliyah_10212;Expel Zoroastrians;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10212;All Zoroastrians will be expelled from the realm and will not return for many years.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10212;All Zoroastrians are expelled from the realm.;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10213;Welcome Zoroastrians;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10213;Zoroastrians will be welcomed back into the realm with open arms, enjoying the same rights and liberties as your other citizens.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10213;Zoroastrians are welcomed back into the realm.;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10214;All Zoroastrians are expelled from the realm.;;;;;;;;;;;;;x #Vassal Notification
+EVTDESC_Aliyah_10214;All Zoroastrians will be expelled from the realm and will not return for many years.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10214;Expel Zoroastrians;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10215;Welcome Zoroastrians;;;;;;;;;;;;;x		#Vassal Notification
+EVTDESC_Aliyah_10215;Zoroastrians will be welcomed back into the realm with open arms, enjoying the same rights and liberties as your other citizens.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10215;Zoroastrians are welcomed back into the realm.;;;;;;;;;;;;;x
+#Expel Indians Events
+EVTNAME_Aliyah_10216;Expel Indians;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10216;All Indians will be expelled from the realm and will not return for many years.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10216;All Indians are expelled from the realm.;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10217;Welcome Indians;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10217;Indians will be welcomed back into the realm with open arms, enjoying the same rights and liberties as your other citizens.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10217;Indians are welcomed back into the realm.;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10218;Expel Indians;;;;;;;;;;;;;x			#Vassal Notification
+EVTDESC_Aliyah_10218;All Indians will be expelled from the realm and will not return for many years.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10218;Expel Indians;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10219;Welcome Indians;;;;;;;;;;;;;x		#Vassal Notification
+EVTDESC_Aliyah_10219;Indians will be welcomed back into the realm with open arms, enjoying the same rights and liberties as your other citizens.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10219;Indians are welcomed back into the realm.;;;;;;;;;;;;;x
+#Expel Egyptian Pagans Events
+EVTNAME_Aliyah_10220;Expel Egyptian Pagans;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10220;All Egyptian Pagans will be expelled from the realm and will not return for many years.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10220;All Egyptian Pagans are expelled from the realm.;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10221;Welcome Egyptian Pagans;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10221;Egyptian Pagans will be welcomed back into the realm with open arms, enjoying the same rights and liberties as your other citizens.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10221;Egyptian Pagans are welcomed back into the realm.;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10222;All Egyptian Pagans are expelled from the realm.;;;;;;;;;;;;;x #Vassal Notification
+EVTDESC_Aliyah_10222;All Egyptian Pagans will be expelled from the realm and will not return for many years.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10222;Expel Egyptian Pagans;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10223;Welcome Egyptian Pagans;;;;;;;;;;;;;x		#Vassal Notification
+EVTDESC_Aliyah_10223;Egyptian Pagans will be welcomed back into the realm with open arms, enjoying the same rights and liberties as your other citizens.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10223;Egyptian Pagans are welcomed back into the realm.;;;;;;;;;;;;;x
+#Expel Hellenic Pagans Events
+EVTNAME_Aliyah_10224;Expel Hellenic Pagans ;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10224;All Hellenic Pagans  will be expelled from the realm and will not return for many years.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10224;All Hellenic Pagans  are expelled from the realm.;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10225;Welcome Hellenic Pagans ;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10225;Hellenic Pagans  will be welcomed back into the realm with open arms, enjoying the same rights and liberties as your other citizens.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10225;Hellenic Pagans  are welcomed back into the realm.;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10226;Expel Hellenic Pagans ;;;;;;;;;;;;;x			#Vassal Notification
+EVTDESC_Aliyah_10226;All Hellenic Pagans  will be expelled from the realm and will not return for many years.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10226;Expel Hellenic Pagans ;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10227;Welcome Hellenic Pagans ;;;;;;;;;;;;;x		#Vassal Notification
+EVTDESC_Aliyah_10227;Hellenic Pagans  will be welcomed back into the realm with open arms, enjoying the same rights and liberties as your other citizens.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10227;Hellenic Pagans  are welcomed back into the realm.;;;;;;;;;;;;;x
+#Expel MesoAmericans Events
+EVTNAME_Aliyah_10228;Expel MesoAmericans;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10228;All MesoAmericans will be expelled from the realm and will not return for many years.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10228;All MesoAmericans are expelled from the realm.;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10229;Welcome MesoAmericans;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10229;MesoAmericans will be welcomed back into the realm with open arms, enjoying the same rights and liberties as your other citizens.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10229;MesoAmericans are welcomed back into the realm.;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10230;All MesoAmericans are expelled from the realm.;;;;;;;;;;;;;x #Vassal Notification
+EVTDESC_Aliyah_10230;All MesoAmericans will be expelled from the realm and will not return for many years.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10230;Expel MesoAmericans;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10231;Welcome MesoAmericans;;;;;;;;;;;;;x		#Vassal Notification
+EVTDESC_Aliyah_10231;MesoAmericans will be welcomed back into the realm with open arms, enjoying the same rights and liberties as your other citizens.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10231;MesoAmericans are welcomed back into the realm.;;;;;;;;;;;;;x
+
+#Jewish Holy Orders		10300-10399 The Maccabean Guard, Knights of Khazaria, Lions of Solomon, Knights of Goshen, The Siqariqim,and The Mishkan Guardians
+EVTNAME_Aliyah_10300;The Maccabean Guard;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10300;Named after the revolt that established the Levite led Hasmonean kingdom, the Maccabean Guard are soldiers dedicated to the Temple and Kohen Gadol. Whilst their purpose is ostensibly to defend the priesthood from infidels and foreign invaders, some speculate that the true reason for their creation is to give the Priesthood a tool to use against the Monarchy.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10300;Could they be used against the Monarchy?;;;;;;;;;;;;;x
+EVTOPTB_Aliyah_10300;It's a necessary precaution to protect them.;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10301;[From.GetFromRelation] volunteers to join The Maccabean Guard.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10301;[From.GetFromRelation] asks to go.;;;;;;;;;;;;;x
+EVTOPTB_Aliyah_10302;You tell [From.GetFromRelation] that it would be a bad idea to go.;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10303;[From.GetFromRelation] asks for your permission to join The Maccabean Guard.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10303;You agree to let him join.;;;;;;;;;;;;;x
+EVTOPTB_Aliyah_10303;You refuse his request.;;;;;;;;;;;;;x
+EVTTOOLTIP_Aliyah_10301;You Agree.;;;;;;;;;;;;;x
+EVTTOOLTIP_Aliyah_10304;You Refuse.;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10303;[From.GetFromRelation] says their goodbyes and leaves your household to join The Maccabean Guard. You and your family pray to Adonai for his safety as he grows smaller in the distance.;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10304;You tell [From.GetFromRelation] that joining The Maccabean Guard will put their life at risk and they could come home either dead or maimed from all the battles they will be fighting.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10304;It is for the best for my [From.GetFromRelation].;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10305;Knights of Khazaria;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10305;With the rise of the Mashiakh in the land of Israel the world is entering a new age. By order of the king, and with the blessing of the Kohen Gadol, a new order of holy warriors is being assembled in the land of the Khazars. Taking inspirations from the Christian knightly orders, the Knights of Khazaria shall ride forth, to do battle with the heathens that surround them and make the steppes safe for the followers of Hashem. For as it is written, in the age of Mashiakh every knee shall bend and every tongue swear loyalty to him.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10305;We ride in the name of Yahweh!;;;;;;;;;;;;;x
+EVTOPTB_Aliyah_10305;We can use all the help we can.;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10306;[From.GetFromRelation] volunteers to join the Knights of Khazaria.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10306;[From.GetFromRelation] asks to go.;;;;;;;;;;;;;x
+EVTOPTB_Aliyah_10306;You tell [From.GetFromRelation] that it would be a bad idea to go.;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10307;[From.GetFromRelation] asks for your permission to join the Knights of Khazaria.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10307;You agree to let him join.;;;;;;;;;;;;;x
+EVTOPTB_Aliyah_10307;You refuse his request.;;;;;;;;;;;;;x
+EVTTOOLTIP_Aliyah_10306;You Agree.;;;;;;;;;;;;;x
+EVTTOOLTIP_Aliyah_10309;You Refuse.;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10308;[From.GetFromRelation] says their goodbyes and leaves your household to join the Knights of Khazaria. You and your family pray to Adonai for his safety as he grows smaller in the distance.;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10309;You tell [From.GetFromRelation] that joining the Knights of Khazaria will put their life at risk and they could come home either dead or maimed from all the battles they will be fighting.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10309;It is for the best for my [From.GetFromRelation].;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10310;Lions of Solomon;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10310;The Jews of Abyssinia have long suffered the disdain of their infidel neighbours, but they shall suffer these indignities no more! The Lions of Solomon shall fight to defend the chosen of Hashem, and to spread his glory across all of Africa. For as it is written, in the age of Mashiakh every knee shall bend and every tongue swear loyalty to him.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10310;We fight in the name of Yahweh!;;;;;;;;;;;;;x
+EVTOPTB_Aliyah_10310;We can use all the help we can.;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10311;[From.GetFromRelation] volunteers to join the Lions of Solomon.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10311;[From.GetFromRelation] asks to go.;;;;;;;;;;;;;x
+EVTOPTB_Aliyah_10311;You tell [From.GetFromRelation] that it would be a bad idea to go.;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10312;[From.GetFromRelation] asks for your permission to join the Lions of Solomon.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10312;You agree to let him join.;;;;;;;;;;;;;x
+EVTOPTB_Aliyah_10312;You refuse his request.;;;;;;;;;;;;;x
+EVTTOOLTIP_Aliyah_10311;You Agree.;;;;;;;;;;;;;x
+EVTTOOLTIP_Aliyah_10314;You Refuse.;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10313;[From.GetFromRelation] says their goodbyes and leaves your household to join the Lions of Solomon. You and your family pray to Adonai for his safety as he grows smaller in the distance.;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10314;You tell [From.GetFromRelation] that joining the Lions of Solomon will put their life at risk and they could come home either dead or maimed from all the battles they will be fighting.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10314;It is for the best for my [From.GetFromRelation].;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10315;Knights of Goshen;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10315;In the land where we once were slaves, now we have returned as conquerors. By order of the Kohen Gadol, the Knights of Goshen ride, to defend the Holy Land from the infidel, and to subjugate our old enemy in the name of Hashem. For as it is written, in the age of Mashiakh every knee shall bend and every tongue swear loyalty to him.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10315;We fight in the name of Yahweh!;;;;;;;;;;;;;x
+EVTOPTB_Aliyah_10315;We can use all the help we can.;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10316;[From.GetFromRelation] volunteers to join the Knights of Goshen.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10316;[From.GetFromRelation] asks to go.;;;;;;;;;;;;;x
+EVTOPTB_Aliyah_10316;You tell [From.GetFromRelation] that it would be a bad idea to go.;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10317;[From.GetFromRelation] asks for your permission to join the Knights of Goshen.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10317;You agree to let him join.;;;;;;;;;;;;;x
+EVTOPTB_Aliyah_10317;You refuse his request.;;;;;;;;;;;;;x
+EVTTOOLTIP_Aliyah_10316;You Agree.;;;;;;;;;;;;;x
+EVTTOOLTIP_Aliyah_10319;You Refuse.;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10318;[From.GetFromRelation] says their goodbyes and leaves your household to join the Knights of Goshen. You and your family pray to Adonai for his safety as he grows smaller in the distance.;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10319;You tell [From.GetFromRelation] that joining the Lions of Solomon will put their life at risk and they could come home either dead or maimed from all the battles they will be fighting.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10319;It is for the best for my [From.GetFromRelation].;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10320;The Siqariqim;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10320;Taking inspiration from the ancient sect of fanatical of Sicarii or “dagger-men”, who fought against the Romans and their sympathisers in the years leading up to the second exile, these fanatics have taken up the dagger in the name of cleansing the land of all they regard as profane and impious, be they prince, priest or pauper. Striking swiftly and without mercy the Siqariqim will stop at nothing to cut out the rot that has infected the land. They do not forget. They do not forgive. Expect them.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10320;May their enemies learn to fear Adonai!;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10321;Siqariqim Destroyed;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10321;The Siqariqim have become too much of a hassal and have created too much havoc. They are uncontrollable, so you have ordered your loyal troops to hunt down every last member of their order. The battles raged all across your kingdom as they have been destroyed one holding at a time.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10321;They deserved it!;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10322;Siqariqim Rebuilt;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10322;You have taken it upon yourself to rebuild the Siqariqim to their former glory. With the Siqariqim rebuilt they can spread fear and dread amongst the enemies of Israel.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10322;May my enemies tremble!;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10323;You wake suddenly in cold sweat with a strong sensation that something is amiss. The flickering candlelight in your tent reveals a plate of hot biscuits and a note pinned by a poisoned dagger next to your bed. It reads: "Mend your decadent ways before it is too late, [Root.GetFirstName]. The Siqariqim are watching.";;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10323;Perhaps the time for change has come...;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10324;One of your servants, [From.GetTitledName], has been executed by the Siqariqim by having [From.GetHerHis] throat slit.;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10325;Master, terrible news! Your faithful servant, [From.GetTitledName], has been found dead in [From.GetHerHis] home, no doubt at the hands of the vile Siqariqim. Carved by knife into [From.GetHerHis] chest were the words: "[Root.GetFirstName] - You were warned.";;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10325;Oh my...;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10326;As you turn a street corner in [Root.Location.GetName], a strange whistling sound swishes past your ear. Your bodyguards topple over, knives in their throats, and before you can react y;;;;;;;;;;;;;xou are surrounded by robed Siqariqim. Their leader approaches you with a sad look on his face. "May you find what you seek in the life hereafter, friend."
+EVTOPTA_Aliyah_10326;But... but I am not ready!;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10327;[From.GetTitledName] staggers past your guards, bleeding profusely from a dozen stab-wounds. As [From.GetSheHe] collapses in a pool of blood at your feet, [From.GetSheHe] gasps with [From.GetHerHis] last breath: "The S-Siqariqim...";;;;;;;;;;;;;x
+EVTDESC_Aliyah_10328;Your guards bring in a covered basket left just outside your palace. Believing it to be confections from one of your subjects, you hungrily pull away the covering blanket only to reveal the severed, gaping head of [From.GetTitledName]. The mark of the Siqariqim has been carved into the forehead.
+EVTOPTA_Aliyah_10328;I think I've lost my appetite...;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10329;As you stroll through your palace garden with [From.GetTitledFirstName], you see the brief glint of reflected sunlight on metal as a thrown dagger flashes past and buries itself in your friend's throat. Your bodyguards rush you to safety, but you glimpse a robed assassin scurrying over the palace walls...
+EVTOPTA_Aliyah_10329;The Siqariqim! Was I the intended target?;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10330;[From.GetTitledName] stumbles into your throne room with a trail of blood following [From.GetHerHis]. [From.GetHerHis] collapses at the foot of your dais with several daggers protruding from [From.GetHerHis] back.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10330;They are monsters!;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10331;You wake suddenly in cold sweat with a strong sensation that something is amiss. The flickering candlelight in your tent reveals a plate of hot biscuits and a note pinned by a poisoned dagger next to your bed. It reads: "There are a thousand ways to kill a [Root.GetManWoman], [Root.GetFirstName]. The Siqariqim know them all.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10331;Guards! Search the area!;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10332;[From.GetTitledName] has been assassinated by the Siqariqim. [From.GetHerHis] head was decapitated and left for [From.GetHerHis] relatives.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10332;No one is safe from the Siqariqim!;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10333;The Mishkan Guardians;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10333;With the return of the Ark of the Covenant to the Holy Temple, a new order of holy warriors was established to stand guard over it and ensure that it will never again fall into enemy hands.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10333;May Adonai protect them as they guard the Ark!;;;;;;;;;;;;;x			
+EVTNAME_Aliyah_10334;Martyrs of James the Just;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10334;In the land where we once were slaves, now we have returned as conquerors. By order of the Kohen Gadol, the Martyrs of James the Just ride, to defend the Holy Land from the infidel, and to subjugate our old enemy in the name of Hashem. For as it is written, in the age of Mashiakh every knee shall bend and every tongue swear loyalty to him.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10334;We fight in the name of Yahweh!;;;;;;;;;;;;;x
+EVTOPTB_Aliyah_10334;We can use all the help we can.;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10335;[From.GetFromRelation] volunteers to join the Martyrs of James the Just.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10335;[From.GetFromRelation] asks to go.;;;;;;;;;;;;;x
+EVTOPTB_Aliyah_10335;You tell [From.GetFromRelation] that it would be a bad idea to go.;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10336;[From.GetFromRelation] asks for your permission to join the Martyrs of James the Just.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10336;You agree to let him join.;;;;;;;;;;;;;x
+EVTOPTB_Aliyah_10336;You refuse his request.;;;;;;;;;;;;;x
+EVTTOOLTIP_Aliyah_10335;You Agree.;;;;;;;;;;;;;x
+EVTTOOLTIP_Aliyah_10338;You Refuse.;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10337;[From.GetFromRelation] says their goodbyes and leaves your household to join the Martyrs of James the Just. You and your family pray to Adonai for his safety as he grows smaller in the distance.;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10338;You tell [From.GetFromRelation] that joining the Lions of Solomon will put their life at risk and they could come home either dead or maimed from all the battles they will be fighting.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10338;It is for the best for my [From.GetFromRelation].;;;;;;;;;;;;;x
+
+#Jewish Sins events for both the people and priests																					10400-10499
+EVTNAME_Aliyah_10400;Violating Kosher Laws;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10400;You have been caught violating the dietary laws of Leviticus.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10400;My liege will hear of it!;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10401;Kosher Law Violation;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10401;[From.GetFullName] has been caught breaking the dietary laws of Leviticus.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10401;[From.GetFullName] shall pay a fine and do ritual purification.;;;;;;;;;;;;;x
+EVTOPTB_Aliyah_10401;[From.GetFullName] shall do ritual sacrifices and purification!;;;;;;;;;;;;;x
+EVTOPTC_Aliyah_10401;[From.GetFullName] shall only do ritual purification.;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10402;Adultery;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10402;I have been caught committing adultery.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10402;My liege will hear of it!;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10403;Adultery;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10403;[From.GetFullName] has been caught committing adultery.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10403;[From.GetFullName] shall pay a fine!;;;;;;;;;;;;;x
+EVTOPTB_Aliyah_10403;[From.GetFullName] shall be imprisoned!;;;;;;;;;;;;;x
+EVTOPTC_Aliyah_10403;[From.GetFullName] shall be put to death as ordained by G-D!;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10404;Sibling Incest;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10404:I have been caught having sexual relations with my sibling.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10404;My liege will hear of it!;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10405;Sibling Incest;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10405;[From.GetFullName] has been caught having incest their sibling.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10405;[From.GetFullName] shall pay a fine!;;;;;;;;;;;;;x
+EVTOPTB_Aliyah_10405;[From.GetFullName] shall be imprisoned!;;;;;;;;;;;;;x
+EVTOPTC_Aliyah_10405;[From.GetFullName] shall be put to death as commanded by the Lord!;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10406;Father-Daughter Incest;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10406:We have been caught having sexual relations.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10406;Our liege shall hear of it!;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10407;Father-Daughter Incest;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10407;[From.GetFullName] and his daughter have been caught having sex.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10407;[From.GetFullName] shall pay a fine!;;;;;;;;;;;;;x
+EVTOPTB_Aliyah_10407;[From.GetFullName] shall be imprisoned!;;;;;;;;;;;;;x
+EVTOPTC_Aliyah_10407;[From.GetFullName] shall be put to death!;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10408;Mother-Son Incest;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10408:We have been caught having sexual relations.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10408;My liege will hear of it!;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10409;Mother-Son Incest;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10409;[From.GetFullName] and her son have been caught having sexual relations.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10409;[From.GetFullName] shall pay a fine!;;;;;;;;;;;;;x
+EVTOPTB_Aliyah_10409;[From.GetFullName] shall be imprisoned!;;;;;;;;;;;;;x
+EVTOPTC_Aliyah_10409;[From.GetFullName] shall be put to death!;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10410;Homosexual;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10410:You have been found out to be a homosexual.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10410;My liege will hear of it!;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10411;Homosexual;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10411;[From.GetFullName] has been found out to be having sexual relations with the same sex.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10411;[From.GetFullName] shall pay a fine!;;;;;;;;;;;;;x
+EVTOPTB_Aliyah_10411;[From.GetFullName] shall be imprisoned!;;;;;;;;;;;;;x
+EVTOPTC_Aliyah_10411;[From.GetFullName] shall be put to death!;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10412;Impure Kohen;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10412;The Lord has found me impure and I died while performing my priestly duties.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10412;I have died because of my sins.;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10413;Impure Kohen;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10413;[From.GetFullName] has died when he was performing his priestly duties and Yahweh has found him to be impure.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10413;The Lord requires ritual purity!;;;;;;;;;;;;;x
+
+#Jewish Holy Festivals			Purim, Rosh Hashanah, Shavout, Hanukkah																10500-10599
+purim_celebrations;Purim Celebrations;;;;;;;;;;;;;x
+celebrate_purim;Celebrate Purim;;;;;;;;;;;;;x
+celebrate_purim_desc;Purim is the celebration of the Jewish people being saved from Haman and his genocide.;;;;;;;;;;;;;x
+held_purim_timer;Held Purim Timer;;;;;;;;;;;;;x
+shavuot_celebrations;Shavuot Celebrations;;;;;;;;;;;;;x
+celebrate_shavuot;Shavuot Celebrations;;;;;;;;;;;;;x
+celebrate_shavuot_desc;Known as the Feast of Weeks, Shavuot commerates when Yahweh gave the Torah to the Jewish people and also marks the harvest of the wheat.;;;;;;;;;;;;;x
+held_shavuot_timer;Held Shavuot Timer;;;;;;;;;;;;;x
+hanukkah_celebrations;Hanukkah Celebrations;;;;;;;;;;;;;x
+celebrate_hanukkah;Hanukkah Celebrations;;;;;;;;;;;;;x
+celebrate_hanukkah_desc;Hanukkah is the festival of lights. It celebrates the miracle of the oil lamps in the temple remaining lit for 8 days.;;;;;;;;;;;;;x
+held_hanukkah_timer;Held Hanukkah Timer;;;;;;;;;;;;;x
+rosh_hashanah_celebrations;Rosh Hashanah Celebrations;;;;;;;;;;;;;x
+celebrate_rosh_hashanah;Celebrate Rosh Hashanah;;;;;;;;;;;;;x
+celebrate_rosh_hashanah_desc;Rosh Hashanah is the beginning of the Jewish new year.;;;;;;;;;;;;;x
+held_rosh_hashanah_timer;Held Rosh Hashanah Timer;;;;;;;;;;;;;x
+sukkot_celebrations;Sukkot Celebrations;;;;;;;;;;;;;x
+celebrate_sukkot;Celebrate Sukkot;;;;;;;;;;;;;x
+celebrate_sukkot_desc;Sukkot is the celebration of the end of the year harvest and the time the Israelites wandered in the desert for 40 years.;;;;;;;;;;;;;x
+held_sukkot_timer;Held Sukkot Timer;;;;;;;;;;;;;x
+yom_kippur_celebrations;Yom Kippur Celebrations;;;;;;;;;;;;;x
+celebrate_purim;Celebrate Yom Kippur;;;;;;;;;;;;;x
+celebrate_purim_desc;Yom Kippur is the celebration of the Jewish new year and the cleansing of their sins.;;;;;;;;;;;;;x
+held_yom_kippur_timer;Held Yom Kippur Timer;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10500;Purim Celebration;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10500;Purim is one of the holiest days for the Jewish people since it celebrates the deliverance of the Persian Jews from the evil Haman. The events are recorded in the Book of Esther and is recited during the celebrations.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10500;Glory to Adonai!;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10501;Shavuot Celebrations;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10501;Known as the Feast of Weeks, Shavuot commerates when Yahweh gave the Torah to the Jewish people and also marks the harvest of the wheat.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10501;Glory to Adonai!;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10502;Hanukkah Celebrations;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10502;Hanukkah is the festival of lights. It celebrates the miracle of the oil lamps in the temple remaining lit for 8 days and the rededication of the temple after the Maccabean Revolt.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10502;Glory to Adonai!;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10503;Rosh Hashanah Celebrations;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10503;Rosh Hashanah is the beginning of the Jewish new year.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10503;Glory to Adonai!;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10504;Celebrate Sukkot;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10504;Sukkot is the celebration of the end of the year harvest and the time the Israelites wandered in the desert for 40 years.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10504;Glory to Adonai!;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10505;Celebrate Yom Kippur;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10505;Yom Kippur is the celebration of the Jewish new year and the cleansing of their sins.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10505;Glory to Adonai!;;;;;;;;;;;;;x
+
+#Rebuilding Jerusalem small event chain that adds more modifiers to the province holdings											10600-10699
+EVTNAME_Aliyah_10600;Rebuild Jerusalem;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10600;It has come time for you to make a decision regarding the rebuilding of Jerusalem.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10600;Rebuild Shlomo's Royal Palace.;;;;;;;;;;;;;x
+EVTOPTB_Aliyah_10600;Rebuild the entire city.;;;;;;;;;;;;;x
+EVTOPTC_Aliyah_10600;Make the city the Jewel of the Levant again!;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10601;Rebuild Jerusalem Part 2;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10601;After completing the prior rebuilding you can further improve the city to make it even more spectacular.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10601;Add to the Upper City;;;;;;;;;;;;;x
+EVTOPTB_Aliyah_10601;Add to the Lower City;;;;;;;;;;;;;x
+EVTOPTC_Aliyah_10601;Strengthen all the walls of Jerusalem.;;;;;;;;;;;;;x
+EVTOPTD_Aliyah_10601;Add to the Upper and Lower City plus strengthen the walls!;;;;;;;;;;;;;x
+rebuilding_jerusalem_local;Rebuilding Jerusalem;;;;;;;;;;;;;x
+rebuilding_jerusalem_local_desc;The process of rebuilding Jerusalem.;;;;;;;;;;;;;x
+jerusalem_upper_city;Rebuilding Jerusalem's Upper City;;;;;;;;;;;;;x
+jerusalem_upper_city_desc;Rebuilding Jerusalem's Upper City to make it the marvel it used to be.;;;;;;;;;;;;;x
+jerusalem_lower_city;Rebuilding Jerusalem's Lower City;;;;;;;;;;;;;x
+jerusalem_lower_city_desc;Rebuilding Jerusalem's Lower City to increase the markets and the taxes it brings.;;;;;;;;;;;;;x
+jerusalem_gates;Rebuilding Jerusalem's Gates;;;;;;;;;;;;;x
+jerusalem_gates_desc;Rebuilding Jerusalem's Gates will make the city more beautiful because of their ornate and intricate details. Each one is different from the others.;;;;;;;;;;;;;x
+b_city_of_david;City of David;;;;;;;;;;;;;x
+b_city_of_david;City of David;;;;;;;;;;;;;x
+b_city_of_david_desc;The city of David is the height of Jerusalem's shining jewel. It has beautiful works of art plus grandiose architecture that adds to the wonder of Jerusalem. Truly this is how Adonai meant for Jerusalem to be.;;;;;;;;;;;;;x
+rebuild_jerusalem;Rebuild Jerusalem;;;;;;;;;;;;;x
+rebuild_jerusalem_desc;Rebuild Jerusalem back to being the jewel of the Levant.;;;;;;;;;;;;;x
+
+#Melting Pot Events																													10700-10799
+EVTDESC_Aliyah_10700;For as long as have ruled here we have entrusted the raising of our children to Jewish nursemaids. Our first words would not be the language of our forefathers but Hebrew. As we grew up we learned to speak a tongue that was neither one nor the other. Now is this time to make this tongue our own so we may all communicate.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10700;Yes let us be one with our serfs;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10701;Around our lands more people are using this Hebrew language and I find this is a perfect means for my serfs to work properly. We continue to use our own influence to promote this means of communication in the interests of more efficient realm.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10701;We are indeed wise;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10702;Although every civilised man in Jewishdom knows that Hebrew is the true language of communication, our Hebrew language does have a certain functionality. I have therefore prevailed upon a member of my court to adopt this for everyday administrative use.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10702;A most useful development;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10703;I was considering important business when I had an amazing insight. To strengthen my realm I must bring my vassals round to my way of thinking. This involves communication. If I can get them to communicate like me then I will have a much smoother running realm.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10703;Sometimes I even surprise myself;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10704;My liege has persuaded me to embrace this notion of Jewishness that is sweeping the realm.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10704;Glory be to Adonai!;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10705;For as long as have ruled here we have entrusted the raising of our children to Jewish nursemaids. Our first words would not be the language of our forefathers but Hebrew. As we grew up we learned to speak a tongue that was neither one nor the other. Now is this time to make this tongue our own so we may all communicate.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10705;Yes let us be one with our serfs;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10706;Around our lands more people are using this Hebrew language and I find this is a perfect means for my serfs to work properly. We continue to use our own influence to promote this means of communication in the interests of more efficient realm.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10706;We are indeed wise;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10707;Although every civilised man in Jewishdom knows that Hebrew is the true language of communication, our Hebrew language does have a certain functionality. I have therefore prevailed upon a member of my court to adopt this for everyday administrative use.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10707;A most useful development;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10708;I was considering important business when I had an amazing insight. To strengthen my realm I must bring my vassals round to my way of thinking. This involves communication. If I can get them to communicate like me then I will have a much smoother running realm.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10708;Sometimes I even surprise myself;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10709;My liege has persuaded me to embrace this notion of Jewishness that is sweeping the realm.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10709;Glory be to Adonai!;;;;;;;;;;;;;x
+
+#Aliyah Decisions 																													10800-10899
+EVTNAME_Aliyah_10800;The [Root.Religion.GetName] Reformation;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10800;With the construction of the Third Temple and the restoration of the Kingdom of Israel complete, the time has come for a decision to reinstate the priesthood and the resumption of sacrifices at the temple. By reinstating the priesthood, you are choosing to reform [Root.Religion.GetName] into Temple Judaism. In Temple Judaism, the priesthood and Jerusalem as the center of religious focus are most important. All decisions are left to the Tribe of Levi and for you to execute their will. Followers may go on pilgrimages and set the interval for when sacrifices are performed.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10800;For Adonai!;;;;;;;;;;;;;x
+EVTOPTB_Aliyah_10800;Embrace Temple Judaism;;;;;;;;;;;;;x
+EVTOPTC_Aliyah_10800;Karaite is still the best.;;;;;;;;;;;;;x
+EVTOPTD_Aliyah_10800;They shall decide for themselves!;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10801;The [Root.Religion.GetName] Reformation;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10801;The Grand Sanhedrin are a religious movement that emerged out of Rabbinic Judaism after the restoration of the Third Temple, taking inspiration from the historical Pharisees that were popular prior to the destruction of the second temple, and who some see as the forerunners of the Rabbinic tradition. Whilst the Grand Sanhedrin accept the reinstitution of the Temple and Priesthood, as well as the rituals and ceremonies that come with it, they have a number of objections to the power and authority that is being concentrated in the hands of the Levites, instead arguing that interpretation and judicial authority should rest in the Sanhedrins (religious courts) rather than the priesthood. In addition they also support the authority of the Oral Torah.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10801;For Adonai!;;;;;;;;;;;;;x
+EVTOPTB_Aliyah_10801;Embrace the Grand Sanhedrin;;;;;;;;;;;;;x
+EVTOPTC_Aliyah_10801;Rabbinic Judaism is still the best.;;;;;;;;;;;;;x
+EVTOPTD_Aliyah_10801;They shall decide for themselves!;;;;;;;;;;;;;x
+EVTNAME_Aliyah_10802;The Grand Sanhedrin;;;;;;;;;;;;;x
+EVTDESC_Aliyah_10802;The Grand Sanhedrin are a religious movement that emerged out of Rabbinic Judaism after the restoration of the Third Temple, taking inspiration from the historical Pharisees that were popular prior to the destruction of the second temple, and who some see as the forerunners of the Rabbinic tradition. Whilst the Grand Sanhedrin accept the reinstitution of the Temple and Priesthood, as well as the rituals and ceremonies that come with it, they have a number of objections to the power and authority that is being concentrated in the hands of the Levites, instead arguing that interpretation and judicial authority should rest in the Sanhedrins (religious courts) rather than the priesthood. In addition they also support the authority of the Oral Torah.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10802;The Tribe of Levi has too much power.;;;;;;;;;;;;;x
+
+#Aliyah Courtier Events
+EVTDESC_Aliyah_10900; A Jewish courtier appears at the gates to your castle seeking refuge. They look like they have useful skills that will enable you to be stronger.;;;;;;;;;;;;;x
+EVTOPTA_Aliyah_10900;Adonai watches over his faithful servants!;;;;;;;;;;;;;x
+
+#Aliyah On Actions 10900-10999
+#Aliyah.1000
+#Aliyah.1001
+#Aliyah.1002
+#Aliyah.1003
+#Aliyah.1004
+#Aliyah.1005
+#Aliyah.1006
+#Aliyah.1007
+#Aliyah.1008
+#Aliyah.1009
+#Aliyah.1010
+#Aliyah.1011
+
+#Vanilla Event Modifications
+EVTDESC_SoA_550;There has not been a Kohen Gadol – a High Priest of Judaism – since the Romans destroyed the Second Temple roughly a thousand years ago. At long last, this position has been filled and the High Priesthood reconstituted.\n\nLike the Jewish priests of ancient times, the Kohen Gadol was traditionally required to be a descendant of Aaron, the older brother of Moses and from the Tribe of Levi. The Priesthood has moved into the living quarters and established itself at the Third Temple.;;;;;;;;;;;;;x
+EVTOPTA_SoA_550;Long live the Kohen Gadol!;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;xx

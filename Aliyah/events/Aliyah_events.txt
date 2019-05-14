@@ -1,0 +1,10177 @@
+######################################################
+# 			Events for Aliyah						 #
+#													 #
+#   Created by ThePatriot1776						 #
+######################################################
+namespace = Aliyah
+
+character_event = {
+	id = Aliyah.10001 #Setting Temple holders to Jewish dynasties and Tribal Trait
+	hidden = yes
+	is_triggered_only = yes
+	
+	any_realm_title = {
+		holding_type = temple
+		religion_group = jewish_group
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10001
+		random_list = {
+			34 = {
+				dynasty = 10015430
+				add_trait = levi
+			}
+			33 = { 
+				dynasty = 10015431
+				add_trait = levi
+			}
+			33 = {
+				dynasty = 10015432
+				add_trait = levi
+			}
+		}
+	}
+}
+
+#on_yearly_pulse 
+character_event = {
+	id = Aliyah.10002 #Setting Temple holders to Jewish dynasties and Tribal Trait
+	hidden = yes
+	is_triggered_only = yes
+	
+	any_realm_title = {
+		holding_type = temple
+		religion_group = jewish_group
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10002
+		random_list = {
+			34 = {
+				dynasty = 10015430
+				add_trait = levi
+			}
+			33 = { 
+				dynasty = 10015431
+				add_trait = levi
+			}
+			33 = {
+				dynasty = 10015432
+				add_trait = levi
+			}
+		}
+	}
+}
+
+#Dyansty Traits
+
+character_event = {
+	id = Aliyah.10003 #Asher
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_achav status = yes }
+		
+		create_character = {
+			dynasty = 100154000
+			religion = rabbinic_judaism
+			culture = romaniote
+			add_trait = asher
+		}
+		new_character = {
+			d_bet_achav = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154000
+				religion = rabbinic_judaism
+				culture = romaniote
+				female = yes
+				add_trait = asher
+			}
+			create_character = {
+				dynasty = 100154000
+				religion = rabbinic_judaism
+				culture = romaniote
+				add_trait = asher
+			}
+			create_character = {
+				dynasty = 100154000
+				religion = rabbinic_judaism
+				culture = romaniote
+				female = yes
+				add_trait = asher
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10004 #Asher
+		
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_aviram status = yes }
+		
+		create_character = {
+			dynasty = 100154001
+			religion = rabbinic_judaism
+			culture = romaniote
+			add_trait = asher
+		}
+		new_character = {
+			d_bet_aviram = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154001
+				religion = rabbinic_judaism
+				culture = romaniote
+				female = yes
+				add_trait = asher
+			}
+			create_character = {
+				dynasty = 100154001
+				religion = rabbinic_judaism
+				culture = romaniote
+				add_trait = asher
+			}
+			create_character = {
+				dynasty = 100154001
+				religion = rabbinic_judaism
+				culture = romaniote
+				female = yes
+				add_trait = asher
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10005 #Asher
+		
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_daniyyel status = yes }
+		
+		create_character = {
+			dynasty = 100154002
+			religion = rabbinic_judaism
+			culture = romaniote
+			add_trait = asher
+		}
+		new_character = {
+			d_bet_daniyyel = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154002
+				religion = rabbinic_judaism
+				culture = romaniote
+				female = yes
+				add_trait = asher
+			}
+			create_character = {
+				dynasty = 100154002
+				religion = rabbinic_judaism
+				culture = romaniote
+				add_trait = asher
+			}
+			create_character = {
+				dynasty = 100154002
+				religion = rabbinic_judaism
+				culture = romaniote
+				female = yes
+				add_trait = asher
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10006 #Asher
+		
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_alechsandri status = yes }
+		
+		create_character = {
+			dynasty = 100154003
+			religion = rabbinic_judaism
+			culture = romaniote
+			female = yes
+			add_trait = asher
+		}
+		new_character = {
+			d_bet_alechsandri = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154003
+				religion = rabbinic_judaism
+				culture = romaniote
+				add_trait = asher
+			}
+			create_character = {
+				dynasty = 100154003
+				religion = rabbinic_judaism
+				culture = romaniote
+				female = yes
+				add_trait = asher
+			}
+			create_character = {
+				dynasty = 100154003
+				religion = rabbinic_judaism
+				culture = romaniote
+				add_trait = asher
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10007 #Asher
+		
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_jau status = yes }
+		
+		create_character = {
+			dynasty = 100154004
+			religion = rabbinic_judaism
+			culture = romaniote
+			add_trait = asher
+		}
+		new_character = {
+			d_bet_jau = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154004
+				religion = rabbinic_judaism
+				culture = romaniote
+				female = yes
+				add_trait = asher
+			}
+			create_character = {
+				dynasty = 100154004
+				religion = rabbinic_judaism
+				culture = romaniote
+				add_trait = asher
+			}
+			create_character = {
+				dynasty = 100154004
+				religion = rabbinic_judaism
+				culture = romaniote
+				female = yes
+				add_trait = asher
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10008 #Asher
+		
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_abbaye status = yes }
+		create_character = {
+			dynasty = 100154005
+			religion = kariate
+			culture = bene_hamizrah
+			add_trait = asher
+		}
+		new_character = {
+			d_bet_abbaye = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154005
+				religion = kariate
+				culture = bene_hamizrah
+				female = yes
+				add_trait = asher
+			}
+			create_character = {
+				dynasty = 100154005
+				religion = kariate
+				culture = bene_hamizrah
+				add_trait = asher
+			}
+			create_character = {
+				dynasty = 100154005
+				religion = kariate
+				culture = bene_hamizrah
+				female = yes
+				add_trait = asher
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10009 #Binyamin
+		
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_labrat status = yes }
+		create_character = {
+			dynasty = 100154006
+			religion = rabbinic_judaism
+			culture = iberiani
+			add_trait = binyamin
+		}
+		new_character = {
+			d_bet_labrat = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154006
+				religion = rabbinic_judaism
+				culture = iberiani
+				female = yes
+				add_trait = binyamin
+			}
+			create_character = {
+				dynasty = 100154006
+				religion = rabbinic_judaism
+				culture = iberiani
+				add_trait = binyamin
+			}
+			create_character = {
+				dynasty = 100154006
+				religion = rabbinic_judaism
+				culture = iberiani
+				female = yes
+				add_trait = binyamin
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10010 #Binyamin
+		
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_surek status = yes }
+		create_character = {
+			dynasty = 100154007
+			religion = rabbinic_judaism
+			culture = iberiani
+			add_trait = binyamin
+		}
+		new_character = {
+			d_bet_surek = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154007
+				religion = rabbinic_judaism
+				culture = iberiani
+				female = yes
+				add_trait = binyamin
+			}
+			create_character = {
+				dynasty = 100154007
+				religion = rabbinic_judaism
+				culture = iberiani
+				add_trait = binyamin
+			}
+			create_character = {
+				dynasty = 100154007
+				religion = rabbinic_judaism
+				culture = iberiani
+				female = yes
+				add_trait = binyamin
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10011 #Binyamin
+		
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_shaprut status = yes }
+		create_character = {
+			dynasty = 100154008
+			religion = rabbinic_judaism
+			culture = iberiani
+			add_trait = binyamin
+		}
+		new_character = {
+			d_bet_shaprut = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154008
+				religion = rabbinic_judaism
+				culture = iberiani
+				female = yes
+				add_trait = binyamin
+			}
+			create_character = {
+				dynasty = 100154008
+				religion = rabbinic_judaism
+				culture = iberiani
+				add_trait = binyamin
+			}
+			create_character = {
+				dynasty = 100154008
+				religion = rabbinic_judaism
+				culture = iberiani
+				female = yes
+				add_trait = binyamin
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10012 #Binyamin
+		
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_chaim status = yes }
+		create_character = {
+			dynasty = 100154009
+			religion = rabbinic_judaism
+			culture = iberiani
+			add_trait = binyamin
+		}
+		new_character = {
+			d_bet_chaim = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154009
+				religion = rabbinic_judaism
+				culture = iberiani
+				female = yes
+				add_trait = binyamin
+			}
+			create_character = {
+				dynasty = 100154009
+				religion = rabbinic_judaism
+				culture = iberiani
+				add_trait = binyamin
+			}
+			create_character = {
+				dynasty = 100154009
+				religion = rabbinic_judaism
+				culture = iberiani
+				female = yes
+				add_trait = binyamin
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10013 #Binyamin
+		
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_ravya status = yes }
+		create_character = {
+			dynasty = 100154010
+			religion = rabbinic_judaism
+			culture = iberiani
+			add_trait = binyamin
+		}
+		new_character = {
+			d_bet_ravya = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154010
+				religion = rabbinic_judaism
+				culture = iberiani
+				female = yes
+				add_trait = binyamin
+			}
+			create_character = {
+				dynasty = 100154010
+				religion = rabbinic_judaism
+				culture = iberiani
+				add_trait = binyamin
+			}
+			create_character = {
+				dynasty = 100154010
+				religion = rabbinic_judaism
+				culture = iberiani
+				female = yes
+				add_trait = binyamin
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10014 #Dan
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_barukh status = yes }
+		create_character = {
+			dynasty = 100154011
+			religion = kariate
+			culture = bene_hamizrah
+			add_trait = dan
+		}
+		new_character = {
+			d_bet_barukh = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154011
+				religion = kariate
+				culture = bene_hamizrah
+				female = yes
+				add_trait = dan
+			}
+			create_character = {
+				dynasty = 100154011
+				religion = kariate
+				culture = bene_hamizrah
+				add_trait = dan
+			}
+			create_character = {
+				dynasty = 100154011
+				religion = kariate
+				culture = bene_hamizrah
+				female = yes
+				add_trait = dan
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10015 #Dan
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_dan status = yes }
+		create_character = {
+			dynasty = 100154012
+			religion = nazarene
+			culture = bene_hamizrah
+			add_trait = dan
+		}
+		new_character = {
+			d_bet_dan = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154012
+				religion = nazarene
+				culture = bene_hamizrah
+				female = yes
+				add_trait = dan
+			}
+			create_character = {
+				dynasty = 100154012
+				religion = nazarene
+				culture = bene_hamizrah
+				add_trait = dan
+			}
+			create_character = {
+				dynasty = 100154012
+				religion = nazarene
+				culture = bene_hamizrah
+				female = yes
+				add_trait = dan
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10016 #Dan
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_delayahu status = yes }
+		create_character = {
+			dynasty = 100154013
+			religion = kariate
+			culture = bene_hamizrah
+			add_trait = dan
+		}
+		new_character = {
+			d_bet_delayahu = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154013
+				religion = kariate
+				culture = bene_hamizrah
+				female = yes
+				add_trait = dan
+			}
+			create_character = {
+				dynasty = 100154013
+				religion = kariate
+				culture = bene_hamizrah
+				add_trait = dan
+			}
+			create_character = {
+				dynasty = 100154013
+				religion = kariate
+				culture = bene_hamizrah
+				female = yes
+				add_trait = dan
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10017 #Dan
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_moshe status = yes }
+		create_character = {
+			dynasty = 100154014
+			religion = nazarene
+			culture = bene_hamizrah
+			add_trait = dan
+		}
+		new_character = {
+			d_bet_moshe = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154014
+				religion = nazarene
+				culture = bene_hamizrah
+				female = yes
+				add_trait = dan
+			}
+			create_character = {
+				dynasty = 100154014
+				religion = nazarene
+				culture = bene_hamizrah
+				add_trait = dan
+			}
+			create_character = {
+				dynasty = 100154014
+				religion = nazarene
+				culture = bene_hamizrah
+				female = yes
+				add_trait = dan
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10018 #Dan
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_mishael status = yes }
+		create_character = {
+			dynasty = 100154015
+			religion = kariate
+			culture = cochin_jews
+			add_trait = dan
+		}
+		new_character = {
+			d_bet_mishael = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154015
+				religion = kariate
+				culture = cochin_jews
+				female = yes
+				add_trait = dan
+			}
+			create_character = {
+				dynasty = 100154015
+				religion = kariate
+				culture = cochin_jews
+				add_trait = dan
+			}
+			create_character = {
+				dynasty = 100154015
+				religion = kariate
+				culture = cochin_jews
+				female = yes
+				add_trait = dan
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10019 #Efrayim
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_gabirol status = yes }
+		create_character = {
+			dynasty = 100154016
+			religion = samaritan
+			culture = samaritan
+			add_trait = efrayim
+		}
+		new_character = {
+			d_bet_gabirol = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154016
+				religion = ebionite
+				culture = samaritan
+				female = yes
+				add_trait = efrayim
+			}
+			create_character = {
+				dynasty = 100154016
+				religion = samaritan
+				culture = samaritan
+				add_trait = efrayim
+			}
+			create_character = {
+				dynasty = 100154016
+				religion = samaritan
+				culture = samaritan
+				female = yes
+				add_trait = efrayim
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10020 #Efrayim
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_janah status = yes }
+		create_character = {
+			dynasty = 100154017
+			religion = samaritan
+			culture = samaritan
+			add_trait = efrayim
+		}
+		new_character = {
+			d_bet_janah = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154017
+				religion = samaritan
+				culture = samaritan
+				female = yes
+				add_trait = efrayim
+			}
+			create_character = {
+				dynasty = 100154017
+				religion = samaritan
+				culture = samaritan
+				add_trait = efrayim
+			}
+			create_character = {
+				dynasty = 100154017
+				religion = samaritan
+				culture = samaritan
+				female = yes
+				add_trait = efrayim
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10021 #Efrayim
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_halen status = yes }
+		create_character = {
+			dynasty = 100154018
+			religion = samaritan
+			culture = samaritan
+			add_trait = efrayim
+		}
+		new_character = {
+			d_bet_halen = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154018
+				religion = samaritan
+				culture = samaritan
+				female = yes
+				add_trait = efrayim
+			}
+			create_character = {
+				dynasty = 100154018
+				religion = samaritan
+				culture = samaritan
+				add_trait = efrayim
+			}
+			create_character = {
+				dynasty = 100154018
+				religion = samaritan
+				culture = samaritan
+				female = yes
+				add_trait = efrayim
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10022 #Efrayim
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_elyakim status = yes }
+		create_character = {
+			dynasty = 100154019
+			religion = samaritan
+			culture = samaritan
+			add_trait = efrayim
+		}
+		new_character = {
+			d_bet_elyakim = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154019
+				religion = samaritan
+				culture = samaritan
+				female = yes
+				add_trait = efrayim
+			}
+			create_character = {
+				dynasty = 100154019
+				religion = samaritan
+				culture = samaritan
+				add_trait = efrayim
+			}
+			create_character = {
+				dynasty = 100154019
+				religion = samaritan
+				culture = samaritan
+				female = yes
+				add_trait = efrayim
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10023 #Gad
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_nasiiyah status = yes }
+		create_character = {
+			dynasty = 100154020
+			religion = kariate
+			culture = bene_hamizrah
+			add_trait = gad
+		}
+		new_character = {
+			d_bet_nasiiyah = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154020
+				religion = kariate
+				culture = bene_hamizrah
+				female = yes
+				add_trait = gad
+			}
+			create_character = {
+				dynasty = 100154020
+				religion = kariate
+				culture = bene_hamizrah
+				add_trait = gad
+			}
+			create_character = {
+				dynasty = 100154020
+				religion = kariate
+				culture = bene_hamizrah
+				female = yes
+				add_trait = gad
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10024 #Gad
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_benayahu status = yes }
+		create_character = {
+			dynasty = 100154021
+			religion = nazarene
+			culture = bene_hamizrah
+			add_trait = gad
+		}
+		new_character = {
+			d_bet_benayahu = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154021
+				religion = nazarene
+				culture = bene_hamizrah
+				female = yes
+				add_trait = gad
+			}
+			create_character = {
+				dynasty = 100154021
+				religion = nazarene
+				culture = bene_hamizrah
+				add_trait = gad
+			}
+			create_character = {
+				dynasty = 100154021
+				religion = nazarene
+				culture = bene_hamizrah
+				female = yes
+				add_trait = gad
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10025 #Gad
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_hiram status = yes }
+		create_character = {
+			dynasty = 100154022
+			religion = ebionite
+			culture = bene_hamizrah
+			add_trait = gad
+		}
+		new_character = {
+			d_bet_hiram = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154022
+				religion = ebionite
+				culture = bene_hamizrah
+				female = yes
+				add_trait = gad
+			}
+			create_character = {
+				dynasty = 100154022
+				religion = ebionite
+				culture = bene_hamizrah
+				add_trait = gad
+			}
+			create_character = {
+				dynasty = 100154022
+				religion = ebionite
+				culture = bene_hamizrah
+				female = yes
+				add_trait = gad
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10026 #Gad
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_malcha status = yes }
+		create_character = {
+			dynasty = 100154023
+			religion = nazarene
+			culture = bene_hamizrah
+			add_trait = gad
+		}
+		new_character = {
+			d_bet_malcha = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154023
+				religion = nazarene
+				culture = bene_hamizrah
+				female = yes
+				add_trait = gad
+			}
+			create_character = {
+				dynasty = 100154023
+				religion = nazarene
+				culture = bene_hamizrah
+				add_trait = gad
+			}
+			create_character = {
+				dynasty = 100154023
+				religion = nazarene
+				culture = bene_hamizrah
+				female = yes
+				add_trait = gad
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10027 #Gad
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_natronai status = yes }
+		create_character = {
+			dynasty = 100154024
+			religion = kariate
+			culture = bene_hamizrah
+			add_trait = gad
+		}
+		new_character = {
+			d_bet_natronai = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154024
+				religion = kariate
+				culture = bene_hamizrah
+				female = yes
+				add_trait = gad
+			}
+			create_character = {
+				dynasty = 100154024
+				religion = kariate
+				culture = bene_hamizrah
+				add_trait = gad
+			}
+			create_character = {
+				dynasty = 100154024
+				religion = kariate
+				culture = bene_hamizrah
+				female = yes
+				add_trait = gad
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10028 #Issachar
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_baasha status = yes }
+		create_character = {
+			dynasty = 100154025
+			religion = kariate
+			culture = bene_hamizrah
+			add_trait = issachar
+		}
+		new_character = {
+			d_bet_baasha = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154025
+				religion = kariate
+				culture = bene_hamizrah
+				female = yes
+				add_trait = issachar
+			}
+			create_character = {
+				dynasty = 100154025
+				religion = kariate
+				culture = bene_hamizrah
+				add_trait = issachar
+			}
+			create_character = {
+				dynasty = 100154025
+				religion = kariate
+				culture = bene_hamizrah
+				female = yes
+				add_trait = issachar
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10029 #Issachar
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_zimri status = yes }
+		create_character = {
+			dynasty = 100154026
+			religion = kariate
+			culture = bene_hamizrah
+			add_trait = issachar
+		}
+		new_character = {
+			d_bet_zimri = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154026
+				religion = kariate
+				culture = bene_hamizrah
+				female = yes
+				add_trait = issachar
+			}
+			create_character = {
+				dynasty = 100154026
+				religion = kariate
+				culture = bene_hamizrah
+				add_trait = issachar
+			}
+			create_character = {
+				dynasty = 100154026
+				religion = kariate
+				culture = bene_hamizrah
+				female = yes
+				add_trait = issachar
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10030 #Issachar
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_omri status = yes }
+		create_character = {
+			dynasty = 100154027
+			religion = ebionite
+			culture = bene_hamizrah
+			add_trait = issachar
+		}
+		new_character = {
+			d_bet_omri = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154027
+				religion = ebionite
+				culture = bene_hamizrah
+				female = yes
+				add_trait = issachar
+			}
+			create_character = {
+				dynasty = 100154027
+				religion = ebionite
+				culture = bene_hamizrah
+				add_trait = issachar
+			}
+			create_character = {
+				dynasty = 100154027
+				religion = ebionite
+				culture = bene_hamizrah
+				female = yes
+				add_trait = issachar
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10031 #Issachar
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_kafnai status = yes }
+		create_character = {
+			dynasty = 100154028
+			religion = ebionite
+			culture = bene_hamizrah
+			add_trait = issachar
+		}
+		new_character = {
+			d_bet_kafnai = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154028
+				religion = ebionite
+				culture = bene_hamizrah
+				female = yes
+				add_trait = issachar
+			}
+			create_character = {
+				dynasty = 100154028
+				religion = ebionite
+				culture = bene_hamizrah
+				add_trait = issachar
+			}
+			create_character = {
+				dynasty = 100154028
+				religion = ebionite
+				culture = bene_hamizrah
+				female = yes
+				add_trait = issachar
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10032 #Issachar
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_gedalyah status = yes }
+		create_character = {
+			dynasty = 100154029
+			religion = nazarene
+			culture = bene_hamizrah
+			add_trait = issachar
+		}
+		new_character = {
+			d_bet_gedalyah = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154029
+				religion = nazarene
+				culture = bene_hamizrah
+				female = yes
+				add_trait = issachar
+			}
+			create_character = {
+				dynasty = 100154029
+				religion = nazarene
+				culture = bene_hamizrah
+				add_trait = issachar
+			}
+			create_character = {
+				dynasty = 100154029
+				religion = nazarene
+				culture = bene_hamizrah
+				female = yes
+				add_trait = issachar
+			}
+		}
+	}
+}
+
+character_event = {
+	id = Aliyah.10033 #Levi
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_cohen status = yes }
+		create_character = {
+			dynasty = 100154030
+			religion = kariate
+			culture = bene_hamizrah
+			add_trait = levi
+		}
+		new_character = {
+			d_bet_cohen = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154030
+				religion = kariate
+				culture = bene_hamizrah
+				female = yes
+				add_trait = levi
+			}
+			create_character = {
+				dynasty = 100154030
+				religion = kariate
+				culture = bene_hamizrah
+				add_trait = levi
+			}
+			create_character = {
+				dynasty = 100154030
+				religion = kariate
+				culture = bene_hamizrah
+				female = yes
+				add_trait = levi
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10034 #Levi
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_koyen status = yes }
+		create_character = {
+			dynasty = 100154031
+			religion = rabbinic_judaism
+			culture = iberiani
+			add_trait = levi
+		}
+		new_character = {
+			d_bet_koyen = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154031
+				religion = rabbinic_judaism
+				female = yes
+				culture = iberiani
+				add_trait = levi
+			}
+			create_character = {
+				dynasty = 100154031
+				religion = rabbinic_judaism
+				culture = iberiani
+				add_trait = levi
+			}
+			create_character = {
+				dynasty = 100154031
+				religion = rabbinic_judaism
+				female = yes
+				culture = iberiani
+				add_trait = levi
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10035 #Levi
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_sacredote status = yes }
+		create_character = {
+			dynasty = 100154032
+			religion = rabbinic_judaism
+			culture = itali
+			add_trait = levi
+		}
+		new_character = {
+			d_bet_sacredote = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154032
+				religion = rabbinic_judaism
+				female = yes
+				culture = itali
+				add_trait = levi
+			}
+			create_character = {
+				dynasty = 100154032
+				religion = rabbinic_judaism
+				culture = itali
+				add_trait = levi
+			}
+			create_character = {
+				dynasty = 100154032
+				religion = rabbinic_judaism
+				female = yes
+				culture = itali
+				add_trait = levi
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10036 #Manasseh
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_eliezer status = yes }
+		create_character = {
+			dynasty = 100154033
+			religion = samaritan
+			culture = samaritan
+			add_trait = manasseh
+		}
+		new_character = {
+			d_bet_eliezer = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154033
+				religion = samaritan
+				culture = samaritan
+				female = yes
+				add_trait = manasseh
+			}
+			create_character = {
+				dynasty = 100154033
+				religion = samaritan
+				culture = samaritan
+				add_trait = manasseh
+			}
+			create_character = {
+				dynasty = 100154033
+				religion = samaritan
+				culture = samaritan
+				female = yes
+				add_trait = manasseh
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10037 #Manasseh
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_enoch status = yes }
+		create_character = {
+			dynasty = 100154034
+			religion = samaritan
+			culture = samaritan
+			add_trait = manasseh
+		}
+		new_character = {
+			d_bet_enoch = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154034
+				religion = samaritan
+				culture = samaritan
+				female = yes
+				add_trait = manasseh
+			}
+			create_character = {
+				dynasty = 100154034
+				religion = samaritan
+				culture = samaritan
+				add_trait = manasseh
+			}
+			create_character = {
+				dynasty = 100154034
+				religion = samaritan
+				culture = samaritan
+				female = yes
+				add_trait = manasseh
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10038 #Naphatali
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_amnon status = yes }
+		create_character = {
+			dynasty = 100154035
+			religion = kariate
+			culture = bene_hamizrah
+			add_trait = naphatali
+		}
+		new_character = {
+			d_bet_amnon = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154035
+				religion = kariate
+				culture = bene_hamizrah
+				female = yes
+				add_trait = naphatali
+			}
+			create_character = {
+				dynasty = 100154035
+				religion = kariate
+				culture = bene_hamizrah
+				add_trait = naphatali
+			}
+			create_character = {
+				dynasty = 100154035
+				religion = kariate
+				culture = bene_hamizrah
+				female = yes
+				add_trait = naphatali
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10039 #Naphatali
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_chananya status = yes }
+		create_character = {
+			dynasty = 100154036
+			religion = kariate
+			culture = bene_hamizrah
+			add_trait = naphatali
+		}
+		new_character = {
+			d_bet_chananya = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154036
+				religion = kariate
+				culture = bene_hamizrah
+				female = yes
+				add_trait = naphatali
+			}
+			create_character = {
+				dynasty = 100154036
+				religion = kariate
+				culture = bene_hamizrah
+				add_trait = naphatali
+			}
+			create_character = {
+				dynasty = 100154036
+				religion = kariate
+				culture = bene_hamizrah
+				female = yes
+				add_trait = naphatali
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10040 #Naphatali
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_eitan status = yes }
+		create_character = {
+			dynasty = 100154037
+			religion = nazarene
+			culture = bene_hamizrah
+			add_trait = naphatali
+		}
+		new_character = {
+			d_bet_eitan = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154037
+				religion = nazarene
+				culture = bene_hamizrah
+				female = yes
+				add_trait = naphatali
+			}
+			create_character = {
+				dynasty = 100154037
+				religion = nazarene
+				culture = bene_hamizrah
+				add_trait = naphatali
+			}
+			create_character = {
+				dynasty = 100154037
+				religion = nazarene
+				culture = bene_hamizrah
+				female = yes
+				add_trait = naphatali
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10041 #Naphatali
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_cephas status = yes }
+		create_character = {
+			dynasty = 100154038
+			religion = ebionite
+			culture = bene_hamizrah
+			add_trait = naphatali
+		}
+		new_character = {
+			d_bet_cephas = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154038
+				religion = ebionite
+				culture = bene_hamizrah
+				female = yes
+				add_trait = naphatali
+			}
+			create_character = {
+				dynasty = 100154038
+				religion = ebionite
+				culture = bene_hamizrah
+				add_trait = naphatali
+			}
+			create_character = {
+				dynasty = 100154038
+				religion = ebionite
+				culture = bene_hamizrah
+				female = yes
+				add_trait = naphatali
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10042 #Naphatali
+		
+	hide_window = yes	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_shemaryah status = yes }
+		create_character = {
+			dynasty = 100154039
+			religion = kariate
+			culture = bene_hamizrah
+			add_trait = naphatali
+		}
+		new_character = {
+			d_bet_shemaryah = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154039
+				religion = kariate
+				culture = bene_hamizrah
+				female = yes
+				add_trait = naphatali
+			}
+			create_character = {
+				dynasty = 100154039
+				religion = kariate
+				culture = bene_hamizrah
+				add_trait = naphatali
+			}
+			create_character = {
+				dynasty = 100154039
+				religion = kariate
+				culture = bene_hamizrah
+				female = yes
+				add_trait = naphatali
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10043 #Reuven
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_amos status = yes }
+		create_character = {
+			dynasty = 100154040
+			religion = rabbinic_judaism
+			culture = itali
+			add_trait = reuven
+		}
+		new_character = {
+			d_bet_amos = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154040
+				religion = rabbinic_judaism
+				female = yes
+				culture = itali
+				add_trait = reuven
+			}
+			create_character = {
+				dynasty = 100154040
+				religion = rabbinic_judaism
+				culture = itali
+				add_trait = reuven
+			}
+			create_character = {
+				dynasty = 100154040
+				religion = rabbinic_judaism
+				female = yes
+				culture = itali
+				add_trait = reuven
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10044 #Reuven
+		
+	hide_window = yes	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_chanokh status = yes }
+		create_character = {
+			dynasty = 100154041
+			religion = rabbinic_judaism
+			culture = itali
+			add_trait = reuven
+		}
+		new_character = {
+			d_bet_chanokh = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154041
+				religion = rabbinic_judaism
+				culture = itali
+				female = yes
+				add_trait = reuven
+			}
+			create_character = {
+				dynasty = 100154041
+				religion = rabbinic_judaism
+				culture = itali
+				add_trait = reuven
+			}
+			create_character = {
+				dynasty = 100154041
+				religion = rabbinic_judaism
+				culture = itali
+				female = yes
+				add_trait = reuven
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10045 #Reuven
+		
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_elazar status = yes }
+		create_character = {
+			dynasty = 100154042
+			religion = rabbinic_judaism
+			culture = itali
+			add_trait = reuven
+		}
+		new_character = {
+			d_bet_elazar = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154042
+				religion = rabbinic_judaism
+				culture = itali
+				female = yes
+				add_trait = reuven
+			}
+			create_character = {
+				dynasty = 100154042
+				religion = rabbinic_judaism
+				culture = itali
+				add_trait = reuven
+			}
+			create_character = {
+				dynasty = 100154042
+				religion = rabbinic_judaism
+				culture = itali
+				female = yes
+				add_trait = reuven
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10046 #Reuven
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_yehoshua status = yes }
+		create_character = {
+			dynasty = 100154043
+			religion = rabbinic_judaism
+			culture = itali
+			add_trait = reuven
+		}
+		new_character = {
+			d_bet_yehoshua = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154043
+				religion = rabbinic_judaism
+				culture = itali
+				female = yes
+				add_trait = reuven
+			}
+			create_character = {
+				dynasty = 100154043
+				religion = rabbinic_judaism
+				culture = itali
+				add_trait = reuven
+			}
+			create_character = {
+				dynasty = 100154043
+				religion = rabbinic_judaism
+				culture = itali
+				female = yes
+				add_trait = reuven
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10047 #Reuven
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_matiyahu status = yes }
+		create_character = {
+			dynasty = 100154044
+			religion = rabbinic_judaism
+			culture = itali
+			add_trait = reuven
+		}
+		new_character = {
+			d_bet_matiyahu = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154044
+				religion = rabbinic_judaism
+				culture = itali
+				female = yes
+				add_trait = reuven
+			}
+			create_character = {
+				dynasty = 100154044
+				religion = rabbinic_judaism
+				culture = itali
+				add_trait = reuven
+			}
+			create_character = {
+				dynasty = 100154044
+				religion = rabbinic_judaism
+				culture = itali
+				female = yes
+				add_trait = reuven
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10048 #Simeon
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_anat status = yes }
+		create_character = {
+			dynasty = 100154045
+			religion = rabbinic_judaism
+			culture = itali
+			add_trait = simeon
+		}
+		new_character = {
+			d_bet_anat = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154045
+				religion = rabbinic_judaism
+				culture = itali
+				female = yes
+				add_trait = simeon
+			}
+			create_character = {
+				dynasty = 100154045
+				religion = rabbinic_judaism
+				culture = itali
+				add_trait = simeon
+			}
+			create_character = {
+				dynasty = 100154045
+				religion = rabbinic_judaism
+				culture = itali
+				female = yes
+				add_trait = simeon
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10049 #Simeon
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_chavaqquq status = yes }
+		create_character = {
+			dynasty = 100154046
+			religion = rabbinic_judaism
+			culture = itali
+			add_trait = simeon
+		}
+		new_character = {
+			d_bet_chavaqquq = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154046
+				religion = rabbinic_judaism
+				culture = itali
+				female = yes
+				add_trait = simeon
+			}
+			create_character = {
+				dynasty = 100154046
+				religion = rabbinic_judaism
+				culture = itali
+				add_trait = simeon
+			}
+			create_character = {
+				dynasty = 100154046
+				religion = rabbinic_judaism
+				culture = itali
+				female = yes
+				add_trait = simeon
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10050 #Simeon
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_eli status = yes }
+		create_character = {
+			dynasty = 100154047
+			religion = rabbinic_judaism
+			culture = itali
+			add_trait = simeon
+		}
+		new_character = {
+			d_bet_eli = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154047
+				religion = rabbinic_judaism
+				culture = itali
+				female = yes
+				add_trait = simeon
+			}
+			create_character = {
+				dynasty = 100154047
+				religion = rabbinic_judaism
+				culture = itali
+				add_trait = simeon
+			}
+			create_character = {
+				dynasty = 100154047
+				religion = rabbinic_judaism
+				culture = itali
+				female = yes
+				add_trait = simeon
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10051 #Simeon
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_yoshiah status = yes }
+		create_character = {
+			dynasty = 100154048
+			religion = rabbinic_judaism
+			culture = itali
+			add_trait = simeon
+		}
+		new_character = {
+			d_bet_yoshiah = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154048
+				religion = rabbinic_judaism
+				culture = itali
+				female = yes
+				add_trait = simeon
+			}
+			create_character = {
+				dynasty = 100154048
+				religion = rabbinic_judaism
+				culture = itali
+				add_trait = simeon
+			}
+			create_character = {
+				dynasty = 100154048
+				religion = rabbinic_judaism
+				culture = itali
+				female = yes
+				add_trait = simeon
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10052 #Yudah
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_david status = yes }
+		create_character = {
+			dynasty = 100154049
+			religion = kariate
+			culture = bene_hamizrah
+			add_trait = yudah
+			add_trait = davidic_line
+		}
+		new_character = {
+			d_bet_david = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154049
+				religion = kariate
+				culture = bene_hamizrah
+				add_trait = yudah
+				female = yes
+				add_trait = davidic_line
+			}
+			create_character = {
+				dynasty = 100154049
+				religion = kariate
+				culture = bene_hamizrah
+				add_trait = yudah
+				add_trait = davidic_line
+			}
+			create_character = {
+				dynasty = 100154049
+				religion = kariate
+				culture = bene_hamizrah
+				add_trait = yudah
+				female = yes
+				add_trait = davidic_line
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10053 #Yudah
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_dayyon status = yes }
+		create_character = {
+			dynasty = 100154050
+			religion = nazarene
+			culture = bene_hamizrah
+			add_trait = yudah
+			add_trait = davidic_line
+		}
+		new_character = {
+			d_bet_dayyon = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154050
+				religion = nazarene
+				culture = bene_hamizrah
+				add_trait = yudah
+				female = yes
+				add_trait = davidic_line
+			}
+			create_character = {
+				dynasty = 100154050
+				religion = nazarene
+				culture = bene_hamizrah
+				add_trait = yudah
+				add_trait = davidic_line
+			}
+			create_character = {
+				dynasty = 100154050
+				religion = nazarene
+				culture = bene_hamizrah
+				female = yes
+				add_trait = yudah
+				add_trait = davidic_line
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10054 #Yudah
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_yoash status = yes }
+		create_character = {
+			dynasty = 100154051
+			religion = rabbinic_judaism
+			culture = itali
+			add_trait = yudah
+			add_trait = davidic_line
+		}
+		new_character = {
+			d_bet_yoash = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154051
+				religion = rabbinic_judaism
+				culture = itali
+				female = yes
+				add_trait = yudah
+				add_trait = davidic_line
+			}
+			create_character = {
+				dynasty = 100154051
+				religion = rabbinic_judaism
+				culture = itali
+				add_trait = yudah
+				add_trait = davidic_line
+			}
+			create_character = {
+				dynasty = 100154051
+				religion = rabbinic_judaism
+				culture = itali
+				female = yes
+				add_trait = yudah
+				add_trait = davidic_line
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10055 #Yudah
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_shlomo status = yes }
+		create_character = {
+			dynasty = 100154052
+			religion = kariate
+			culture = cochin_jews
+			add_trait = yudah
+			add_trait = davidic_line
+		}
+		new_character = {
+			d_bet_shlomo = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154052
+				religion = kariate
+				culture = cochin_jews
+				female = yes
+				add_trait = yudah
+				add_trait = davidic_line
+			}
+			create_character = {
+				dynasty = 100154052
+				religion = kariate
+				culture = cochin_jews
+				add_trait = yudah
+				add_trait = davidic_line
+			}
+			create_character = {
+				dynasty = 100154052
+				religion = kariate
+				culture = cochin_jews
+				female = yes
+				add_trait = yudah
+				add_trait = davidic_line
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10056 #Zevulun
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_yechezkel status = yes }
+		create_character = {
+			dynasty = 100154053
+			religion = kariate
+			culture = cochin_jews
+			add_trait = zevulun
+		}
+		new_character = {
+			d_bet_yechezkel = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154053
+				religion = kariate
+				culture = cochin_jews
+				female = yes
+				add_trait = zevulun
+			}
+			create_character = {
+				dynasty = 100154053
+				religion = kariate
+				culture = cochin_jews
+				add_trait = zevulun
+			}
+			create_character = {
+				dynasty = 100154053
+				religion = kariate
+				culture = cochin_jews
+				female = yes
+				add_trait = zevulun
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10057 #Zevulun
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_adinah status = yes }
+		create_character = {
+			dynasty = 100154055
+			religion = kariate
+			culture = cochin_jews
+			add_trait = zevulun
+		}
+		new_character = {
+			d_bet_adinah = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154055
+				religion = kariate
+				culture = cochin_jews
+				female = yes
+				add_trait = zevulun
+			}
+			create_character = {
+				dynasty = 100154055
+				religion = kariate
+				culture = cochin_jews
+				add_trait = zevulun
+			}
+			create_character = {
+				dynasty = 100154055
+				religion = kariate
+				culture = cochin_jews
+				female = yes
+				add_trait = zevulun
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10058 #Zevulun
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_elifalet status = yes }
+		create_character = {
+			dynasty = 100154056
+			religion = kariate
+			culture = bene_hamizrah
+			add_trait = zevulun
+		}
+		new_character = {
+			d_bet_elifalet = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154056
+				religion = kariate
+				culture = bene_hamizrah
+				female = yes
+				add_trait = zevulun
+			}
+			create_character = {
+				dynasty = 100154056
+				religion = kariate
+				culture = bene_hamizrah
+				add_trait = zevulun
+			}
+			create_character = {
+				dynasty = 100154056
+				religion = kariate
+				culture = bene_hamizrah
+				female = yes
+				add_trait = zevulun
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10059 #Zevulun
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_gershom status = yes }
+		create_character = {
+			dynasty = 100154057
+			religion = ebionite
+			culture = bene_hamizrah
+			add_trait = zevulun
+		}
+		new_character = {
+			d_bet_gershom = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154057
+				religion = ebionite
+				culture = bene_hamizrah
+				female = yes
+				add_trait = zevulun
+			}
+			create_character = {
+				dynasty = 100154057
+				religion = ebionite
+				culture = bene_hamizrah
+				add_trait = zevulun
+			}
+			create_character = {
+				dynasty = 100154057
+				religion = ebionite
+				culture = bene_hamizrah
+				female = yes
+				add_trait = zevulun
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10060 #Zevulun
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_yitzchak status = yes }
+		create_character = {
+			dynasty = 100154058
+			religion = nazarene
+			culture = bene_hamizrah
+			add_trait = zevulun
+		}
+		new_character = {
+			d_bet_yitzchak = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154058
+				religion = nazarene
+				culture = bene_hamizrah
+				female = yes
+				add_trait = zevulun
+			}
+			create_character = {
+				dynasty = 100154058
+				religion = nazarene
+				culture = bene_hamizrah
+				add_trait = zevulun
+			}
+			create_character = {
+				dynasty = 100154058
+				religion = nazarene
+				culture = bene_hamizrah
+				female = yes
+				add_trait = zevulun
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10061 #Zevulun
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_elchanan status = yes }
+		create_character = {
+			dynasty = 100154059
+			religion = ebionite
+			culture = bene_hamizrah
+			add_trait = zevulun
+		}
+		new_character = {
+			d_bet_elchanan = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154059
+				religion = ebionite
+				culture = bene_hamizrah
+				female = yes
+				add_trait = zevulun
+			}
+			create_character = {
+				dynasty = 100154059
+				religion = ebionite
+				culture = bene_hamizrah
+				add_trait = zevulun
+			}
+			create_character = {
+				dynasty = 100154059
+				religion = ebionite
+				culture = bene_hamizrah
+				female = yes
+				add_trait = zevulun
+			}
+		}
+	}
+}
+character_event = {
+	id = Aliyah.10062 #Beta Yisrael
+		
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		activate_title = { title = d_bet_shemayah status = yes }
+		create_character = {
+			dynasty = 100154060
+			religion = haymanot_judaism
+			culture = beta_yisrael
+			add_trait = dan
+		}
+		new_character = {
+			d_bet_shemayah = {
+				grant_title = PREV
+			}
+			create_character = {
+				dynasty = 100154060
+				religion = haymanot_judaism
+				culture = beta_yisrael
+				female = yes
+				add_trait = dan
+			}
+			create_character = {
+				dynasty = 100154060
+				religion = haymanot_judaism
+				culture = beta_yisrael
+				add_trait = dan
+			}
+			create_character = {
+				dynasty = 100154060
+				religion = haymanot_judaism
+				culture = beta_yisrael
+				female = yes
+				add_trait = dan
+			}
+		}
+	}
+}
+
+#Creation of Israel Associated Events
+character_event = {
+	id = Aliyah.10063
+	title = EVTNAME_Aliyah_10063
+	desc = EVTDESC_Aliyah_10063
+	picture = GFX_evt_jerusalem_captured_jews
+	border = GFX_event_narrative_frame_religion
+		
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10063
+	}
+}
+
+character_event = {
+	id = Aliyah.10064 #Setting City holders to Jewish dynasties and Tribal Trait
+	hidden = yes
+	is_triggered_only = yes
+	
+	any_realm_title = {
+		holding_type = city
+		religion_group = jewish_group
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10064
+		if = { 
+				culture = itali
+				culture = Ashkenazi
+			}
+		random_list = {
+			10 = { 
+				dynasty = 10015440
+				add_trait = reuven
+			}
+			10 = {
+				dynasty = 10015441
+				add_trait = reuven
+			}
+			
+			10 = {
+				dynasty = 10015442
+				add_trait = reuven
+			}
+			10 = {
+				dynasty = 10015443
+				add_trait = reuven
+			}
+			10 = {
+				dynasty = 10015444 
+				add_trait = reuven
+			}
+			10 = {
+				dynasty = 10015445
+				add_trait = simeon
+			}
+			10 = {
+				dynasty = 10015446
+				add_trait = simeon
+			}
+			10 = {
+				dynasty = 10015447
+				add_trait = simeon
+			}
+			10 = {
+				dynasty = 10015448 
+				add_trait = simeon
+			}
+		}
+		if = {
+				culture = iberiani
+				culture = sephardi
+			}
+		random_list = {
+			20 = {
+				dynasty = 10015406
+				add_trait = binyamin
+			}
+			20 = { 
+				dynasty = 10015407
+				add_trait = binyamin
+			}
+			20 = {
+				dynasty = 10015408
+				add_trait = binyamin
+			}
+			20 = {
+				dynasty = 10015409
+				add_trait = binyamin
+			}
+			20 = { 
+				dynasty = 10015410 
+				add_trait = binyamin
+			}
+		}
+		if = {
+				culture = romaniote
+		}
+		random_list = {
+			10 = {
+				dynasty = 1001540
+				add_trait = asher
+			}
+			10 = { 
+				dynasty = 10015401
+				add_trait = asher
+			}
+			10 = {
+				dynasty = 10015402
+				add_trait = asher
+			}
+			10 = {
+				dynasty = 10015403
+				add_trait = asher
+			}
+			10 = { 
+				dynasty = 10015404
+				add_trait = asher
+			}
+		}
+		
+		if = {
+				culture = bene_hamizrah
+			}
+		random_list = {
+			4 = {
+				dynasty = 1001540
+				add_trait = asher
+			}
+			4 = { 
+				dynasty = 10015401
+				add_trait = asher
+			}
+			4 = {
+				dynasty = 10015402
+				add_trait = asher
+			}
+			4 = {
+				dynasty = 10015403
+				add_trait = asher
+			}
+			4 = { 
+				dynasty = 10015404
+				add_trait = asher
+			}
+			4 = {
+				dynasty = 10015405 #5
+				add_trait = asher
+			}
+			4 = {
+				dynasty = 10015411
+				add_trait = dan
+			}
+			4 = { 
+				dynasty = 10015412	
+				add_trait = dan
+			}
+			4 = {
+				dynasty = 10015413 
+				add_trait = dan
+			}
+			4 = {
+				dynasty = 10015414
+				add_trait = dan
+			}
+			4 = { 
+				dynasty = 10015420
+				add_trait = gad
+			}
+			4 = {
+				dynasty = 10015421
+				add_trait = gad
+			}
+			4 = { 
+				dynasty = 10015422
+				add_trait = gad
+			}
+			4 = {
+				dynasty = 10015423
+				add_trait = gad
+			}
+			4 = {
+				dynasty = 10015424 
+				add_trait = gad
+			}
+			4 = { 
+				dynasty = 10015425
+				add_trait = issachar
+			}
+			4 = {
+				dynasty = 10015426
+				add_trait = issachar
+			}
+			4 = { 
+				dynasty = 10015427
+				add_trait = issachar
+			}
+			4 = {
+				dynasty = 10015428
+				add_trait = issachar
+			}
+			4 = {
+				dynasty = 10015429 
+				add_trait = issachar
+			}
+			4 = {
+				dynasty = 10015455
+				add_trait = zevulun
+			}
+			4 = {
+				dynasty = 10015456
+				add_trait = zevulun
+			}
+			4 = {
+				dynasty = 10015457
+				add_trait = zevulun
+			}
+			4 = {
+				dynasty = 10015458 
+				add_trait = zevulun
+			}
+			4 = {
+				dynasty = 10015450
+				add_trait = yudah
+				add_trait = davidic_line
+			}
+		}
+		
+		if = {
+			culture = samaritan
+		}
+		random_list = {
+			20 = {
+				dynasty = 10015416
+				add_trait = efrayim
+			}
+			20 = { 
+				dynasty = 10015417
+				add_trait = efrayim
+			}
+			20 = {
+				dynasty = 10015418
+				add_trait = efrayim
+			}
+			
+			20 = {
+				dynasty = 10015433
+				add_trait = manasseh
+			}
+			20 = {
+				dynasty = 10015434 #2
+				add_trait = manasseh
+			}
+		}
+		
+		if = {
+			culture = cochin_jews
+		}
+		random_list = {
+			10 = { 
+				dynasty = 10015415 #Cochin Jews
+				add_trait = dan
+			}
+			10 = {
+				dynasty = 10015419 #4
+				add_trait = efrayim
+			}
+			10 = {
+				dynasty = 10015452 #4
+				add_trait = yudah
+				add_trait = davidic_line
+			}
+			10 = {
+				dynasty = 10015453
+				add_trait = zevulun
+			}
+			
+			10 = { 
+				dynasty = 10015435
+				add_trait = naphatali
+			}
+			10 = {
+				dynasty = 10015436
+				add_trait = naphatali
+			}
+			10 = {
+				dynasty = 10015437
+				add_trait = naphatali
+			}
+			10 = {
+				dynasty = 10015438
+				add_trait = naphatali
+			}
+			10 = {
+				dynasty = 10015439 #5
+				add_trait = naphatali
+			}
+			10 = {
+				dynasty = 10015454
+				add_trait = zevulun
+			}
+		}
+		
+		if	= {
+				culture = beta_yisrael
+		}
+			dynasty = 10015459
+			add_trait = dan
+}
+
+#on_yearly_pulse 
+character_event = {
+	id = Aliyah.10065 #Setting City holders to Jewish dynasties and Tribal Trait
+	hidden = yes
+	is_triggered_only = yes
+	
+	any_realm_title = {
+		holding_type = city
+		religion_group = jewish_group
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10065
+		if = { 
+				culture = itali
+				culture = Ashkenazi
+			}
+		random_list = {
+			10 = { 
+				dynasty = 10015440
+				add_trait = reuven
+			}
+			10 = {
+				dynasty = 10015441
+				add_trait = reuven
+			}
+			
+			10 = {
+				dynasty = 10015442
+				add_trait = reuven
+			}
+			10 = {
+				dynasty = 10015443
+				add_trait = reuven
+			}
+			10 = {
+				dynasty = 10015444 #5
+				add_trait = reuven
+			}
+			10 = {
+				dynasty = 10015445
+				add_trait = simeon
+			}
+			10 = {
+				dynasty = 10015446
+				add_trait = simeon
+			}
+			10 = {
+				dynasty = 10015447
+				add_trait = simeon
+			}
+			10 = {
+				dynasty = 10015448 #4
+				add_trait = simeon
+			}
+		}
+		if = {
+				culture = iberiani
+				culture = sephardi
+			}
+		random_list = {
+			20 = {
+				dynasty = 10015406
+				add_trait = binyamin
+			}
+			20 = { 
+				dynasty = 10015407
+				add_trait = binyamin
+			}
+			20 = {
+				dynasty = 10015408
+				add_trait = binyamin
+			}
+			20 = {
+				dynasty = 10015409
+				add_trait = binyamin
+			}
+			20 = { 
+				dynasty = 10015410 #5
+				add_trait = binyamin
+			}
+		}
+		if = {
+				culture = romaniote
+		}
+		random_list = {
+			10 = {
+				dynasty = 1001540
+				add_trait = asher
+			}
+			10 = { 
+				dynasty = 10015401
+				add_trait = asher
+			}
+			10 = {
+				dynasty = 10015402
+				add_trait = asher
+			}
+			10 = {
+				dynasty = 10015403
+				add_trait = asher
+			}
+			10 = { 
+				dynasty = 10015404
+				add_trait = asher
+			}
+		}
+		
+		if = {
+				culture = bene_hamizrah
+			}
+			random_list = {
+			random_list = {
+			4 = {
+				dynasty = 1001540
+				add_trait = asher
+			}
+			4 = { 
+				dynasty = 10015401
+				add_trait = asher
+			}
+			4 = {
+				dynasty = 10015402
+				add_trait = asher
+			}
+			4 = {
+				dynasty = 10015403
+				add_trait = asher
+			}
+			4 = { 
+				dynasty = 10015404
+				add_trait = asher
+			}
+			
+		}
+		
+		if = {
+				culture = bene_hamizrah
+			}
+			random_list = {
+			4 = {
+				dynasty = 10015405 #5
+				add_trait = asher
+			}
+			4 = {
+				dynasty = 10015411
+				add_trait = dan
+			}
+			4 = { 
+				dynasty = 10015412	
+				add_trait = dan
+			}
+			4 = {
+				dynasty = 10015413 
+				add_trait = dan
+			}
+			4 = {
+				dynasty = 10015414
+				add_trait = dan
+			}
+			4 = { 
+				dynasty = 10015420
+				add_trait = gad
+			}
+			4 = {
+				dynasty = 10015421
+				add_trait = gad
+			}
+			4 = { 
+				dynasty = 10015422
+				add_trait = gad
+			}
+			4 = {
+				dynasty = 10015423
+				add_trait = gad
+			}
+			4 = {
+				dynasty = 10015424 
+				add_trait = gad
+			}
+			4 = { 
+				dynasty = 10015425
+				add_trait = issachar
+			}
+			4 = {
+				dynasty = 10015426
+				add_trait = issachar
+			}
+			4 = { 
+				dynasty = 10015427
+				add_trait = issachar
+			}
+			4 = {
+				dynasty = 10015428
+				add_trait = issachar
+			}
+			4 = {
+				dynasty = 10015429 
+				add_trait = issachar
+			}
+			4 = {
+				dynasty = 10015455
+				add_trait = zevulun
+			}
+			4 = {
+				dynasty = 10015456
+				add_trait = zevulun
+			}
+			4 = {
+				dynasty = 10015457
+				add_trait = zevulun
+			}
+			4 = {
+				dynasty = 10015458 
+				add_trait = zevulun
+			}
+			4 = {
+				dynasty = 10015450
+				add_trait = yudah
+				add_trait = davidic_line
+			}
+		
+		if = {
+			culture = samaritan
+		}
+		random_list = {
+			20 = {
+				dynasty = 10015416
+				add_trait = efrayim
+			}
+			20 = { 
+				dynasty = 10015417
+				add_trait = efrayim
+			}
+			20 = {
+				dynasty = 10015418
+				add_trait = efrayim
+			}
+			
+			20 = {
+				dynasty = 10015433
+				add_trait = manasseh
+			}
+			20 = {
+				dynasty = 10015434 #2
+				add_trait = manasseh
+			}
+		}
+		
+		if = {
+			culture = cochin_jews
+		}
+		random_list = {
+			10 = { 
+				dynasty = 10015415 #Cochin Jews
+				add_trait = dan
+			}
+			10 = {
+				dynasty = 10015419 #4
+				add_trait = efrayim
+			}
+			10 = {
+				dynasty = 10015452 #4
+				add_trait = yudah
+				add_trait = davidic_line
+			}
+			10 = {
+				dynasty = 10015453
+				add_trait = zevulun
+			}
+			
+			10 = { 
+				dynasty = 10015435
+				add_trait = naphatali
+			}
+			10 = {
+				dynasty = 10015436
+				add_trait = naphatali
+			}
+			10 = {
+				dynasty = 10015437
+				add_trait = naphatali
+			}
+			10 = {
+				dynasty = 10015438
+				add_trait = naphatali
+			}
+			10 = {
+				dynasty = 10015439 #5
+				add_trait = naphatali
+			}
+			10 = {
+				dynasty = 10015454
+				add_trait = zevulun
+			}
+		}
+		
+		if	= {
+				culture = beta_yisrael
+		}
+		dynasty = 10015459
+		add_trait = dan
+			}
+		}
+	}
+}	
+character_event = {
+	id = Aliyah.10066 #Setting Castle holders to Jewish dynasties and Tribal Trait
+	hidden = yes
+	is_triggered_only = yes
+	
+	any_realm_title = {
+		holding_type = castle
+		religion_group = jewish_group
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_66
+		random_list = {
+			25 = {
+				dynasty = 10015449
+				add_trait = yudah
+				add_trait = davidic_line
+			}
+			25 = { 
+				dynasty = 10015450
+				add_trait = yudah
+				add_trait = davidic_line
+			}
+			25 = {
+				dynasty = 10015451
+				add_trait = yudah
+				add_trait = davidic_line
+			}
+			25 = {
+				dynasty = 10015452
+				add_trait = yudah
+				add_trait = davidic_line
+			}
+		}
+	}
+}
+
+#on_yearly_pulse 
+character_event = {
+	id = Aliyah.10067 #Setting Castles holders to Jewish dynasties and Tribal Trait
+	hidden = yes
+	is_triggered_only = yes
+	
+	any_realm_title = {
+		holding_type = castle
+		religion_group = jewish_group
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10067
+		random_list = {
+			25 = {
+				dynasty = 10015449
+				add_trait = yudah
+				add_trait = davidic_line
+			}
+			25 = { 
+				dynasty = 10015450
+				add_trait = yudah
+				add_trait = davidic_line
+			}
+			25 = {
+				dynasty = 10015451
+				add_trait = yudah
+				add_trait = davidic_line
+			}
+			25 = {
+				dynasty = 10015452
+				add_trait = yudah
+				add_trait = davidic_line
+			}
+		}
+	}
+}
+# Creation of Israel
+narrative_event = {
+	id = Aliyah.10068
+	title = EVTNAME_Aliyah_10068
+	desc = EVTDESC_Aliyah_10068
+	picture = GFX_evt_jerusalem_captured_jews
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				ai = no
+			}
+			set_character_flag = achievement_kingdom_of_david
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10068
+		primary_title = {
+			k_israel = {
+				grant_title = ROOT
+				copy_title_laws = PREV
+			}
+			activate_title = { 
+				title = k_exilarch_rabbinic 
+				status = no
+			}
+			activate_title = { 
+				title = k_exilarch_karaite
+				status = no
+			}
+			character_event = { id = Aliyah.10063 }
+		}
+	}
+}
+#Jewish Coming of Age Events
+
+#Bar Mitzvah (Child's event)
+character_event = {
+	id = Aliyah.10100
+	title = EVTNAME_Aliyah_10100
+	desc = EVTDESC_Aliyah_10100
+	picture = GFX_evt_son_asking_father
+	border = GFX_event_normal_frame_religion
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	trigger = {
+		any_child = {
+				is_female = no
+				
+			religion_group = jewish_group
+		}
+			NOT = {
+				age = 15
+				trait = incapable
+			}
+	}
+	
+	option = {
+			name = EVTOPTA_Aliyah_10100
+				mother = {
+					character_event = { id = Aliyah.10101 }
+				}
+				father = { 
+					character_event = { id = Aliyah.10101 }
+				}
+				prestige = 100	
+				set_character_flag = had_bar_mitzvah
+					
+	}
+}
+	
+#Bar Mitzvah (Notifier for Parent)
+character_event = {
+	id = Aliyah.10101
+	title = EVTNAME_Aliyah_10101
+	desc = EVTDESC_Aliyah_10101
+	picture = GFX_evt_son_asking_father
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+		
+
+	option = {
+			name = EVTOPTA_Aliyah_10101
+			prestige = 100
+		}
+}
+	
+#Bat Mitzvah (Child's event)
+character_event = {
+	id = Aliyah.10102
+	title = EVTNAME_Aliyah_10102
+	desc = EVTDESC_Aliyah_10102
+	picture = GFX_evt_daughter_asking_father
+	border = GFX_event_normal_frame_religion
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	trigger = {
+		any_child = {
+				is_female = yes
+				religion_group = jewish_group
+			}
+			NOT = {
+				age = 15
+				trait = incapable
+			}
+		}	
+	option = {
+			name = EVTOPTA_Aliyah_10103
+				mother = {
+					character_event = { id = Aliyah.10103 }
+				}
+				father = { 
+					character_event = { id = Aliyah.10103 }
+				}
+				prestige = 100
+				set_character_flag = had_bat_mitzvah
+	}
+}
+
+#Bat Mitzvah (Notifier for Parent)
+character_event = {
+	id = Aliyah.10104
+	title = EVTNAME_Aliyah_10104
+	desc = EVTDESC_Aliyah_10104
+	picture = GFX_evt_daughter_asking_father
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+		
+	option = {
+			name = EVTOPTA_Aliyah_10104
+			prestige = 100
+		}
+}
+#Expulsion and Welcome Back Events
+
+# Muslims Expelled
+narrative_event = {
+	id = Aliyah.10200
+	title = EVTNAME_Aliyah_10200
+	desc = EVTDESC_Aliyah_10200
+	picture = GFX_evt_jewish_market
+	border = GFX_event_narrative_frame_religion
+	major = no
+		
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10200
+		wealth = 200
+		prestige = -100
+		banish_religion = muslim
+		immediate = {
+
+		hidden_tooltip = {
+			any_realm_lord = {
+				character_event = { id = Aliyah.10202 }
+			}
+		}
+	}
+}
+
+# Muslims Welcomed Back
+narrative_event = {
+	id = Aliyah.10201
+	title = EVTNAME_Aliyah_10201
+	desc = EVTDESC_Aliyah_10201
+	picture = GFX_evt_jewish_market
+	border = GFX_event_narrative_frame_religion
+	major = no
+		
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10201
+		prestige = 50
+		hidden_tooltip = {
+			any_realm_lord = {
+				limit = { ai = no }
+				character_event = { id = Aliyah.10203 }
+			}
+		}
+	}
+}
+
+# Muslims Expelled (Notifier for Vassals)
+character_event = {
+	id = Aliyah.10202
+	title = EVTNAME_Aliyah_10202
+	desc = EVTDESC_Aliyah_10202
+	picture = GFX_evt_jewish_market
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10202
+	}
+}
+
+# Muslims Welcomed Back (Notifier for Vassals)
+character_event = {
+	id = Aliyah.10203
+	title = EVTNAME_Aliyah_10203
+	desc = EVTDESC_Aliyah_10203
+	picture = GFX_evt_jewish_market
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10203
+	}
+}
+
+# Christians Expelled
+narrative_event = {
+	id = Aliyah.10204
+	title = EVTNAME_Aliyah_10204
+	desc = EVTDESC_Aliyah_10204
+	picture = GFX_evt_jewish_market
+	border = GFX_event_narrative_frame_religion
+	major = no
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10204
+		wealth = 200
+		prestige = -100
+		banish_religion = christian
+		hidden_tooltip = {
+			any_realm_lord = {
+				character_event = { id = Aliyah.10206 }
+			}
+		}
+	}
+}
+
+# Christians Welcomed Back
+narrative_event = {
+	id = Aliyah.10205
+	title = EVTNAME_Aliyah_10205
+	desc = EVTDESC_Aliyah_10205
+	picture = GFX_evt_jewish_market
+	border = GFX_event_narrative_frame_religion
+	major = no
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10205
+		prestige = 50
+		hidden_tooltip = {
+			any_realm_lord = {
+				limit = { ai = no }
+				character_event = { id = Aliyah.10207 }
+			}
+		}
+	}
+}
+
+# Christians Expelled (Notifier for Vassals)
+character_event = {
+	id = Aliyah.10206
+	title = EVTNAME_Aliyah_10206
+	desc = EVTDESC_Aliyah_10206
+	picture = GFX_evt_jewish_market
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10206
+	}
+}
+
+# Christians Welcomed Back (Notifier for Vassals)
+character_event = {
+	id = Aliyah.10207
+	title = EVTNAME_Aliyah_10207
+	desc = EVTDESC_Aliyah_10207
+	picture = GFX_evt_jewish_market
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10207
+	}
+}
+
+# Pagans Expelled
+narrative_event = {
+	id = Aliyah.10208
+	title = EVTNAME_Aliyah_10208
+	desc = EVTDESC_Aliyah_10208
+	picture = GFX_evt_jewish_market
+	border = GFX_event_narrative_frame_religion
+	major = no
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10208
+		wealth = 200
+		prestige = -100
+		banish_religion = pagan
+		hidden_tooltip = {
+			any_realm_lord = {
+				character_event = { id = Aliyah.100210 }
+			}
+		}
+	}
+}
+
+# Pagans Welcomed Back
+narrative_event = {
+	id = Aliyah.10209
+	title = EVTNAME_Aliyah_10209
+	desc = EVTDESC_Aliyah_10209
+	picture = GFX_evt_jewish_market
+	border = GFX_event_narrative_frame_religion
+	major = no
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10209
+		prestige = 50
+		hidden_tooltip = {
+			any_realm_lord = {
+				limit = { ai = no }
+				character_event = { id = Aliyah.10211 }
+			}
+		}
+	}
+}
+
+# Pagans Expelled (Notifier for Vassals)
+character_event = {
+	id = Aliyah.10210
+	title = EVTNAME_Aliyah_10210
+	desc = EVTDESC_Aliyah_10210
+	picture = GFX_evt_jewish_market
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_210
+	}
+}
+
+# Pagans Welcomed Back (Notifier for Vassals)
+character_event = {
+	id = Aliyah.10211
+	title = EVTNAME_Aliyah_10211
+	desc = EVTDESC_Aliyah_10211
+	picture = GFX_evt_jewish_market
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10211
+	}
+}
+
+# Zoarastrians Expelled
+narrative_event = {
+	id = Aliyah.10212
+	title = EVTNAME_Aliyah_10212
+	desc = EVTDESC_Aliyah_10212
+	picture = GFX_evt_jewish_market
+	border = GFX_event_narrative_frame_religion
+	major = no
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10212
+		wealth = 200
+		prestige = -100
+		banish_religion = zoroastrian
+		hidden_tooltip = {
+			any_realm_lord = {
+				character_event = { id = Aliyah.10214 }
+			}
+		}
+	}
+}
+
+# Zoarastrians Welcomed Back
+narrative_event = {
+	id = Aliyah.10213
+	title = EVTNAME_Aliyah_10213
+	desc = EVTDESC_Aliyah_10213
+	picture = GFX_evt_jewish_market
+	border = GFX_event_narrative_frame_religion
+	major = no
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10213
+		prestige = 50
+		hidden_tooltip = {
+			any_realm_lord = {
+				limit = { ai = no }
+				character_event = { id = Aliyah.10215 }
+			}
+		}
+	}
+}
+
+# Zoarastrians Expelled (Notifier for Vassals)
+character_event = {
+	id = Aliyah.10214
+	title = EVTNAME_Aliyah_10214
+	desc = EVTDESC_Aliyah_10214
+	picture = GFX_evt_jewish_market
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10214
+	}
+}
+
+# Zoarastrians Welcomed Back (Notifier for Vassals)
+character_event = {
+	id = Aliyah.10215
+	title = EVTNAME_Aliyah_10215
+	desc = EVTDESC_Aliyah_10215
+	picture = GFX_evt_jewish_market
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10215
+	}
+}
+# Indians Expelled
+narrative_event = {
+	id = Aliyah.10216
+	title = EVTNAME_Aliyah_10216
+	desc = EVTDESC_Aliyah_10216
+	picture = GFX_evt_jewish_market
+	border = GFX_event_narrative_frame_religion
+	major = no
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10216
+		wealth = 200
+		prestige = -100
+		banish_religion = indian
+		hidden_tooltip = {
+			any_realm_lord = {
+				character_event = { id = Aliyah.10218 }
+			}
+		}
+	}
+}
+
+# Indians Welcomed Back
+narrative_event = {
+	id = Aliyah.10217
+	title = EVTNAME_Aliyah_10217
+	desc = EVTDESC_Aliyah_10217
+	picture = GFX_evt_jewish_market
+	border = GFX_event_narrative_frame_religion
+	major = no
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10217
+		prestige = 50
+		hidden_tooltip = {
+			any_realm_lord = {
+				limit = { ai = no }
+				character_event = { id = Aliyah.10219 }
+			}
+		}
+	}
+}
+
+# Indians Expelled (Notifier for Vassals)
+character_event = {
+	id = Aliyah.10218
+	title = EVTNAME_Aliyah_10218
+	desc = EVTDESC_Aliyah_10218
+	picture = GFX_evt_jewish_market
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10218
+	}
+}
+
+# Indians Welcomed Back (Notifier for Vassals)
+character_event = {
+	id = Aliyah.10219
+	title = EVTNAME_Aliyah_10219
+	desc = EVTDESC_Aliyah_10219
+	picture = GFX_evt_jewish_market
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10219
+	}
+}
+# Egyptian Pagans Expelled
+#narrative_event = {
+#	id = Aliyah.10220
+#	title = EVTNAME_Aliyah_10220
+#	desc = EVTDESC_Aliyah_220
+#	picture = GFX_evt_jewish_market
+#	border = GFX_event_narrative_frame_religion
+#	major = no
+#	
+#	is_triggered_only = yes
+#	
+#	hide_from = yes
+#	
+#	option = {
+#		name = EVTOPTA_Aliyah_10220
+#		wealth = 200
+#		prestige = -100
+#		banish_religion = egyptian_pagan
+#		hidden_tooltip = {
+#			any_realm_lord = {
+#				character_event = { id = Aliyah.10222 }
+#			}
+#		}
+#	}
+#}
+
+# Egyptian Pagans Welcomed Back
+#narrative_event = {
+#	id = Aliyah.10221
+#	title = EVTNAME_Aliyah_10221
+#	desc = EVTDESC_Aliyah_10221
+#	picture = GFX_evt_jewish_market
+#	border = GFX_event_narrative_frame_religion
+#	major = no
+#	
+#	is_triggered_only = yes
+#	
+#	hide_from = yes
+#	
+#	option = {
+#		name = EVTOPTA_Aliyah_10221
+#		prestige = 50
+#		hidden_tooltip = {
+#			any_realm_lord = {
+#				limit = { ai = no }
+#				character_event = { id = Aliyah.10223 }
+#			}
+#		}
+#	}
+#}
+
+# Egyptian Pagans Expelled (Notifier for Vassals)
+#character_event = {
+#	id = Aliyah.10222
+#	title = EVTNAME_Aliyah_10222
+#	desc = EVTDESC_Aliyah_10222
+#	picture = GFX_evt_jewish_market
+#	border = GFX_event_normal_frame_religion
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = EVTOPTA_Aliyah_10222
+#	}
+#}
+
+# Egyptian Pagans Welcomed Back (Notifier for Vassals)
+#character_event = {
+#	id = Aliyah.10223
+#	title = EVTNAME_Aliyah_10223
+#	desc = EVTDESC_Aliyah_10223
+#	picture = GFX_evt_jewish_market
+#	border = GFX_event_normal_frame_religion
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = EVTOPTA_Aliyah_10219
+#	}
+#}
+# Hellenic Pagans Expelled
+#narrative_event = {
+#	id = Aliyah.10224
+#	title = EVTNAME_Aliyah_10224
+#	desc = EVTDESC_Aliyah_10224
+#	picture = GFX_evt_jewish_market
+#	border = GFX_event_narrative_frame_religion
+#	major = no
+#	
+#	is_triggered_only = yes
+#	
+#	hide_from = yes
+#	
+#	option = {
+#		name = EVTOPTA_Aliyah_10224
+#		wealth = 200
+#		prestige = -100
+#		banish_religion = hellenic_pagan
+#		hidden_tooltip = {
+#			any_realm_lord = {
+#				character_event = { id = Aliyah.10226 }
+#			}
+#		}
+#	}
+#}
+
+# Hellenic Pagans Welcomed Back
+#narrative_event = {
+#	id = Aliyah.10225
+#	title = EVTNAME_Aliyah_10225
+#	desc = EVTDESC_Aliyah_10225
+#	picture = GFX_evt_jewish_market
+#	border = GFX_event_narrative_frame_religion
+#	major = no
+#	
+#	is_triggered_only = yes
+#	
+#	hide_from = yes
+#	
+#	option = {
+#		name = EVTOPTA_Aliyah_10225
+#		prestige = 50
+#		hidden_tooltip = {
+#			any_realm_lord = {
+#				limit = { ai = no }
+#				character_event = { id = Aliyah.10227 }
+#			}
+#		}
+#	}
+#}
+
+# Hellenic Pagans Expelled (Notifier for Vassals)
+#character_event = {
+#	id = Aliyah.10226
+#	title = EVTNAME_Aliyah_10226
+#	desc = EVTDESC_Aliyah_10226
+#	picture = GFX_evt_jewish_market
+#	border = GFX_event_normal_frame_religion
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = EVTOPTA_Aliyah_10226
+#	}
+#}
+
+# Hellenic Pagans Welcomed Back (Notifier for Vassals)
+#character_event = {
+#	id = Aliyah.10227
+#	title = EVTNAME_Aliyah_10227
+#	desc = EVTDESC_Aliyah_10227
+#	picture = GFX_evt_jewish_market
+#	border = GFX_event_normal_frame_religion
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = EVTOPTA_Aliyah_10227
+#	}
+#}
+# MesoAmerican Expelled
+#narrative_event = {
+#	id = Aliyah.10228
+#	title = EVTNAME_Aliyah_10228
+#	desc = EVTDESC_Aliyah_10228
+#	picture = GFX_evt_jewish_market
+#	border = GFX_event_narrative_frame_religion
+#	major = no
+#	
+#	is_triggered_only = yes
+#	
+#	hide_from = yes
+#	
+#	option = {
+#		name = EVTOPTA_Aliyah_10228
+#		wealth = 200
+#		prestige = -100
+#		banish_religion = mesoamerican
+#		hidden_tooltip = {
+#			any_realm_lord = {
+#				character_event = { id = Aliyah.10230 }
+#			}
+#		}
+#	}
+#}
+
+# MesoAmerican Welcomed Back
+#narrative_event = {
+#	id = Aliyah.10229
+#	title = EVTNAME_Aliyah_10229
+#	desc = EVTDESC_Aliyah_10229
+#	picture = GFX_evt_jewish_market
+#	border = GFX_event_narrative_frame_religion
+#	major = no
+#	
+#	is_triggered_only = yes
+#	
+#	hide_from = yes
+#	
+#	option = {
+#		name = EVTOPTA_Aliyah_10229
+#		prestige = 50
+#		hidden_tooltip = {
+#			any_realm_lord = {
+#				limit = { ai = no }
+#				character_event = { id = Aliyah.10231 }
+#			}
+#		}
+#	}
+#}
+
+# MesoAmerican Expelled (Notifier for Vassals)
+#character_event = {
+#	id = Aliyah.10230
+#	title = EVTNAME_Aliyah_10230
+#	desc = EVTDESC_Aliyah_10230
+#	picture = GFX_evt_jewish_market
+#	border = GFX_event_normal_frame_religion
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = EVTOPTA_Aliyah_10230
+#	}
+#}
+
+# MesoAmerican Welcomed Back (Notifier for Vassals)
+#character_event = {
+#	id = Aliyah.10231
+#	title = EVTNAME_Aliyah_10231
+#	desc = EVTDESC_Aliyah_10231
+#	picture = GFX_evt_jewish_market
+#	border = GFX_event_normal_frame_religion
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = EVTOPTA_Aliyah_10231
+#	}
+#}
+########################################
+# Jewish Holy Order Events
+########################################
+
+# The Maccabean Guard are reborn
+narrative_event = {
+	id = Aliyah.10300
+	title = EVTTITLE_Aliyah_10300
+	desc = EVTDESC_Aliyah_10300
+	major = yes
+	
+	picture = GFX_evt_melee
+	
+	only_playable = yes
+	hide_from = yes
+	
+	trigger = {
+		
+		OR = {
+			religion = grand_sanhedrin
+			religion = temple_judaism
+		}
+		
+		is_heretic = no
+		NOT = {
+			is_title_active = b_maccabean_guard
+			has_global_flag = maccabeans_formed
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	immediate = {
+		activate_title = { title = b_maccabean_guard status = yes }
+		if = {
+			limit = { religion = temple_judaism }
+				set_defacto_liege = d_temple_judaism
+		}
+		if = {
+			limit = { religion = grand_sanhedrin }
+				set_defacto_liege = d_grand_sanhedrin
+		}
+				
+		create_character = {
+			random_traits = no
+			dynasty = random
+			religion = ROOT
+			culture = ROOT
+			female = no
+			age = 29
+		}
+		new_character = {
+			wealth = 500
+			b_maccabean_guard = {
+				grant_title = PREV
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 16
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 18
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 18
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 20
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 25
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 26
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 28
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = yes
+				age = 16
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = ROOT
+				female = yes
+				age = 17
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10300
+		set_global_flag = maccabeans_formed
+		trigger = {
+			religion = ROOT
+		}
+	}
+	option = {
+		name = EVTOPTB_Aliyah_10300
+		trigger = {
+			NOT = { religion = ROOT }
+		}
+	}
+}
+
+# The son of a ruler volunteers to join The Maccabean Guard
+character_event = {
+	id = Aliyah.10301
+	desc = EVTDESC_Aliyah_10301
+	picture = GFX_evt_son_asking_father
+	border = GFX_event_normal_frame_religion
+	
+	only_men = yes
+	min_age = 16
+	max_age = 45
+	only_capable = yes
+	prisoner = no
+	
+	trigger = {
+		is_ruler = no
+		religion = jewish
+		is_heretic = no
+		
+		martial = 5
+		
+		is_title_active = b_maccabean_guard
+		
+		OR = {
+			father_even_if_dead = {
+				primary_title = { higher_tier_than = BARON }
+			}
+			mother_even_if_dead = {
+				primary_title = { higher_tier_than = BARON }
+			}
+		}
+		
+		liege = {
+			holy_order = no
+			liege = {
+				holy_order = no
+			}
+		}
+		
+		has_dlc = "Sons of Abraham"
+		
+		NOT = { has_character_modifier = expelled_b_maccabean_guard }
+		NOT = {
+			any_liege = {
+				has_character_modifier = expelled_b_maccabean_guard
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 100
+		modifier = {
+			factor = 0.1025
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.105
+			trait = celibate
+		}
+		modifier = {
+			factor = 0.105
+			trait = homosexual
+		}
+		modifier = {
+			factor = 0.107
+			trait = content
+		}
+		modifier = {
+			factor = 0.1075
+			trait = chaste
+		}
+		modifier = {
+			factor = 0.1075
+			NOT = { age = 25 }
+		}
+		modifier = {
+			factor = 1.105
+			trait = slothful
+		}
+		modifier = {
+			factor = 2.100
+			trait = lustful
+		}
+		modifier = {
+			factor = 2.100
+			trait = cynical
+		}
+		modifier = {
+			factor = 2.100
+			trait = hedonist
+		}
+		modifier = {
+			factor = 2.100
+			trait = ambitious
+		}
+		modifier = {
+			factor = 2.100
+			any_heir_title = {
+				always = yes
+			}
+		}
+		modifier = {
+			factor = 2.100
+			is_primary_heir = yes
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10301 # Ask to go
+		ai_chance = {
+			factor = 100
+		}
+		liege = {
+			character_event = {
+				id = Aliyah.10302
+			}
+		}
+	}
+	option = {
+		name = EVTOPTB_Aliyah_10301 # It's a bad idea
+	}
+}
+
+# Son or brother asks to join The Maccabean Guard
+character_event = {
+	id = Aliyah.10302
+	desc = EVTDESC_Aliyah_10302
+	picture = GFX_evt_son_asking_father
+	border = GFX_event_normal_frame_religion
+	
+		is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10302 # Agree
+		ai_chance = {
+			factor = 100
+		}
+		
+		piety = 100
+		
+		FROM = {
+			character_event = {
+				id = Aliyah.10301
+				tooltip = EVTTOOLTIP_Aliyah_10301
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_Aliyah_10302 # Refuse
+		
+		piety = -100
+		
+		FROM = {
+			character_event = {
+				id = Aliyah.10304
+				tooltip = EVTTOOLTIP_Aliyah_10304
+			}
+		}
+	}
+}
+
+# Son or brother joins the The Maccabean Guard
+character_event = {
+	id = Aliyah.10303
+	desc = EVTDESC_Aliyah_10303
+	picture = GFX_evt_melee
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXCELLENT
+		
+		b_maccabean_guard = {
+			holder_scope = {
+				ROOT = {
+					move_character = PREV
+					hidden_tooltip = {
+						clear_wealth = PREV
+					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 155
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.106400 } } # Notify plotters and family
+					}
+				}
+			}
+		}
+	}
+}
+
+# Liege refuses request to join the The Maccabean Guard
+character_event = {
+	id = Aliyah.10304
+	desc = EVTDESC_Aliyah_10304
+	picture = GFX_evt_son_asking_father
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10304
+		
+		opinion = {
+			who = FROM
+			modifier = opinion_refused_request_holy_order
+		}
+	}
+}
+
+########################################
+# Knights of Khazaria
+########################################
+
+# The Knights of Khazaria are born
+narrative_event = {
+	id = Aliyah.10305
+	title = EVTTITLE_Aliyah_10305
+	desc = EVTDESC_Aliyah_10305
+	major = yes
+	
+	picture = GFX_evt_melee
+	
+	only_playable = yes
+	hide_from = yes
+	
+	trigger = {
+		has_landed_title = k_khazaria
+		OR = {
+			religion = grand_sanhedrin
+			religion = temple_judaism
+		}
+		is_heretic = no
+		NOT = {
+			is_title_active = d_knights_khazaria
+			has_global_flag = knights_khazaria_formed
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	immediate = {
+		activate_title = { title = d_knights_khazaria status = yes }
+		create_character = {
+			random_traits = no
+			dynasty = random
+			religion = ROOT
+			culture = khazar_j
+			female = no
+			age = 29
+		}
+		new_character = {
+			wealth = 500
+			d_knights_khazaria = {
+				grant_title = PREV
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = khazar_j
+				female = no
+				age = 16
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = khazar_j
+				female = no
+				age = 18
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = khazar_j
+				female = no
+				age = 18
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = khazar_j
+				female = no
+				age = 20
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = khazar_j
+				female = no
+				age = 25
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = khazar_j
+				female = no
+				age = 26
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = khazar_j
+				female = no
+				age = 28
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = khazar_j
+				female = yes
+				age = 16
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = khazar_j
+				female = yes
+				age = 17
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10305
+		set_global_flag = knights_khazaria_formed
+		trigger = {
+			religion = ROOT
+		}
+	}
+	option = {
+		name = EVTOPTB_Aliyah_10305
+		trigger = {
+			NOT = { religion = ROOT }
+		}
+	}
+}
+
+# The son of a ruler volunteers to join the Knights of Khazaria
+character_event = {
+	id = Aliyah.10306
+	desc = EVTDESC_Aliyah_10306
+	picture = GFX_evt_son_asking_father
+	border = GFX_event_normal_frame_religion
+	
+	only_men = yes
+	min_age = 16
+	max_age = 45
+	only_capable = yes
+	prisoner = no
+	
+	trigger = {
+		is_ruler = no
+		religion = jewish
+		is_heretic = no
+		
+		martial = 5
+		
+		is_title_active = d_knights_khazaria
+		
+		OR = {
+			father_even_if_dead = {
+				primary_title = { higher_tier_than = BARON }
+			}
+			mother_even_if_dead = {
+				primary_title = { higher_tier_than = BARON }
+			}
+		}
+		
+		liege = {
+			holy_order = no
+			liege = {
+				holy_order = no
+			}
+		}
+		
+	}
+	
+	mean_time_to_happen = {
+		years = 100
+		modifier = {
+			factor = 0.1025
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.105
+			trait = celibate
+		}
+		modifier = {
+			factor = 0.105
+			trait = homosexual
+		}
+		modifier = {
+			factor = 0.107
+			trait = content
+		}
+		modifier = {
+			factor = 0.1075
+			trait = chaste
+		}
+		modifier = {
+			factor = 0.1075
+			NOT = { age = 25 }
+		}
+		modifier = {
+			factor = 1.105
+			trait = slothful
+		}
+		modifier = {
+			factor = 2.100
+			trait = lustful
+		}
+		modifier = {
+			factor = 2.100
+			trait = cynical
+		}
+		modifier = {
+			factor = 2.100
+			trait = hedonist
+		}
+		modifier = {
+			factor = 2.100
+			trait = ambitious
+		}
+		modifier = {
+			factor = 2.100
+			any_heir_title = {
+				always = yes
+			}
+		}
+		modifier = {
+			factor = 2.100
+			is_primary_heir = yes
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10306 # Ask to go
+		ai_chance = {
+			factor = 100
+		}
+		liege = {
+			character_event = {
+				id = Aliyah.10320
+			}
+		}
+	}
+	option = {
+		name = EVTOPTB_Aliyah_10306 # It's a bad idea
+	}
+}
+
+# Son or brother asks to join the Knights of Khazaria
+character_event = {
+	id = Aliyah.10307
+	desc = EVTDESC_Aliyah_10307
+	picture = GFX_evt_son_asking_father
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10307 # Agree
+		ai_chance = {
+			factor = 100
+		}
+		
+		piety = 100
+		
+		FROM = {
+			character_event = {
+				id = Aliyah.10306
+				tooltip = EVTTOOLTIP_Aliyah_10306
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_Aliyah_10307 # Refuse
+		
+		piety = -100
+		
+		FROM = {
+			character_event = {
+				id = Aliyah.10309
+				tooltip = EVTTOOLTIP_Aliyah_10309
+			}
+		}
+	}
+}
+
+# Son or brother joins the the Knights of Khazaria
+character_event = {
+	id = Aliyah.10308
+	desc = EVTDESC_Aliyah_10308
+	picture = GFX_evt_melee
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXCELLENT
+		
+		d_knights_khazaria = {
+			holder_scope = {
+				ROOT = {
+					move_character = PREV
+					hidden_tooltip = {
+						clear_wealth = PREV
+					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 155
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.106400 } } # Notify plotters and family
+					}
+				}
+			}
+		}
+	}
+}
+
+# Liege refuses request to join the Knights of Khazaria
+character_event = {
+	id = Aliyah.10309
+	desc = EVTDESC_Aliyah_10309
+	picture = GFX_evt_son_asking_father
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10309
+		
+		opinion = {
+			who = FROM
+			modifier = opinion_refused_request_holy_order
+		}
+	}
+}
+
+########################################
+# Lions of Solomon
+########################################
+
+# The Lions of Solomon are born
+narrative_event = {
+	id = Aliyah.10310
+	title = EVTTITLE_Aliyah_10310
+	desc = EVTDESC_Aliyah_10310
+	major = yes
+	
+	picture = GFX_evt_melee
+	
+	only_playable = yes
+	hide_from = yes
+	
+	trigger = {
+		has_landed_title = d_axum
+		religion = haymanot_judaism
+		is_heretic = no
+		NOT = {
+			is_title_active = d_shahaz_shlomo
+			has_global_flag = lions_formed
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	immediate = {
+		activate_title = { title = d_shahaz_shlomo status = yes }
+		create_character = {
+			random_traits = no
+			dynasty = random
+			religion = haymanot_judaism
+			culture = beta_yisrael
+			female = no
+			age = 29
+		}
+		new_character = {
+			wealth = 500
+			d_shahaz_shlomo = {
+				grant_title = PREV
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = haymanot_judaism
+				culture = beta_yisrael
+				female = no
+				age = 16
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = haymanot_judaism
+				culture = beta_yisrael
+				female = no
+				age = 18
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = haymanot_judaism
+				culture = beta_yisrael
+				female = no
+				age = 18
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = haymanot_judaism
+				culture = beta_yisrael
+				female = no
+				age = 20
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = haymanot_judaism
+				culture = beta_yisrael
+				female = no
+				age = 25
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = haymanot_judaism
+				culture = beta_yisrael
+				female = no
+				age = 26
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = haymanot_judaism
+				culture = beta_yisrael
+				female = no
+				age = 28
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = haymanot_judaism
+				culture = beta_yisrael
+				female = yes
+				age = 16
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = haymanot_judaism
+				culture = beta_yisrael
+				female = yes
+				age = 17
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10310
+		set_global_flag = lions_formed
+		trigger = {
+			religion = ROOT
+		}
+	}
+	option = {
+		name = EVTOPTB_Aliyah_10310
+		trigger = {
+			NOT = { religion = ROOT }
+		}
+	}
+}
+
+# The son of a ruler volunteers to join the Lions of Solomon
+character_event = {
+	id = Aliyah.10311
+	desc = EVTDESC_Aliyah_10311
+	picture = GFX_evt_son_asking_father
+	border = GFX_event_normal_frame_religion
+	
+	only_men = yes
+	min_age = 16
+	max_age = 45
+	only_capable = yes
+	prisoner = no
+	
+	trigger = {
+		is_ruler = no
+		religion = jewish
+		is_heretic = no
+		
+		martial = 5
+		
+		is_title_active = d_shahaz_shlomo
+		
+		OR = {
+			father_even_if_dead = {
+				primary_title = { higher_tier_than = BARON }
+			}
+			mother_even_if_dead = {
+				primary_title = { higher_tier_than = BARON }
+			}
+		}
+		
+		liege = {
+			holy_order = no
+			liege = {
+				holy_order = no
+			}
+		}
+		
+	}
+	
+	mean_time_to_happen = {
+		years = 100
+		modifier = {
+			factor = 0.1025
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.105
+			trait = celibate
+		}
+		modifier = {
+			factor = 0.105
+			trait = homosexual
+		}
+		modifier = {
+			factor = 0.107
+			trait = content
+		}
+		modifier = {
+			factor = 0.1075
+			trait = chaste
+		}
+		modifier = {
+			factor = 0.1075
+			NOT = { age = 25 }
+		}
+		modifier = {
+			factor = 1.105
+			trait = slothful
+		}
+		modifier = {
+			factor = 2.100
+			trait = lustful
+		}
+		modifier = {
+			factor = 2.100
+			trait = cynical
+		}
+		modifier = {
+			factor = 2.100
+			trait = hedonist
+		}
+		modifier = {
+			factor = 2.100
+			trait = ambitious
+		}
+		modifier = {
+			factor = 2.100
+			any_heir_title = {
+				always = yes
+			}
+		}
+		modifier = {
+			factor = 2.100
+			is_primary_heir = yes
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10311 # Ask to go
+		ai_chance = {
+			factor = 100
+		}
+		liege = {
+			character_event = {
+				id = Aliyah.10312
+			}
+		}
+	}
+	option = {
+		name = EVTOPTB_Aliyah_10311 # It's a bad idea
+	}
+}
+
+# Son or brother asks to join the Lions of Solomon
+character_event = {
+	id = Aliyah.10312
+	desc = EVTDESC_Aliyah_10312
+	picture = GFX_evt_son_asking_father
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10112 # Agree
+		ai_chance = {
+			factor = 100
+		}
+		
+		piety = 100
+		
+		FROM = {
+			character_event = {
+				id = Aliyah.10311
+				tooltip = EVTTOOLTIP_Aliyah_10311
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_Aliyah_10312 # Refuse
+		
+		piety = -100
+		
+		FROM = {
+			character_event = {
+				id = Aliyah.10314
+				tooltip = EVTTOOLTIP_Aliyah_10314
+			}
+		}
+	}
+}
+
+# Son or brother joins the the Lions of Solomon
+character_event = {
+	id = Aliyah.10313
+	desc = EVTDESC_Aliyah_10313
+	picture = GFX_evt_melee
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXCELLENT
+		
+		d_shahaz_shlomo = {
+			holder_scope = {
+				ROOT = {
+					move_character = PREV
+					hidden_tooltip = {
+						clear_wealth = PREV
+					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 155
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.106400 } } # Notify plotters and family
+					}
+				}
+			}
+		}
+	}
+}
+
+# Liege refuses request to join the Lions of Solomon
+character_event = {
+	id = Aliyah.10314
+	desc = EVTDESC_Aliyah_10314
+	picture = GFX_evt_son_asking_father
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10314
+		
+		opinion = {
+			who = FROM
+			modifier = opinion_refused_request_holy_order
+		}
+	}
+}
+
+########################################
+# Knights of Goshen
+########################################
+
+# The Knights of Goshen are born
+narrative_event = {
+	id = Aliyah.10315
+	title = EVTTITLE_Aliyah_10315
+	desc = EVTDESC_Aliyah_10315
+	major = yes
+	
+	picture = GFX_evt_melee
+	
+	only_playable = yes
+	hide_from = yes
+	
+	trigger = {
+		has_landed_title = d_damietta
+		OR = {
+			religion = jewish
+			religion = grand_sanhedrin
+			religion = rabbinic_judaism
+			religion = kariate
+			religion = temple_judaism
+			religion = samaritan
+			religion = haymanot_judaism
+			religion = nazarene
+			religion = ebionite
+		}
+		is_heretic = no
+		NOT = {
+			is_title_active = d_knights_goshen
+			has_global_flag = goshen_formed
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	immediate = {
+		activate_title = { title = d_knights_goshen status = yes }
+		create_character = {
+			random_traits = no
+			dynasty = random
+			religion = ROOT
+			culture = bene_hamizrah
+			female = no
+			age = 29
+		}
+		new_character = {
+			wealth = 500
+			d_knights_goshen = {
+				grant_title = PREV
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 16
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 18
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 18
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 20
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 25
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 26
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 28
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = yes
+				age = 16
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = yes
+				age = 17
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10315
+		set_global_flag = goshen_formed
+		trigger = {
+			religion = ROOT
+		}
+	}
+	option = {
+		name = EVTOPTB_Aliyah_10315
+		trigger = {
+			NOT = { religion = ROOT }
+		}
+	}
+}
+
+# The son of a ruler volunteers to join the Knights of Goshen
+character_event = {
+	id = Aliyah.10316
+	desc = EVTDESC_Aliyah_10316
+	picture = GFX_evt_son_asking_father
+	border = GFX_event_normal_frame_religion
+	
+	only_men = yes
+	min_age = 16
+	max_age = 45
+	only_capable = yes
+	prisoner = no
+	
+	trigger = {
+		is_ruler = no
+		religion = jewish
+		is_heretic = no
+		
+		martial = 5
+		
+		is_title_active = d_knights_goshen
+		
+		OR = {
+			father_even_if_dead = {
+				primary_title = { higher_tier_than = BARON }
+			}
+			mother_even_if_dead = {
+				primary_title = { higher_tier_than = BARON }
+			}
+		}
+		
+		liege = {
+			holy_order = no
+			liege = {
+				holy_order = no
+			}
+		}
+		
+	}
+	
+	mean_time_to_happen = {
+		years = 100
+		modifier = {
+			factor = 0.1025
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.105
+			trait = celibate
+		}
+		modifier = {
+			factor = 0.105
+			trait = homosexual
+		}
+		modifier = {
+			factor = 0.107
+			trait = content
+		}
+		modifier = {
+			factor = 0.1075
+			trait = chaste
+		}
+		modifier = {
+			factor = 0.1075
+			NOT = { age = 25 }
+		}
+		modifier = {
+			factor = 1.105
+			trait = slothful
+		}
+		modifier = {
+			factor = 2.100
+			trait = lustful
+		}
+		modifier = {
+			factor = 2.100
+			trait = cynical
+		}
+		modifier = {
+			factor = 2.100
+			trait = hedonist
+		}
+		modifier = {
+			factor = 2.100
+			trait = ambitious
+		}
+		modifier = {
+			factor = 2.100
+			any_heir_title = {
+				always = yes
+			}
+		}
+		modifier = {
+			factor = 2.100
+			is_primary_heir = yes
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10316 # Ask to go
+		ai_chance = {
+			factor = 100
+		}
+		liege = {
+			character_event = {
+				id = Aliyah.10317
+			}
+		}
+	}
+	option = {
+		name = EVTOPTB_Aliyah_10316 # It's a bad idea
+	}
+}
+
+# Son or brother asks to join the Knights of Goshen
+character_event = {
+	id = Aliyah.10317
+	desc = EVTDESC_Aliyah_10317
+	picture = GFX_evt_son_asking_father
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10317 # Agree
+		ai_chance = {
+			factor = 100
+		}
+		
+		piety = 100
+		
+		FROM = {
+			character_event = {
+				id = Aliyah.10316
+				tooltip = EVTTOOLTIP_Aliyah_10316
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_Aliyah_10317 # Refuse
+		
+		piety = -100
+		
+		FROM = {
+			character_event = {
+				id = Aliyah.10319
+				tooltip = EVTTOOLTIP_Aliyah_10319
+			}
+		}
+	}
+}
+
+# Son or brother joins the the Knights of Goshen
+character_event = {
+	id = Aliyah.10318
+	desc = EVTDESC_Aliyah_10318
+	picture = GFX_evt_melee
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXCELLENT
+		
+		d_shahaz_shlomo = {
+			holder_scope = {
+				ROOT = {
+					move_character = PREV
+					hidden_tooltip = {
+						clear_wealth = PREV
+					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 155
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.106400 } } # Notify plotters and family
+					}
+				}
+			}
+		}
+	}
+}
+
+# Liege refuses request to join the Knights of Goshen
+character_event = {
+	id = Aliyah.10319
+	desc = EVTDESC_Aliyah_10319
+	picture = GFX_evt_son_asking_father
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10319
+		
+		opinion = {
+			who = FROM
+			modifier = opinion_refused_request_holy_order
+		}
+	}
+}
+########################################
+# Martyrs of James the Just
+########################################
+
+# The Martyrs of James the Just are born
+narrative_event = {
+	id = Aliyah.10334
+	title = EVTTITLE_Aliyah_10334
+	desc = EVTDESC_Aliyah_10334
+	major = yes
+	
+	picture = GFX_evt_melee
+	
+	only_playable = yes
+	hide_from = yes
+	
+	trigger = {
+		has_landed_title = k_israel
+		religion = nazarene
+	}
+		is_heretic = no
+		NOT = {
+			is_title_active = d_martyrs_james
+			has_global_flag = martyrs_formed
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	immediate = {
+		activate_title = { title = d_martyrs_james status = yes }
+		create_character = {
+			random_traits = no
+			dynasty = random
+			religion = ROOT
+			culture = bene_hamizrah
+			female = no
+			age = 29
+		}
+		new_character = {
+			wealth = 500
+			d_martyrs_james = {
+				grant_title = PREV
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 16
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 18
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 18
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 20
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 25
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 26
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 28
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = yes
+				age = 16
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = yes
+				age = 17
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10334
+		set_global_flag = martyrs_formed
+		trigger = {
+			religion = ROOT
+		}
+	}
+	option = {
+		name = EVTOPTB_Aliyah_10334
+		trigger = {
+			NOT = { religion = ROOT }
+		}
+	}
+}
+
+# The son of a ruler volunteers to join the Martyrs of James the Just
+character_event = {
+	id = Aliyah.10335
+	desc = EVTDESC_Aliyah_10335
+	picture = GFX_evt_son_asking_father
+	border = GFX_event_normal_frame_religion
+	
+	only_men = yes
+	min_age = 16
+	max_age = 45
+	only_capable = yes
+	prisoner = no
+	
+	trigger = {
+		is_ruler = no
+		religion = jewish
+		is_heretic = no
+		
+		martial = 5
+		
+		is_title_active = d_martyrs_james
+		
+		OR = {
+			father_even_if_dead = {
+				primary_title = { higher_tier_than = BARON }
+			}
+			mother_even_if_dead = {
+				primary_title = { higher_tier_than = BARON }
+			}
+		}
+		
+		liege = {
+			holy_order = no
+			liege = {
+				holy_order = no
+			}
+		}
+		
+	}
+	
+	mean_time_to_happen = {
+		years = 100
+		modifier = {
+			factor = 0.1025
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.105
+			trait = celibate
+		}
+		modifier = {
+			factor = 0.105
+			trait = homosexual
+		}
+		modifier = {
+			factor = 0.107
+			trait = content
+		}
+		modifier = {
+			factor = 0.1075
+			trait = chaste
+		}
+		modifier = {
+			factor = 0.1075
+			NOT = { age = 25 }
+		}
+		modifier = {
+			factor = 1.105
+			trait = slothful
+		}
+		modifier = {
+			factor = 2.100
+			trait = lustful
+		}
+		modifier = {
+			factor = 2.100
+			trait = cynical
+		}
+		modifier = {
+			factor = 2.100
+			trait = hedonist
+		}
+		modifier = {
+			factor = 2.100
+			trait = ambitious
+		}
+		modifier = {
+			factor = 2.100
+			any_heir_title = {
+				always = yes
+			}
+		}
+		modifier = {
+			factor = 2.100
+			is_primary_heir = yes
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10335 # Ask to go
+		ai_chance = {
+			factor = 100
+		}
+		liege = {
+			character_event = {
+				id = Aliyah.10336
+			}
+		}
+	}
+	option = {
+		name = EVTOPTB_Aliyah_10335 # It's a bad idea
+	}
+}
+
+# Son or brother asks to join the Martyrs of James the Just
+character_event = {
+	id = Aliyah.10336
+	desc = EVTDESC_Aliyah_10336
+	picture = GFX_evt_son_asking_father
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10336 # Agree
+		ai_chance = {
+			factor = 100
+		}
+		
+		piety = 100
+		
+		FROM = {
+			character_event = {
+				id = Aliyah.10335
+				tooltip = EVTTOOLTIP_Aliyah_10335
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_Aliyah_10336 # Refuse
+		
+		piety = -100
+		
+		FROM = {
+			character_event = {
+				id = Aliyah.10338
+				tooltip = EVTTOOLTIP_Aliyah_10338
+			}
+		}
+	}
+}
+
+# Son or brother joins the the Martyrs of James the Just
+character_event = {
+	id = Aliyah.10337
+	desc = EVTDESC_Aliyah_10337
+	picture = GFX_evt_melee
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EXCELLENT
+		
+		d_shahaz_shlomo = {
+			holder_scope = {
+				ROOT = {
+					move_character = PREV
+					hidden_tooltip = {
+						clear_wealth = PREV
+					}
+					if = {
+						limit = { trait = in_hiding	}
+						remove_trait = in_hiding
+						clr_character_flag = do_not_disturb
+						add_character_modifier = {
+							name = went_out_of_hiding_timer
+							duration = 155
+							hidden = yes
+						}
+						hidden_tooltip = { character_event = { id = CM.106400 } } # Notify plotters and family
+					}
+				}
+			}
+		}
+	}
+}
+
+# Liege refuses request to join the Martyrs of James the Just
+character_event = {
+	id = Aliyah.10338
+	desc = EVTDESC_Aliyah_10338
+	picture = GFX_evt_son_asking_father
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10338
+		
+		opinion = {
+			who = FROM
+			modifier = opinion_refused_request_holy_order
+		}
+	}
+}
+########################################
+# The Siqariqim
+########################################
+
+# The Siqariqim reborn
+narrative_event = {
+	id = Aliyah.10320
+	title = EVTTITLE_Aliyah_10320
+	desc = EVTDESC_Aliyah_10320
+	major = yes
+	
+	picture = GFX_evt_melee
+	
+	only_playable = yes
+	hide_from = yes
+	
+	trigger = {
+		is_reformed_religion = yes
+		religion_authority = 0.1030
+		OR = {
+			religion = jewish
+			religion = grand_sanhedrin
+			religion = rabbinic_judaism
+			religion = kariate
+			religion = temple_judaism
+			religion = samaritan
+			religion = haymanot_judaism
+		}
+		is_heretic = no
+		NOT = {
+			is_title_active = d_siqariqim
+			has_global_flag = siqariqim_founded
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	immediate = {
+		activate_title = { title = d_siqariqim status = yes }
+		create_character = {
+			random_traits = no
+			dynasty = random
+			religion = ROOT
+			culture = bene_hamizrah
+			female = no
+			age = 29
+		}
+		new_character = {
+			wealth = 500
+			d_siqariqim = {
+				grant_title = PREV
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 16
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 18
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 18
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 20
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 25
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 26
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 28
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = yes
+				age = 16
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = yes
+				age = 17
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10320
+		set_global_flag = "siqariqim_founded"
+		trigger = {
+			religion = ROOT
+		}
+	}
+}
+#Siqariqim Destroyed
+narrative_event = {
+	id = Aliyah.10321
+	title = EVTNAME_Aliyah_10321
+	desc = EVTDESC_Aliyah_10321
+	picture = GFX_evt_shadow
+	border = GFX_event_narrative_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10321 #Siqariqim Destroyed
+		prestige = -100
+		piety = -100
+		wealth = -500
+	}
+}
+
+#Siqariqim Rebuilt
+narrative_event = {
+	id = Aliyah.10322
+	title = EVTNAME_Aliyah_10322
+	desc = EVTDESC_Aliyah_10322
+	picture = GFX_evt_shadow
+	border = GFX_event_narrative_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10322 #Siqariqim Rebuilt
+		prestige = 100
+		piety = 100
+		wealth = -750
+	}
+}
+# Decadent ruler is warned
+character_event = {
+	id = Aliyah.10323
+	desc = "EVTDESC_Aliyah_10323"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	ai = no
+	only_playable = yes
+	only_independent = yes
+	
+	trigger = {
+		not =  { religion_group = jewish_group }
+		NOT = { has_character_flag = expelled_jewish_warning }
+		has_character_modifier = expelled_jewish
+		has_global_flag = siqariqim_founded
+	}
+	
+	mean_time_to_happen = {
+		months = 160
+	}
+	
+	option = {
+		name = "EVTOPTA_Aliyah_10323"
+		set_character_flag = expelled_jewish_warning 
+	}
+}
+
+# Assassins kill random courtier
+character_event = {
+	id = Aliyah.10324
+	desc = "EVTDESC_Aliyah_10324"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	prisoner = no
+	min_age = 16
+	
+	trigger = {
+		is_ruler = no
+		employer = {
+			not =  { religion_group = jewish_group }
+			is_playable = yes
+			independent = yes
+			NOT = { spouse = { character = ROOT } }
+			has_character_flag = expelled_jewish_warning 
+		}
+		
+		ai = yes
+		is_primary_heir = no
+		in_command = no
+		
+		has_global_flag = siqariqim_founded
+	}
+	
+	mean_time_to_happen = {
+		months = 220
+	}
+	
+	option = {
+		name = "OK"
+		liege = { character_event = { id = Aliyah.10324 } }
+	}
+}
+
+# Ruler informed Assassins kill random courtier
+character_event = {
+	id = Aliyah.10325
+	desc = "EVTDESC_Aliyah_10325"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA_Aliyah_10325"
+		FROM = {
+			death = { death_reason = death_siqariqim }
+		}
+		set_character_flag = expelled_jewish_courtier_killed
+	}
+}
+
+# Assassins kill ruler
+character_event = {
+	id = Aliyah.10326
+	desc = "EVTDESC_Aliyah_10326"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	trigger = {
+		not =  { religion_group = jewish_group }
+		has_character_flag = expelled_jewish_courtier_killed
+		has_global_flag = siqariqim_founded
+		NOT = { trait = in_hiding }
+	}
+	
+	mean_time_to_happen = {
+		months = 480
+	}
+	
+	option = {
+		name = "EVTOPTA_Aliyah_10326"
+		death = { death_reason = death_siqariqim }
+	}
+}
+
+##########################
+# War with the Assassins #
+##########################
+
+# Courtier is killed
+character_event = {
+	id = Aliyah.10327
+	desc = "EVTDESC_Aliyah_10327"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	prisoner = no
+	min_age = 16
+	
+	trigger = {
+		is_ruler = no
+		employer = {
+			war = yes
+			is_playable = yes
+			independent = yes
+			prisoner = no
+			not =  { religion_group = jewish_group }
+			NOT = { spouse = { character = ROOT } }
+			d_siqariqim = {
+				holder_scope = {
+					war_with = PREVPREV
+				}
+			}
+		}
+		
+		ai = yes
+		is_primary_heir = no
+		is_pretender = no
+		in_command = no
+		
+		has_global_flag = siqariqim_founded
+	}
+	
+	mean_time_to_happen = {
+		months = 880
+	}
+	
+	option = {
+		name = "OK"
+		if = {
+			limit = { liege = { NOT = { trait = in_hiding } } }
+			random_list = {
+				33 = {
+					liege = {
+						character_event = { id = Aliyah.10328 }
+					}
+				}
+				33 = {
+					liege = {
+						character_event = { id = Aliyah.10329 }
+					}
+				}
+				33 = {
+					liege = {
+						character_event = { id = Aliyah.10330 }
+					}
+				}
+			}
+		}
+		if = {
+			limit = { liege = { trait = in_hiding } }
+			random_list = {
+				50 = {
+					liege = {
+						character_event = { id = Aliyah.10328 }
+					}
+				}
+				50 = {
+					liege = {
+						character_event = { id = Aliyah.10329 }
+					}
+				}
+			}
+		}
+	}
+}
+
+# Assassins kill random courtier 1
+character_event = {
+	id = Aliyah.10328
+	desc = "EVTDESC_Aliyah_10328"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA_Aliyah_10328"
+		FROM = {
+			death = { death_reason = death_siqariqim }
+		}
+	}
+}
+
+# Assassins kill random courtier 2
+character_event = {
+	id = Aliyah.10329
+	desc = "EVTDESC_Aliyah_10329"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA_Aliyah_10329"
+		FROM = {
+			death = { death_reason = death_siqariqim }
+		}
+	}
+}
+
+# Assassins kill random courtier 3
+character_event = {
+	id = Aliyah.10330
+	desc = "EVTDESC_Aliyah_10330"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA_Aliyah_10330"
+		FROM = {
+			death = { death_reason = death_siqariqim }
+		}
+	}
+}
+
+# Assassins warn ruler
+character_event = {
+	id = Aliyah.10331
+	desc = "EVTDESC_Aliyah_10331"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	ai = no
+	only_playable = yes
+	only_independent = yes
+	
+	trigger = {
+		war = yes
+		not =  { religion_group = jewish_group }
+		NOT = { has_character_flag = warned_by_siqariqim }
+		d_siqariqim = {
+			holder_scope = {
+				war_with = ROOT
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 160
+	}
+	
+	option = {
+		name = "EVTOPTA_Aliyah_10331"
+		set_character_flag = warned_by_siqariqim 
+	}
+}
+
+# Assassins kill ruler
+character_event = {
+	id = Aliyah.10332
+	desc = "EVTDESC_Aliyah_10332"
+	picture = "GFX_evt_shadow"
+	border = GFX_event_normal_frame_intrigue
+	
+	trigger = {
+		has_character_flag = warned_by_siqariqim 
+		religion_group = muslim
+		d_siqariqim = {
+			holder_scope = {
+				war_with = ROOT
+			}
+		}
+		NOT = { trait = in_hiding }
+	}
+	
+	mean_time_to_happen = {
+		months = 1400
+	}
+	
+	option = {
+		name = "EVTOPTA_Aliyah_10332"
+		death = { death_reason = death_siqariqim  } 
+	}
+}
+
+
+########################################
+# The Mishkan Guardians
+########################################
+
+# The Mishkan Guardians are born
+narrative_event = {
+	id = Aliyah.10333
+	title = EVTNAME_Aliyah_10333
+	desc = EVTDESC_Aliyah_10333
+	major = yes
+	
+	picture = GFX_evt_melee
+	
+	only_playable = yes
+	hide_from = yes
+	
+	trigger = {
+		is_reformed_religion = yes
+		has_artifact = ark_of_the_covenant
+		OR = {
+			religion = grand_sanhedrin
+			religion = temple_judaism
+			religion = samaritan
+			religion = haymanot_judaism
+			religion = nazarene
+		}
+		
+		is_heretic = no
+		NOT = {
+			is_title_active = d_mishkan_guardians
+			has_global_flag = mishkan_formed
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	immediate = {
+		activate_title = { title = d_mishkan_guardians status = yes }
+		create_character = {
+			random_traits = no
+			dynasty = random
+			religion = ROOT
+			culture = bene_hamizrah
+			female = no
+			age = 29
+		}
+		new_character = {
+			wealth = 500
+			d_siqariqim = {
+				grant_title = PREV
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 16
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 18
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 18
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 20
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 25
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 26
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+				age = 28
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = yes
+				age = 16
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = ROOT
+				culture = bene_hamizrah
+				female = yes
+				age = 17
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10333
+		set_global_flag = mishkan_formed
+		trigger = {
+			religion = ROOT
+		}
+	}
+}
+#Jewish Sins
+
+#Breaking of Kosher Laws
+character_event = {
+	id = Aliyah.10400
+	title = EVTNAME_Aliyah_10400
+	desc = EVTDESC_Aliyah_10400
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_religion
+	
+	trigger = {
+		trait = gluttonous
+		OR = {
+			religion = jewish
+			religion = grand_sanhedrin
+			religion = rabbinic_judaism
+			religion = kariate
+			religion = temple_judaism
+			religion = samaritan
+			religion = haymanot_judaism
+			religion = nazarene
+			religion = ebionite
+		}
+	
+	}
+
+	is_triggered_only = no
+	
+	mean_time_to_happen = {
+		months = 36
+		modifier = {
+			factor = .1075
+			trait = zealous
+		}
+		modifier = {
+			factor = .1025
+			trait = slothful
+		}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10101
+			top_liege = {
+					character_event = { id = Aliyah.10401 }
+			}
+	}
+}
+
+#Liege Notification of Kosher Violation
+character_event = {
+	id = Aliyah.10401
+	title = EVTNAME_Aliyah_10401
+	desc = EVTDESC_Aliyah_10401
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = no
+	
+	option = {
+		name = EVTOPTA_Aliyah_10401 #Repent send to next event
+			FROM = {
+				transfer_scaled_wealth = { to = ROOT value = 0.1025 }
+			}
+			ROOT = {
+				piety = -100
+				prestige = -100
+			}	
+		}
+	option = {
+		name = EVTOPTB_Aliyah_10401 #Ruler helps with purity and sends to next event.10 Ruler must have kind, zealous, or charitable traits
+			imprison = FROM
+			ROOT = {
+				piety = 50
+				prestige = -100
+			}
+	}
+	option = {
+		name = EVTOPTC_Aliyah_10401 #Execution which gives a piety boost, but incurs tyranny and a chance to get the cruel trait
+			FROM = {
+				death = { death_reason = death_execution killer = ROOT }
+				transfer_scaled_wealth = { to = ROOT value = 1.1000 }
+			}
+			ROOT = {
+				piety = 100
+			}
+	option = {
+		name = EVTOPTD_Aliyah_10401 #Send them on a pilgrimage to remove the sinful trait
+		
+	}	
+}
+
+#Adultery
+character_event = {
+	id = Aliyah.10402
+	title = EVTNAME_Aliyah_10402
+	desc = EVTDESC_Aliyah_10402
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_religion
+	
+	trigger = {
+		is_married = yes
+		num_of_lovers = 1
+		any_lover = {
+			NOT = {
+				spouse = {
+					character = ROOT
+				}
+			}
+		}
+		
+		OR = {
+			trait = seducer
+			trait = seductress
+		}
+		OR = {
+			religion = jewish
+			religion = grand_sanhedrin
+			religion = rabbinic_judaism
+			religion = kariate
+			religion = temple_judaism
+			religion = samaritan
+			religion = haymanot_judaism
+			religion = nazarene
+			religion = ebionite
+		}
+	}
+
+	is_triggered_only = no
+	
+	mean_time_to_happen = {
+		months = 1
+		modifier = {
+			factor = .1075
+			trait = zealous
+		}
+		modifier = {
+			factor = .1025
+			trait = slothful
+		}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10402
+			top_liege = {
+				character_event = { id = Aliyah.10403 }
+			}
+			
+	}
+}
+
+#Liege Notification of Adultery
+character_event = {
+	id = Aliyah.10403
+	title = EVTNAME_Aliyah_10403
+	desc = EVTDESC_Aliyah_10403
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = no
+	
+	option = {
+		name = EVTOPTA_Aliyah_10403
+		FROM = {
+				transfer_scaled_wealth = { to = ROOT value = 0.1025 }
+			}
+			ROOT = {
+				piety = -100
+				prestige = -100
+			}	
+	}
+	option = {
+		name = EVTOPTB_Aliyah_10403
+		imprison = FROM
+		ROOT = {
+				piety = 50
+				prestige = -100
+			}
+	}
+	option = {	
+		name = EVTOPTC_Aliyah_10403
+			FROM = {
+				death = { death_reason = death_execution killer = ROOT }
+				transfer_scaled_wealth = { to = ROOT value = 1.1000 }
+			}
+			ROOT = {
+				piety = 100
+			}
+	}	
+}
+
+#Sibling Incest
+character_event = {
+	id = Aliyah.10404
+	title = EVTNAME_Aliyah_10404
+	desc = EVTDESC_Aliyah_10404
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_religion
+	
+	trigger = {
+		any_sibling = {
+			has_lover = yes
+			any_lover = {
+				character = ROOT
+			}
+		}
+		OR = {
+			religion = jewish
+			religion = grand_sanhedrin
+			religion = rabbinic_judaism
+			religion = kariate
+			religion = temple_judaism
+			religion = samaritan
+			religion = haymanot_judaism
+			religion = nazarene
+			religion = ebionite
+		}
+	}
+	
+	is_triggered_only = no
+	
+	mean_time_to_happen = {
+		months = 1
+		modifier = {
+			factor = .1075
+			trait = zealous
+		}
+		modifier = {
+			factor = .1025
+			trait = slothful
+		}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10404
+			top_liege = {
+					character_event = { id = Aliyah.10405 }
+			}
+	}
+}
+
+#Liege Notification of Incest
+character_event = {
+	id = Aliyah.10405
+	title = EVTNAME_Aliyah_10405
+	desc = EVTDESC_Aliyah_10405
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = no
+	
+	option = {
+		name = EVTOPTA_Aliyah_10405
+			FROM = {
+				transfer_scaled_wealth = { to = ROOT value = 0.1025 }
+			}
+			ROOT = {
+				piety = -100
+				prestige = -100
+			}	
+	}
+	option = {	
+		name = EVTOPTB_Aliyah_10405
+			imprison = FROM
+			ROOT = {
+				piety = 50
+				prestige = -100
+			}
+	}
+	option = {
+		name = EVTOPTC_Aliyah_10405
+			FROM = {
+				death = { death_reason = death_execution killer = ROOT }
+				transfer_scaled_wealth = { to = ROOT value = 1.1000 }
+			}
+			ROOT = {
+				piety = 100
+			}
+	}	
+}
+#Father-Daughter Incest
+character_event = {
+	id = Aliyah.10406
+	title = EVTNAME_Aliyah_10406
+	desc = EVTDESC_Aliyah_10406
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_religion
+	
+	trigger = {
+		is_father = yes
+		any_child = {
+			has_lover = yes
+			is_female = yes
+			any_lover = {
+				character = ROOT
+			}
+		}
+		
+		OR = {
+			religion = jewish
+			religion = grand_sanhedrin
+			religion = rabbinic_judaism
+			religion = kariate
+			religion = temple_judaism
+			religion = samaritan
+			religion = haymanot_judaism
+			religion = nazarene
+			religion = ebionite
+		}
+	}
+	
+	is_triggered_only = no
+	
+	mean_time_to_happen = {
+		months = 1
+		modifier = {
+			factor = .1075
+			trait = zealous
+		}
+		modifier = {
+			factor = .1025
+			trait = slothful
+		}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10406
+			top_liege = {
+				character_event = { id = Aliyah.10407 }
+			}
+	}
+}
+
+#Liege Notification of Father-Daughter Incest
+character_event = {
+	id = Aliyah.10407
+	title = EVTNAME_Aliyah_10407
+	desc = EVTDESC_Aliyah_10407
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = no
+	
+	option = {
+		name = EVTOPTA_Aliyah_10407
+			FROM = {
+				transfer_scaled_wealth = { to = ROOT value = 0.1025 }
+			}
+			ROOT = {
+				piety = -100
+				prestige = -100
+			}	
+			
+	}
+	option = {
+		name = EVTOPTB_Aliyah_10407
+			imprison = FROM
+			ROOT = {
+				piety = 50
+				prestige = -100
+			}
+	}
+	option = {
+		name = EVTOPTC_Aliyah_10407
+		FROM = {
+				death = { death_reason = death_execution killer = ROOT }
+				transfer_scaled_wealth = { to = ROOT value = 1.1000 }
+			}
+			ROOT = {
+				piety = 100
+			}
+	}
+		
+}
+
+#Mother-Son Incest
+character_event = {
+	id = Aliyah.10408
+	title = EVTNAME_Aliyah_10408
+	desc = EVTDESC_Aliyah_10408
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_religion
+	
+	trigger = {
+		is_mother = yes
+		any_child = {
+			has_lover = yes
+			is_female = no
+			any_lover = {
+				character = ROOT
+			}
+		}
+		
+		OR = {
+			religion = jewish
+			religion = grand_sanhedrin
+			religion = rabbinic_judaism
+			religion = kariate
+			religion = temple_judaism
+			religion = samaritan
+			religion = haymanot_judaism
+			religion = nazarene
+			religion = ebionite
+		}
+	}
+		
+	is_triggered_only = no
+	
+	mean_time_to_happen = {
+		months = 1
+		modifier = {
+			factor = .1075
+			trait = zealous
+		}
+		modifier = {
+			factor = .1025
+			trait = slothful
+		}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10408
+			top_liege = {
+				character_event = { id = Aliyah.10409 }
+			}
+	}
+}
+
+#Liege Notification of Mother-Son Incest
+character_event = {
+	id = Aliyah.10409
+	title = EVTNAME_Aliyah_10409
+	desc = EVTDESC_Aliyah_10409
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10409
+			FROM = {
+				transfer_scaled_wealth = { to = ROOT value = 0.1025 }
+			}
+			ROOT = {
+				piety = -100
+				prestige = -100
+			}	
+	}
+	option = {
+		name = EVTOPTB_Aliyah_10409 
+			imprison = FROM
+			ROOT = {
+				piety = 50
+				prestige = -100
+			}
+	}
+	option = {
+		name = EVTOPTC_Aliyah_10409
+			FROM = {
+				death = { death_reason = death_execution killer = ROOT }
+				transfer_scaled_wealth = { to = ROOT value = 1.1000 } #remove
+			}
+			ROOT = {
+				piety = 100
+			}
+	}	
+}
+#homosexual
+character_event = {
+	id = Aliyah.10410
+	title = EVTNAME_Aliyah_10410
+	desc = EVTDESC_Aliyah_10410
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_religion
+	
+	trigger = {
+		trait = homosexual
+		OR = {
+			religion = jewish
+			religion = grand_sanhedrin
+			religion = rabbinic_judaism
+			religion = kariate
+			religion = temple_judaism
+			religion = samaritan
+			religion = haymanot_judaism
+			religion = nazarene
+			religion = ebionite
+		}
+	}
+
+	is_triggered_only = no
+	
+	mean_time_to_happen = {
+		months = 1
+		modifier = {
+			factor = .1075
+			trait = zealous
+		}
+		modifier = {
+			factor = .1025
+			trait = slothful
+		}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10410
+			top_liege = {
+				character_event = { id = Aliyah.10411 }
+			}
+	}
+}
+
+#Liege Notification of homosexual
+character_event = {
+	id = Aliyah.10411
+	title = EVTNAME_Aliyah_10411
+	desc = EVTDESC_Aliyah_10411
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10411
+			FROM = {
+				transfer_scaled_wealth = { to = ROOT value = 0.1025 }
+			}
+			ROOT = {
+				piety = -100
+				prestige = -100
+			}	
+	}
+	option = {
+		name = EVTOPTB_Aliyah_10411
+			imprison = FROM
+			ROOT = {
+				piety = 50
+				prestige = -100
+			}
+	}
+	option = {
+		name = EVTOPTC_Aliyah_10411
+			FROM = {
+				death = { death_reason = death_execution killer = ROOT }
+				transfer_scaled_wealth = { to = ROOT value = 1.1000 }
+			}
+			ROOT = {
+				piety = 100
+			}
+	}	
+}
+#Jewish Kohen Sins
+
+#Impure Kohens and Kohen Godal
+character_event = {
+	id = Aliyah.10412
+	title = EVTNAME_Aliyah_10412
+	desc = EVTDESC_Aliyah_10412
+	picture = GFX_evt_synagogue
+	border = GFX_event_normal_frame_religion
+	
+	trigger = {
+		any_dynasty_member = {
+			OR = {
+			
+				dynasty = 10015430
+				dynasty = 10015431
+				dynasty = 10015432
+			}
+		}
+			
+			OR = {
+				trait= lustful
+				trait = gluttonous
+				trait = greedy
+				trait = slothful
+				trait = wroth
+				trait = envious
+				trait = proud
+				trait = arbitrary
+				trait = cruel
+				trait = deceitful
+			}
+			OR = {
+				religion = jewish
+				religion = grand_sanhedrin
+				religion = rabbinic_judaism
+				religion = kariate
+				religion = temple_judaism
+				religion = samaritan
+				religion = haymanot_judaism
+				religion = nazarene
+				religion = ebionite
+			}
+	}
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10412
+			ROOT = {
+				death = { death_reason = execution }
+			}
+			new_character = {
+				grant_title = PREV
+			}
+			create_character = {
+				add_trait = levi
+				random_traits = yes
+				dynasty = 10015430
+				religion = ROOT
+				culture = bene_hamizrah
+				female = no
+			}
+			top_liege = {
+				character_event = { id = Aliyah.10413 }
+			}
+	}
+}
+
+#Liege Notification of Impure Kohen
+character_event = {
+	id = Aliyah.10413
+	title = EVTNAME_Aliyah_10413
+	desc = EVTDESC_Aliyah_10413
+	picture = GFX_evt_synagogue
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10102
+	}
+}
+###Jewish Holy Days
+#Purim Celebration
+character_event = {
+	id = Aliyah.10500
+	title = EVTNAME_Aliyah_10500
+	desc = EVTDESC_Aliyah_10500
+	picture = GFX_evt_synagogue
+	border = GFX_event_normal_frame_religion
+		
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+			name = EVTOPTA_Aliyah_10500
+			add_character_modifier = {
+			name = held_purim_timer
+			duration = 1825
+			hidden = yes
+		}
+	}
+}
+#Shavout	
+character_event = {
+	id = Aliyah.10501
+	title = EVTNAME_Aliyah_10501
+	desc = EVTDESC_Aliyah_10501
+	picture = GFX_evt_synagogue
+	border = GFX_event_normal_frame_religion
+		
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+			name = EVTOPTA_Aliyah_10501
+			add_character_modifier = {
+			name = held_shavuot_timer
+			duration = 1825
+			hidden = yes
+		}
+	}
+}
+#Hanukkah
+character_event = {
+	id = Aliyah.10502
+	title = EVTNAME_Aliyah_10502
+	desc = EVTDESC_Aliyah_10502
+	picture = GFX_evt_synagogue
+	border = GFX_event_normal_frame_religion
+		
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+			name = EVTOPTA_Aliyah_10502
+			add_character_modifier = {
+			name = held_hanukkah_timer
+			duration = 1825
+			hidden = yes
+		}
+	}
+}
+#Rosh Hashanah Celebration
+character_event = {
+	id = Aliyah.10503
+	title = EVTNAME_Aliyah_10503
+	desc = EVTDESC_Aliyah_10503
+	picture = GFX_evt_synagogue
+	border = GFX_event_normal_frame_religion
+		
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+			name = EVTOPTA_Aliyah_10503
+			add_character_modifier = {
+			name = held_rosh_hashanah_timer
+			duration = 1825
+			hidden = yes
+		}
+	}
+}
+#Sukkot Celebration
+character_event = {
+	id = Aliyah.10504
+	title = EVTNAME_Aliyah_10504
+	desc = EVTDESC_Aliyah_10504
+	picture = GFX_evt_synagogue
+	border = GFX_event_normal_frame_religion
+		
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+			name = EVTOPTA_Aliyah_10504
+			add_character_modifier = {
+			name = held_sukkot_timer
+			duration = 1825
+			hidden = yes
+		}
+	}
+}
+#Yom Kippur Celebration
+character_event = {
+	id = Aliyah.10505
+	title = EVTNAME_Aliyah_10505
+	desc = EVTDESC_Aliyah_10505
+	picture = GFX_evt_synagogue
+	border = GFX_event_normal_frame_religion
+		
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+			name = EVTOPTA_Aliyah_10505
+			add_character_modifier = {
+			name = held_yom_kippur_timer
+			duration = 1825
+			hidden = yes
+		}
+	}
+}
+####Rebuilding Jerusalem####
+province_event = {
+	id = Aliyah.10600
+	title = EVTNAME_Aliyah_10600
+	desc = EVTDESC_Aliyah_10600
+	picture = GFX_persepolis_ruin
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10600 # Rebuild just the royal palace.10
+		wealth = -1000
+		774 = {
+			AND = {
+				add_province_modifier = { name = rebuilding_jerusalem_local duration = 730 }
+				add_province_modifier = { local_revolt_risk = -0.105 duration = -1 }
+			}
+			character_event = { id = Aliyah.10601 days = 730}
+		}
+	}
+
+	option = {
+		name = EVTOPTB_Aliyah_10600 # Rebuild the entire city.10
+		wealth = -3000
+		774 = {
+			AND = {
+				add_province_modifier = { name = rebuilding_jerusalem_local duration = 1460 }
+				add_province_modifier = { tax_income = 0.1025 duration = -1 }
+			}
+		}
+		character_event = { id = Aliyah.10601 days = 1460}
+	}
+
+	option = {
+		name = EVTOPTC_Aliyah_10601 # Make it the greatest city there ever was!
+		wealth = -5000
+		immediate = {
+			if = {
+				limit = { has_building = ca_town_6 }
+				add_building = { ca_town_7 }
+			}
+		}
+		774 = {
+			AND = {
+				add_province_modifier = { name = rebuilding_jerusalem_local duration = 2920 }
+				add_province_modifier = { tax_income = 0.1075 duration = -1 }
+				add_province_modifier = { local_revolt_risk = -0.105 duration = -1 }
+			}
+		}
+		character_event = { id = Aliyah.10601 days = 2920}
+	}
+}
+
+####Rebuild Jerusalem 2
+character_event = {
+	id = Aliyah.10601
+	title = EVTNAME_Aliyah_10601
+	desc = EVTDESC_Aliyah_10601
+	picture = GFX_persepolis_built
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10601 #Upper City
+		prestige = 500
+		wealth = -3000
+		set_global_flag = jerusalem_rebuilt
+		b_mirabel = { set_name = "Ayar David" }
+		774 = {
+			AND = {
+				add_province_modifier = { name = jerusalem_upper_city duration = -1 }
+				add_province_modifier = { monthly_character_prestige = 0.105 duration = -1 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTB_Aliyah_10601 #Lower City
+		prestige = 500
+		wealth = -1000
+		set_global_flag = jerusalem_rebuilt
+		b_mirabel= { set_name = "Ayar David" }
+		774 = {
+			AND = {
+				add_province_modifier = { name = jerusalem_lower_city duration = -1 }
+				add_province_modifier = { monthly_character_prestige = 0.1025 duration = -1 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTC_Aliyah_10601 #Gates of Jerusalem
+		prestige = 500
+		wealth = -4000
+		set_global_flag = jerusalem_rebuilt
+		b_mirabel= { set_name = "Ayar David" }
+		774 = {
+			AND = {
+				add_province_modifier = { name = jerusalem_gates duration = -1 }
+				add_province_modifier = { monthly_character_prestige = 0.1075 duration = -1 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTD_Aliyah_10601 #All Three Upgrades
+		prestige = 700
+		wealth = -7000
+		set_global_flag = jerusalem_rebuilt
+		b_mirabel= { set_name = "Ayar David" }
+		774 = {
+			AND = {
+				add_province_modifier = { name = jerusalem_upper_city duration = -1 }
+				add_province_modifier = { name = jerusalem_lower_city duration = -1 }
+				add_province_modifier = { name = jerusalem_gates duration = -1 }
+				add_province_modifier = { monthly_character_prestige = 1.105 duration = -1 }
+			}
+		}
+	}
+	
+}
+
+#Aliyah Melting Pot Events
+# The Iberiani to Sephardi Melting Pot
+character_event = {
+	id = Aliyah.10700
+	desc = EVTDESC_Aliyah_10700
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+	culture = iberiani
+	
+	trigger = {
+		year = 823
+		any_demesne_province = {
+			OR = {
+				culture = basque
+				culture = castillan
+				culture = catalan
+				culture = portuguese
+			}
+			any_province_holding = {
+				NOT = { holding_type = nomad }
+			}
+		}
+		NOT = { government = chinese_imperial_government }
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+		modifier = {
+			factor = 0.75
+			learning = 7
+		}
+		modifier = {
+			factor = 0.75
+			learning = 9
+		}
+		modifier = {
+			factor = 0.75
+			learning = 11
+		}
+		modifier = {
+			factor = 0.75
+			learning = 13
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 3 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { learning = 1 }
+		}
+		modifier = {
+			factor = 0.3
+			OR = {
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots
+				}
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots_and_slower_normal
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_Aliyah_10700
+		culture = english
+		random_demesne_province = {
+			limit = {
+				OR = {
+					culture = basque
+					culture = castillan
+					culture = catalan
+					culture = portuguese
+				}
+				any_province_holding = {
+					NOT = { holding_type = nomad }
+				}
+			}
+			culture = sephardi
+		}
+	}
+}
+
+# It's spreading
+character_event = {
+	id = Aliyah.10701
+	desc = EVTDESC_Aliyah_10701
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+	culture = iberiani
+	
+	trigger = {
+		year = 823
+		any_demesne_province = {
+			OR = {
+				culture = basque
+				culture = castillan
+				culture = catalan
+				culture = portuguese
+			}
+			any_province_holding = {
+				NOT = { holding_type = nomad }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 720
+		modifier = {
+			factor = 0.3
+			OR = {
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots
+				}
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots_and_slower_normal
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_Aliyah_10701
+		random_demesne_province = {
+			limit = {
+				OR = {
+					culture = basque
+					culture = castillan
+					culture = catalan
+					culture = portuguese
+				}
+				any_province_holding = {
+					NOT = { holding_type = nomad }
+				}
+			}
+			culture = sephardi
+		}
+	}
+}
+
+#Make my court speak Hebrew
+character_event = {
+	id = Aliyah.10702
+	desc = EVTDESC_Aliyah_10702
+	picture = GFX_evt_throne_room
+	
+	only_rulers = yes
+	culture = english
+
+	trigger = {
+		year = 823
+		top_liege = {
+			primary_title = {
+				OR = {
+					title = k_andalusia
+					title = k_aragon
+					title = k_asturias
+					title = k_castille
+					title = k_galicia
+					title = k_leon
+					title = k_navarra
+					title = k_portugal
+					title = e_hispania
+				}
+			}
+		}
+		any_courtier = {
+			OR = {
+				culture = basque
+				culture = castillan
+				culture = catalan
+				culture = portuguese
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.3
+			OR = {
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots
+				}
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots_and_slower_normal
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_Aliyah_10702
+		random_courtier = {
+			limit = {
+				OR = {
+					culture = basque
+					culture = castillan
+					culture = catalan
+					culture = portuguese
+				}
+			}
+			culture = sephardi
+			hidden_tooltip = {
+				character_event = { id = 55006 days = 3 }
+			}
+		}
+	}
+}
+
+#Make my vassal speak Hebrew
+character_event = {
+	id = Aliyah.10703
+	desc = EVTDESC_Aliyah_10703
+	picture = GFX_evt_throne_room
+	
+	only_playable = yes
+	culture = iberiani
+
+	trigger = {
+		year = 823
+		independent = no
+		top_liege = {
+			primary_title = {
+				OR = {
+					title = k_andalusia
+					title = k_aragon
+					title = k_asturias
+					title = k_castille
+					title = k_galicia
+					title = k_leon
+					title = k_portugal
+					title = e_hispania
+				}
+			}
+		}
+		any_vassal = {
+			OR = {
+				culture = basque
+				culture = castillan
+				culture = catalan
+				culture = portuguese
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 720
+		modifier = {
+			factor = 0.3
+			OR = {
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots
+				}
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots_and_slower_normal
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_Aliyah_10703
+		random_vassal = {
+			limit = {
+				OR = {
+					culture = basque
+					culture = castillan
+					culture = catalan
+					culture = portuguese
+				}
+			}
+			culture = sephardi
+			hidden_tooltip = {
+				character_event = { id = 55006 days = 3 }
+			}
+		}
+	}
+}
+
+character_event = {
+	id = Aliyah.10704
+	desc = EVTDESC_Aliyah_10704
+	picture = GFX_evt_throne_room
+
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTA_Aliyah_10704
+		culture = sephardi
+	}
+}
+# The Itali to Ashkenazi Melting Pot
+character_event = {
+	id = Aliyah.10705
+	desc = EVTDESC_Aliyah_10705
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+	culture = itali
+	
+	trigger = {
+		year = 823
+		any_demesne_province = {
+			OR = {
+				culture = bohemian
+				culture = bulgarian
+				culture = croatia
+				culture = dutch
+				culture = frankish
+				culture = german
+				culture = hungarian
+				culture = italian
+				culture = lithuanian
+				culture = occitan
+				culture = old_saxon
+				culture = polish
+				culture = pomeranian
+				culture = romanian
+				culture = serbian
+			}
+			any_province_holding = {
+				NOT = { holding_type = nomad }
+			}
+		}
+		NOT = { government = chinese_imperial_government }
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+		modifier = {
+			factor = 0.75
+			learning = 7
+		}
+		modifier = {
+			factor = 0.75
+			learning = 9
+		}
+		modifier = {
+			factor = 0.75
+			learning = 11
+		}
+		modifier = {
+			factor = 0.75
+			learning = 13
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 3 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { learning = 1 }
+		}
+		modifier = {
+			factor = 0.3
+			OR = {
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots
+				}
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots_and_slower_normal
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_Aliyah_10705
+		culture = ashkenazi
+		random_demesne_province = {
+			limit = {
+				OR = {
+					culture = bohemian
+					culture = bulgarian
+					culture = croatia
+					culture = dutch
+					culture = frankish
+					culture = german
+					culture = hungarian
+					culture = italian
+					culture = lithuanian
+					culture = occitan
+					culture = old_saxon
+					culture = polish
+					culture = pomeranian
+					culture = romanian
+					culture = serbian
+				}
+				any_province_holding = {
+					NOT = { holding_type = nomad }
+				}
+			}
+			culture = ashkenazi
+		}
+	}
+}
+
+# It's spreading
+character_event = {
+	id = Aliyah.10706
+	desc = EVTDESC_Aliyah_10706
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+	culture = itali
+	
+	trigger = {
+		year = 823
+		any_demesne_province = {
+			OR = {
+				culture = bohemian
+				culture = bulgarian
+				culture = croatia
+				culture = dutch
+				culture = frankish
+				culture = german
+				culture = hungarian
+				culture = italian
+				culture = lithuanian
+				culture = occitan
+				culture = old_saxon
+				culture = polish
+				culture = pomeranian
+				culture = romanian
+				culture = serbian
+			}
+			any_province_holding = {
+				NOT = { holding_type = nomad }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 720
+		modifier = {
+			factor = 0.3
+			OR = {
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots
+				}
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots_and_slower_normal
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_Aliyah_10706
+		random_demesne_province = {
+			limit = {
+				OR = {
+					culture = bohemian
+					culture = bulgarian
+					culture = croatia
+					culture = dutch
+					culture = frankish
+					culture = german
+					culture = hungarian
+					culture = italian
+					culture = lithuanian
+					culture = occitan
+					culture = old_saxon
+					culture = polish
+					culture = pomeranian
+					culture = romanian
+					culture = serbian
+				}
+				any_province_holding = {
+					NOT = { holding_type = nomad }
+				}
+			}
+			culture = ashkenazi
+		}
+	}
+}
+
+#Make my court speak Hebrew
+character_event = {
+	id = Aliyah.10707
+	desc = EVTDESC_Aliyah_10707
+	picture = GFX_evt_throne_room
+	
+	only_rulers = yes
+	culture = itali
+
+	trigger = {
+		year = 823
+		top_liege = {
+			primary_title = {
+				OR = {
+					title = k_aquitaine
+					title = k_bavaria
+					title = k_bohemia
+					title = k_bulgaria
+					title = k_burgandy
+					title = k_croatia
+					title = k_france
+					title = k_germany
+					title = k_hungary
+					title = k_italy
+					title = k_lithuania
+					title = k_saxony
+					title = k_poland
+					title = k_pomerania
+					title = k_serbia
+					title = k_wallachia
+					title = e_carpathia
+					title = e_france
+					title = e_germany
+					title = e_hre
+					title = e_italy
+					title = e_wendish
+				}
+			}
+		}
+		any_courtier = {
+			OR = {
+				culture = bohemian
+				culture = bulgarian
+				culture = croatia
+				culture = dutch
+				culture = frankish
+				culture = german
+				culture = hungarian
+				culture = italian
+				culture = lithuanian
+				culture = occitan
+				culture = old_saxon
+				culture = polish
+				culture = pomeranian
+				culture = romanian
+				culture = serbian
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.3
+			OR = {
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots
+				}
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots_and_slower_normal
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_Aliyah_10707
+		random_courtier = {
+			limit = {
+				OR = {
+					culture = bohemian
+					culture = bulgarian
+					culture = croatia
+					culture = dutch
+					culture = frankish
+					culture = german
+					culture = hungarian
+					culture = italian
+					culture = lithuanian
+					culture = occitan
+					culture = old_saxon
+					culture = polish
+					culture = pomeranian
+					culture = romanian
+					culture = serbian
+				}
+			}
+			culture = ashkenazi
+			hidden_tooltip = {
+				character_event = { id = 55006 days = 3 }
+			}
+		}
+	}
+}
+
+#Make my vassal speak Hebrew
+character_event = {
+	id = Aliyah.10708
+	desc = EVTDESC_Aliyah_10708
+	picture = GFX_evt_throne_room
+	
+	only_playable = yes
+	culture = itali
+
+	trigger = {
+		year = 823
+		independent = no
+		top_liege = {
+			primary_title = {
+				OR = {
+					title = k_aquitaine
+					title = k_bavaria
+					title = k_bohemia
+					title = k_bulgaria
+					title = k_burgandy
+					title = k_croatia
+					title = k_france
+					title = k_germany
+					title = k_hungary
+					title = k_italy
+					title = k_lithuania
+					title = k_saxony
+					title = k_poland
+					title = k_pomerania
+					title = k_serbia
+					title = k_wallachia
+					title = e_carpathia
+					title = e_france
+					title = e_germany
+					title = e_hre
+					title = e_italy
+					title = e_wendish
+				}
+			}
+		}
+	}
+		any_vassal = {
+			OR = {
+				culture = bohemian
+				culture = bulgarian
+				culture = croatia
+				culture = dutch
+				culture = frankish
+				culture = german
+				culture = hungarian
+				culture = italian
+				culture = lithuanian
+				culture = occitan
+				culture = old_saxon
+				culture = polish
+				culture = pomeranian
+				culture = romanian
+				culture = serbian
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 720
+		modifier = {
+			factor = 0.3
+			OR = {
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots
+				}
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots_and_slower_normal
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_Aliyah_10708
+		random_vassal = {
+			limit = {
+				OR = {
+					culture = bohemian
+					culture = bulgarian
+					culture = croatia
+					culture = dutch
+					culture = frankish
+					culture = german
+					culture = hungarian
+					culture = italian
+					culture = lithuanian
+					culture = occitan
+					culture = old_saxon
+					culture = polish
+					culture = pomeranian
+					culture = romanian
+					culture = serbian
+				}
+			}
+			culture = ashkenazi
+			hidden_tooltip = {
+				character_event = { id = 55006 days = 3 }
+			}
+		}
+	}
+}
+
+character_event = {
+	id = Aliyah.10709
+	desc = EVTDESC_Aliyah_10709
+	picture = GFX_evt_throne_room
+
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTA_Aliyah_10709
+		culture = ashkenazi
+	}
+}
+
+#Aliyah On-Action Events
+#Reformation Events
+#Karaite reformed to Temple Judaism
+narrative_event = {
+	id = Aliyah.10800
+	title = EVTTITLE_Aliyah_10800
+	desc = EVTDESC_Aliyah_10800
+	major = yes
+	picture = GFX_evt_jerusalem_captured_jews
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	major = yes
+	show_ROOT = yes
+	hide_new = yes
+	
+	only_rulers = yes
+	
+	immediate = {
+		set_parent_religion = { religion = karaite parent = temple_judaism }
+		set_global_flag = temple_judaism_reformed
+		activate_title = { title = d_temple_judaism status = yes }
+		create_character = {
+				random_traits = yes
+				name = "Immanuel"
+				dynasty = 10015430
+				religion = temple_judaism
+				culture = bene_hamizrah
+				female = no
+				age = 41
+				trait = levite
+			}
+		new_character = {
+			wealth = 1000
+			d_temple_judaism = {
+				grant_title = PREV
+			}
+		}	
+		if = {
+			limit = { ai = no }
+			set_character_flag = karaite_reformed
+		}
+		any_courtier = {
+			limit = {
+				is_heresy_of = temple_judaism
+				employer = { character = ROOT }
+			}
+			religion = temple_judaism
+		}
+		any_dynasty_member = {
+			limit = {
+				is_heresy_of = temple_judaism
+				is_playable = no
+			}
+			religion = temple_judaism
+		}
+		any_vassal = {
+			limit = {
+				is_playable = no
+				is_heresy_of = temple_judaism
+			}
+			religion = temple_judaism
+		}
+		capital_scope = {
+			if = {
+				limit = { is_heresy_of = temple_judaism }
+				religion = temple_judaism
+			}
+		}
+	}
+		
+	option = {
+		name = "EVTOPTA_Aliyah_10800" # The Reformer
+		trigger = { religion = temple_judaism }
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_PLAYER_REFORMED_RELIGION
+				portrait = [Root.10GetID]
+			}
+			immediate = { 
+				narrative_event = { id = SoA.10550 }
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB_Aliyah_10800" # Rulers of the old Faith - Accept
+		trigger = {
+			is_heresy_of = temple_judaism # The old religion has become a heresy of the Reformed one
+		}
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_OTHER_REFORMED_PLAYERS_RELIGION
+				portrait = [Root.10GetID]
+			}
+		}
+		ai_chance = {
+			factor = 85
+			modifier = {
+				factor = 5
+				any_liege = { religion = karaite }
+			}
+			modifier = {
+				factor = 2
+				same_realm = ROOT
+			}
+			modifier = {
+				factor = 5
+				trait = cynical
+			}
+			modifier = {
+				factor = 10
+				dynasty = ROOT
+			}
+			modifier = {
+				factor = 0.101
+				trait = zealous
+			}
+			modifier = {
+				factor = 0.105
+				trait = content
+			}
+		}
+		
+		religion = temple_judaism
+		
+		hidden_tooltip = {
+			any_courtier = {
+				limit = {
+					is_heresy_of = temple_judaism
+					employer = { character = PREV }
+				}
+				religion = temple_judaism
+			}
+			any_vassal = {
+				limit = {
+					is_playable = no
+					is_heresy_of = temple_judaism
+				}
+				religion = temple_judaism
+			}
+			capital_scope = {
+				if = {
+					limit = { is_heresy_of = temple_judaism }
+					religion = temple_judaism
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTC_Aliyah_10800" # Rulers of the old Faith - Decline
+		trigger = {
+			is_heresy_of = temple_judaism # The old religion has become a heresy of the Reformed one
+		}
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_OTHER_REFORMED_PLAYERS_RELIGION
+				portrait = [Root.10GetID]
+			}
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+			}
+		}
+		
+		tooltip = { religion = THIS }
+	}
+	option = {
+		name = "EVTOPTD_Aliyah_10800" # Other playable rulers
+		trigger = {
+			NOT = { religion = temple_judaism }
+			NOT = { is_heresy_of = temple_judaism }
+		}
+	}
+}
+
+#Rabbinic Judaism reformed to Grand Sanhedrin
+narrative_event = {
+	id = Aliyah.10801
+	title = EVTTITLE_Aliyah_10801
+	desc = EVTDESC_Aliyah_10801
+	major = yes
+	picture = GFX_evt_jerusalem_captured_jews
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	major = yes
+	show_ROOT = yes
+	hide_new = yes
+	
+	only_rulers = yes
+	
+	immediate = {
+		set_parent_religion = { religion = jewish parent = grand_sanhedrin }
+		set_global_flag = grand_sanhedrin
+		activate_title = { title = d_grand_sanhedrin status = yes }
+		create_character = {
+				random_traits = yes
+				name = "Immanuel"
+				dynasty = 10015432
+				religion = grand_sanhedrin
+				culture = ashkenazi
+				female = no
+				age = 41
+			}
+		new_character = {
+			wealth = 1000
+			d_grand_sanhedrin = {
+				grant_title = PREV
+			}
+			b_jerusalem = {
+				grant_title = PREV
+			}
+			set_defacto_liege = k_israel
+		}		
+		if = {
+			limit = { ai = no }
+			set_character_flag = jewish_reformed
+		}
+		any_courtier = {
+			limit = {
+				is_heresy_of = grand_sanhedrin
+				employer = { character = ROOT }
+			}
+			religion = grand_sanhedrin
+		}
+		any_dynasty_member = {
+			limit = {
+				is_heresy_of = grand_sanhedrin
+				is_playable = no
+			}
+			religion = grand_sanhedrin
+		}
+		any_vassal = {
+			limit = {
+				is_playable = no
+				is_heresy_of = grand_sanhedrin
+			}
+			religion = grand_sanhedrin
+		}
+		capital_scope = {
+			if = {
+				limit = { is_heresy_of = grand_sanhedrin }
+				religion = grand_sanhedrin
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTA_Aliyah_10801" # The Reformer
+		trigger = { religion = grand_sanhedrin }
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_PLAYER_REFORMED_RELIGION
+				portrait = [Root.10GetID]
+			}
+			immediate = { 
+				narrative_event = { id = Aliyah.10802 }
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB_Aliyah_10801" # Rulers of the old Faith - Accept
+		trigger = {
+			is_heresy_of = grand_sanhedrin # The old religion has become a heresy of the Reformed one
+		}
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_OTHER_REFORMED_PLAYERS_RELIGION
+				portrait = [Root.10GetID]
+			}
+		}
+		ai_chance = {
+			factor = 85
+			modifier = {
+				factor = 5
+				any_liege = { religion = jewish }
+			}
+			modifier = {
+				factor = 2
+				same_realm = ROOT
+			}
+			modifier = {
+				factor = 5
+				trait = cynical
+			}
+			modifier = {
+				factor = 10
+				dynasty = ROOT
+			}
+			modifier = {
+				factor = 0.101
+				trait = zealous
+			}
+			modifier = {
+				factor = 0.105
+				trait = content
+			}
+		}
+		
+		religion = ROOT
+		
+		hidden_tooltip = {
+			any_courtier = {
+				limit = {
+					is_heresy_of = grand_sanhedrin
+					employer = { character = PREV }
+				}
+				religion = grand_sanhedrin
+			}
+			any_vassal = {
+				limit = {
+					is_playable = no
+					is_heresy_of = grand_sanhedrin
+				}
+				religion = grand_sanhedrin
+			}
+			capital_scope = {
+				if = {
+					limit = { is_heresy_of = grand_sanhedrin }
+					religion = grand_sanhedrin
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTC_Aliyah_10801" # Rulers of the old Faith - Decline
+		trigger = {
+			is_heresy_of = grand_sanhedrin # The old religion has become a heresy of the Reformed one
+		}
+		if = {
+			limit = { ai = no }
+			chronicle = {
+				entry = CHRONICLE_OTHER_REFORMED_PLAYERS_RELIGION
+				portrait = [Root.10GetID]
+			}
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+			}
+		}
+		
+		tooltip = { religion = THIS }
+	}
+	option = {
+		name = "EVTOPTD_Aliyah_10801" # Other playable rulers
+		trigger = {
+			NOT = { religion = grand_sanhedrin }
+			NOT = { is_heresy_of = grand_sanhedrin }
+		}
+	}
+}
+
+#Grand Sanhedrin Event
+narrative_event = {
+	id = Aliyah.10802
+	title = EVTTITLE_Aliyah_10802
+	desc = EVTDESC_Aliyah_10802
+	picture = GFX_evt_synagogue
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_Aliyah_10802
+	}
+}
+#Jewish Courtier Events
+# Jewish Diplomat Appears at Court (Bene HaMizrah)
+character_event = {
+	id = Aliyah.10900
+	desc = EVTDESC_Aliyah_10900
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_religion
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		OR = {
+			religion_group = christian
+			religion_group = muslim
+			religion_group = zoroastrian_group
+			religion_group = jewish_group
+			culture = khazar
+			culture = han
+		}
+		
+		NOT = { has_character_modifier = expelled_jewish }
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 1100
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = bene_hamizrah
+			dynasty = culture
+			religion_group = jewish_group
+			female = no
+			age = 30
+			trait = charismatic_negotiator
+			attributes = {
+				diplomacy = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_trait = socializer
+			remove_trait = gamer
+			remove_trait = hedonist
+			remove_trait = duelist
+			remove_trait = hunter
+			remove_trait = strategist
+			remove_trait = administrator
+			remove_trait = architect
+			remove_trait = gardener
+			remove_trait = schemer
+			remove_trait = impaler
+			remove_trait = seductress
+			remove_trait = scholar
+			remove_trait = theologian
+			remove_trait = mystic
+			random_list = {
+				70 = {
+					add_trait = socializer
+				}
+				30 = {
+					add_trait = socializer
+					add_trait = shrewd
+				}
+			}
+			save_event_target_as = jewish_courtier
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10900
+		custom_tooltip = {
+			text = jewish_courtier_tooltip
+		}
+	}
+}
+
+# Jewish Administrator Appears at Court (Bene HaMizrah)
+character_event = {
+	id = Aliyah.10901
+	desc = EVTDESC_Aliyah_10900
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_religion
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		OR = {
+			religion_group = christian
+			religion_group = muslim
+			religion_group = zoroastrian_group
+			religion_group = jewish_group
+			culture = khazar
+			culture = han
+		}	
+		
+		NOT = { has_character_modifier = expelled_jewish }
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 1100
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = bene_hamizrah
+			dynasty = culture
+			religion_group = jewish_group
+			female = no
+			age = 30
+			trait = fortune_builder
+			attributes = {
+				stewardship = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_trait = socializer
+			remove_trait = gamer
+			remove_trait = hedonist
+			remove_trait = duelist
+			remove_trait = hunter
+			remove_trait = strategist
+			remove_trait = administrator
+			remove_trait = architect
+			remove_trait = gardener
+			remove_trait = schemer
+			remove_trait = impaler
+			remove_trait = seductress
+			remove_trait = scholar
+			remove_trait = theologian
+			remove_trait = mystic
+			random_list = {
+				70 = {
+					add_trait = administrator
+				}
+				30 = {
+					add_trait = administrator
+					add_trait = shrewd
+				}
+			}
+			save_event_target_as = jewish_courtier
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10900
+		custom_tooltip = {
+			text = jewish_courtier_tooltip
+		}
+	}
+}
+
+# Jewish Spy Appears at Court (Bene HaMizrah)
+character_event = {
+	id = Aliyah.10903
+	desc = EVTDESC_Aliyah_10900
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_religion
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		OR = {
+			religion_group = christian
+			religion_group = muslim
+			religion_group = zoroastrian_group
+			religion_group = jewish_group
+			culture = khazar
+			culture = han
+		}
+		
+		NOT = { has_character_modifier = expelled_jewish }
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 1100
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = bene_hamizrah
+			dynasty = culture
+			religion_group = jewish_group
+			female = no
+			age = 30
+			trait = intricate_webweaver
+			attributes = {
+				intrigue = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_trait = socializer
+			remove_trait = gamer
+			remove_trait = hedonist
+			remove_trait = duelist
+			remove_trait = hunter
+			remove_trait = strategist
+			remove_trait = administrator
+			remove_trait = architect
+			remove_trait = gardener
+			remove_trait = schemer
+			remove_trait = impaler
+			remove_trait = seductress
+			remove_trait = scholar
+			remove_trait = theologian
+			remove_trait = mystic
+			random_list = {
+				70 = {
+					add_trait = schemer
+				}
+				30 = {
+					add_trait = schemer
+					add_trait = shrewd
+				}
+			}
+			save_event_target_as = jewish_courtier
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10900
+		custom_tooltip = {
+			text = jewish_courtier_tooltip
+		}
+	}
+}
+# Jewish Diplomat Appears at Court (Itali)
+character_event = {
+	id = Aliyah.10904
+	desc = EVTDESC_Aliyah_10900
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_religion
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		OR = {
+			religion_group = christian
+			religion_group = muslim
+			religion_group = zoroastrian_group
+			religion_group = jewish_group
+			culture = khazar
+			culture = han
+		}
+		
+		NOT = { has_character_modifier = expelled_jewish }
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 1100
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = itali
+			dynasty = culture
+			religion_group = jewish_group
+			female = no
+			age = 30
+			trait = charismatic_negotiator
+			attributes = {
+				diplomacy = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_trait = socializer
+			remove_trait = gamer
+			remove_trait = hedonist
+			remove_trait = duelist
+			remove_trait = hunter
+			remove_trait = strategist
+			remove_trait = administrator
+			remove_trait = architect
+			remove_trait = gardener
+			remove_trait = schemer
+			remove_trait = impaler
+			remove_trait = seductress
+			remove_trait = scholar
+			remove_trait = theologian
+			remove_trait = mystic
+			random_list = {
+				70 = {
+					add_trait = socializer
+				}
+				30 = {
+					add_trait = socializer
+					add_trait = shrewd
+				}
+			}
+			save_event_target_as = jewish_courtier
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10900
+		custom_tooltip = {
+			text = jewish_courtier_tooltip
+		}
+	}
+}
+
+# Jewish Administrator Appears at Court (Itali)
+character_event = {
+	id = Aliyah.10905
+	desc = EVTDESC_Aliyah_10900
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_religion
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		OR = {
+			religion_group = christian
+			religion_group = muslim
+			religion_group = zoroastrian_group
+			religion_group = jewish_group
+			culture = khazar
+			culture = han
+		}	
+		
+		NOT = { has_character_modifier = expelled_jewish }
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 1100
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = itali
+			dynasty = culture
+			religion_group = jewish_group
+			female = no
+			age = 30
+			trait = fortune_builder
+			attributes = {
+				stewardship = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_trait = socializer
+			remove_trait = gamer
+			remove_trait = hedonist
+			remove_trait = duelist
+			remove_trait = hunter
+			remove_trait = strategist
+			remove_trait = administrator
+			remove_trait = architect
+			remove_trait = gardener
+			remove_trait = schemer
+			remove_trait = impaler
+			remove_trait = seductress
+			remove_trait = scholar
+			remove_trait = theologian
+			remove_trait = mystic
+			random_list = {
+				70 = {
+					add_trait = administrator
+				}
+				30 = {
+					add_trait = administrator
+					add_trait = shrewd
+				}
+			}
+			save_event_target_as = jewish_courtier
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10900
+		custom_tooltip = {
+			text = jewish_courtier_tooltip
+		}
+	}
+}
+
+# Jewish Spy Appears at Court (Itali)
+character_event = {
+	id = Aliyah.10906
+	desc = EVTDESC_Aliyah_10900
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_religion
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		OR = {
+			religion_group = christian
+			religion_group = muslim
+			religion_group = zoroastrian_group
+			religion_group = jewish_group
+			culture = khazar
+			culture = han
+		}
+		
+		NOT = { has_character_modifier = expelled_jewish }
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 1100
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = itali
+			dynasty = culture
+			religion_group = jewish_group
+			female = no
+			age = 30
+			trait = intricate_webweaver
+			attributes = {
+				intrigue = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_trait = socializer
+			remove_trait = gamer
+			remove_trait = hedonist
+			remove_trait = duelist
+			remove_trait = hunter
+			remove_trait = strategist
+			remove_trait = administrator
+			remove_trait = architect
+			remove_trait = gardener
+			remove_trait = schemer
+			remove_trait = impaler
+			remove_trait = seductress
+			remove_trait = scholar
+			remove_trait = theologian
+			remove_trait = mystic
+			random_list = {
+				70 = {
+					add_trait = schemer
+				}
+				30 = {
+					add_trait = schemer
+					add_trait = shrewd
+				}
+			}
+			save_event_target_as = jewish_courtier
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10900
+		custom_tooltip = {
+			text = jewish_courtier_tooltip
+		}
+	}
+}
+# Jewish Diplomat Appears at Court (Iberiani)
+character_event = {
+	id = Aliyah.10907
+	desc = EVTDESC_Aliyah_10900
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_religion
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		OR = {
+			religion_group = christian
+			religion_group = muslim
+			religion_group = zoroastrian_group
+			religion_group = jewish_group
+			culture = khazar
+			culture = han
+		}
+		
+		NOT = { has_character_modifier = expelled_jewish }
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 1100
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = iberiani
+			dynasty = culture
+			religion_group = jewish_group
+			female = no
+			age = 30
+			trait = charismatic_negotiator
+			attributes = {
+				diplomacy = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_trait = socializer
+			remove_trait = gamer
+			remove_trait = hedonist
+			remove_trait = duelist
+			remove_trait = hunter
+			remove_trait = strategist
+			remove_trait = administrator
+			remove_trait = architect
+			remove_trait = gardener
+			remove_trait = schemer
+			remove_trait = impaler
+			remove_trait = seductress
+			remove_trait = scholar
+			remove_trait = theologian
+			remove_trait = mystic
+			random_list = {
+				70 = {
+					add_trait = socializer
+				}
+				30 = {
+					add_trait = socializer
+					add_trait = shrewd
+				}
+			}
+			save_event_target_as = jewish_courtier
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10900
+		custom_tooltip = {
+			text = jewish_courtier_tooltip
+		}
+	}
+}
+
+# Jewish Administrator Appears at Court (Iberiani)
+character_event = {
+	id = Aliyah.10908
+	desc = EVTDESC_Aliyah_10900
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_religion
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		OR = {
+			religion_group = christian
+			religion_group = muslim
+			religion_group = zoroastrian_group
+			religion_group = jewish_group
+			culture = khazar
+			culture = han
+		}	
+		
+		NOT = { has_character_modifier = expelled_jewish }
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 1100
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = iberiani
+			dynasty = culture
+			religion_group = jewish_group
+			female = no
+			age = 30
+			trait = fortune_builder
+			attributes = {
+				stewardship = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_trait = socializer
+			remove_trait = gamer
+			remove_trait = hedonist
+			remove_trait = duelist
+			remove_trait = hunter
+			remove_trait = strategist
+			remove_trait = administrator
+			remove_trait = architect
+			remove_trait = gardener
+			remove_trait = schemer
+			remove_trait = impaler
+			remove_trait = seductress
+			remove_trait = scholar
+			remove_trait = theologian
+			remove_trait = mystic
+			random_list = {
+				70 = {
+					add_trait = administrator
+				}
+				30 = {
+					add_trait = administrator
+					add_trait = shrewd
+				}
+			}
+			save_event_target_as = jewish_courtier
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10900
+		custom_tooltip = {
+			text = jewish_courtier_tooltip
+		}
+	}
+}
+
+# Jewish Spy Appears at Court (Iberiani)
+character_event = {
+	id = Aliyah.10909
+	desc = EVTDESC_Aliyah_10900
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_religion
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		OR = {
+			religion_group = christian
+			religion_group = muslim
+			religion_group = zoroastrian_group
+			religion_group = jewish_group
+			culture = khazar
+			culture = han
+		}
+		
+		NOT = { has_character_modifier = expelled_jewish }
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 1100
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = iberiani
+			dynasty = culture
+			religion_group = jewish_group
+			female = no
+			age = 30
+			trait = intricate_webweaver
+			attributes = {
+				intrigue = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_trait = socializer
+			remove_trait = gamer
+			remove_trait = hedonist
+			remove_trait = duelist
+			remove_trait = hunter
+			remove_trait = strategist
+			remove_trait = administrator
+			remove_trait = architect
+			remove_trait = gardener
+			remove_trait = schemer
+			remove_trait = impaler
+			remove_trait = seductress
+			remove_trait = scholar
+			remove_trait = theologian
+			remove_trait = mystic
+			random_list = {
+				70 = {
+					add_trait = schemer
+				}
+				30 = {
+					add_trait = schemer
+					add_trait = shrewd
+				}
+			}
+			save_event_target_as = jewish_courtier
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10900
+		custom_tooltip = {
+			text = jewish_courtier_tooltip
+		}
+	}
+}
+# Jewish Diplomat Appears at Court (Khazarian Jews)
+character_event = {
+	id = Aliyah.10910
+	desc = EVTDESC_Aliyah_10900
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_religion
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		OR = {
+			religion_group = christian
+			religion_group = muslim
+			religion_group = zoroastrian_group
+			religion_group = jewish_group
+			culture = khazar
+			culture = han
+		}
+		
+		NOT = { has_character_modifier = expelled_jewish }
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 1100
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = khazar_j
+			dynasty = culture
+			religion_group = jewish_group
+			female = no
+			age = 30
+			trait = charismatic_negotiator
+			attributes = {
+				diplomacy = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_trait = socializer
+			remove_trait = gamer
+			remove_trait = hedonist
+			remove_trait = duelist
+			remove_trait = hunter
+			remove_trait = strategist
+			remove_trait = administrator
+			remove_trait = architect
+			remove_trait = gardener
+			remove_trait = schemer
+			remove_trait = impaler
+			remove_trait = seductress
+			remove_trait = scholar
+			remove_trait = theologian
+			remove_trait = mystic
+			random_list = {
+				70 = {
+					add_trait = socializer
+				}
+				30 = {
+					add_trait = socializer
+					add_trait = shrewd
+				}
+			}
+			save_event_target_as = jewish_courtier
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10900
+		custom_tooltip = {
+			text = jewish_courtier_tooltip
+		}
+	}
+}
+
+# Jewish Administrator Appears at Court (Khazarian Jews)
+character_event = {
+	id = Aliyah.10911
+	desc = EVTDESC_Aliyah_10900
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_religion
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		OR = {
+			religion_group = christian
+			religion_group = muslim
+			religion_group = zoroastrian_group
+			religion_group = jewish_group
+			culture = khazar
+			culture = han
+		}	
+		
+		NOT = { has_character_modifier = expelled_jewish }
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 1100
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = khazar_j
+			dynasty = culture
+			religion_group = jewish_group
+			female = no
+			age = 30
+			trait = fortune_builder
+			attributes = {
+				stewardship = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_trait = socializer
+			remove_trait = gamer
+			remove_trait = hedonist
+			remove_trait = duelist
+			remove_trait = hunter
+			remove_trait = strategist
+			remove_trait = administrator
+			remove_trait = architect
+			remove_trait = gardener
+			remove_trait = schemer
+			remove_trait = impaler
+			remove_trait = seductress
+			remove_trait = scholar
+			remove_trait = theologian
+			remove_trait = mystic
+			random_list = {
+				70 = {
+					add_trait = administrator
+				}
+				30 = {
+					add_trait = administrator
+					add_trait = shrewd
+				}
+			}
+			save_event_target_as = jewish_courtier
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10900
+		custom_tooltip = {
+			text = jewish_courtier_tooltip
+		}
+	}
+}
+
+# Jewish Spy Appears at Court (Khazarian Jews)
+character_event = {
+	id = Aliyah.10912
+	desc = EVTDESC_Aliyah_10900
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_religion
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		OR = {
+			religion_group = christian
+			religion_group = muslim
+			religion_group = zoroastrian_group
+			religion_group = jewish_group
+			culture = khazar
+			culture = han
+		}
+		
+		NOT = { has_character_modifier = expelled_jewish }
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 1100
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = khazar_j
+			dynasty = culture
+			religion_group = jewish_group
+			female = no
+			age = 30
+			trait = intricate_webweaver
+			attributes = {
+				intrigue = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_trait = socializer
+			remove_trait = gamer
+			remove_trait = hedonist
+			remove_trait = duelist
+			remove_trait = hunter
+			remove_trait = strategist
+			remove_trait = administrator
+			remove_trait = architect
+			remove_trait = gardener
+			remove_trait = schemer
+			remove_trait = impaler
+			remove_trait = seductress
+			remove_trait = scholar
+			remove_trait = theologian
+			remove_trait = mystic
+			random_list = {
+				70 = {
+					add_trait = schemer
+				}
+				30 = {
+					add_trait = schemer
+					add_trait = shrewd
+				}
+			}
+			save_event_target_as = jewish_courtier
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10900
+		custom_tooltip = {
+			text = jewish_courtier_tooltip
+		}
+	}
+}
+# Jewish Diplomat Appears at Court (Cochin Jews)
+character_event = {
+	id = Aliyah.10913
+	desc = EVTDESC_Aliyah_10900
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_religion
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		OR = {
+			religion_group = christian
+			religion_group = muslim
+			religion_group = zoroastrian_group
+			religion_group = jewish_group
+			culture = khazar
+			culture = han
+		}
+		
+		NOT = { has_character_modifier = expelled_jewish }
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 1100
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = cochin_jews
+			dynasty = culture
+			religion_group = jewish_group
+			female = no
+			age = 30
+			trait = charismatic_negotiator
+			attributes = {
+				diplomacy = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_trait = socializer
+			remove_trait = gamer
+			remove_trait = hedonist
+			remove_trait = duelist
+			remove_trait = hunter
+			remove_trait = strategist
+			remove_trait = administrator
+			remove_trait = architect
+			remove_trait = gardener
+			remove_trait = schemer
+			remove_trait = impaler
+			remove_trait = seductress
+			remove_trait = scholar
+			remove_trait = theologian
+			remove_trait = mystic
+			random_list = {
+				70 = {
+					add_trait = socializer
+				}
+				30 = {
+					add_trait = socializer
+					add_trait = shrewd
+				}
+			}
+			save_event_target_as = jewish_courtier
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10900
+		custom_tooltip = {
+			text = jewish_courtier_tooltip
+		}
+	}
+}
+
+# Jewish Administrator Appears at Court (Cochin Jews)
+character_event = {
+	id = Aliyah.10914
+	desc = EVTDESC_Aliyah_10900
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_religion
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		OR = {
+			religion_group = christian
+			religion_group = muslim
+			religion_group = zoroastrian_group
+			religion_group = jewish_group
+			culture = khazar
+			culture = han
+		}	
+		
+		NOT = { has_character_modifier = expelled_jewish }
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 1100
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = cochin_jews
+			dynasty = culture
+			religion_group = jewish_group
+			female = no
+			age = 30
+			trait = fortune_builder
+			attributes = {
+				stewardship = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_trait = socializer
+			remove_trait = gamer
+			remove_trait = hedonist
+			remove_trait = duelist
+			remove_trait = hunter
+			remove_trait = strategist
+			remove_trait = administrator
+			remove_trait = architect
+			remove_trait = gardener
+			remove_trait = schemer
+			remove_trait = impaler
+			remove_trait = seductress
+			remove_trait = scholar
+			remove_trait = theologian
+			remove_trait = mystic
+			random_list = {
+				70 = {
+					add_trait = administrator
+				}
+				30 = {
+					add_trait = administrator
+					add_trait = shrewd
+				}
+			}
+			save_event_target_as = jewish_courtier
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10900
+		custom_tooltip = {
+			text = jewish_courtier_tooltip
+		}
+	}
+}
+
+# Jewish Spy Appears at Court (Cochin Jews)
+character_event = {
+	id = Aliyah.10915
+	desc = EVTDESC_Aliyah_10900
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_religion
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		OR = {
+			religion_group = christian
+			religion_group = muslim
+			religion_group = zoroastrian_group
+			religion_group = jewish_group
+			culture = khazar
+			culture = han
+		}
+		
+		NOT = { has_character_modifier = expelled_jewish }
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 1100
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = cochin_jews
+			dynasty = culture
+			religion_group = jewish_group
+			female = no
+			age = 30
+			trait = intricate_webweaver
+			attributes = {
+				intrigue = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_trait = socializer
+			remove_trait = gamer
+			remove_trait = hedonist
+			remove_trait = duelist
+			remove_trait = hunter
+			remove_trait = strategist
+			remove_trait = administrator
+			remove_trait = architect
+			remove_trait = gardener
+			remove_trait = schemer
+			remove_trait = impaler
+			remove_trait = seductress
+			remove_trait = scholar
+			remove_trait = theologian
+			remove_trait = mystic
+			random_list = {
+				70 = {
+					add_trait = schemer
+				}
+				30 = {
+					add_trait = schemer
+					add_trait = shrewd
+				}
+			}
+			save_event_target_as = jewish_courtier
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10900
+		custom_tooltip = {
+			text = jewish_courtier_tooltip
+		}
+	}
+}
+# Jewish Diplomat Appears at Court (Romaniote)
+character_event = {
+	id = Aliyah.10916
+	desc = EVTDESC_Aliyah_10900
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_religion
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		OR = {
+			religion_group = christian
+			religion_group = muslim
+			religion_group = zoroastrian_group
+			religion_group = jewish_group
+			culture = khazar
+			culture = han
+		}
+		
+		NOT = { has_character_modifier = expelled_jewish }
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 1100
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = romaniote
+			dynasty = culture
+			religion_group = jewish_group
+			female = no
+			age = 30
+			trait = charismatic_negotiator
+			attributes = {
+				diplomacy = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_trait = socializer
+			remove_trait = gamer
+			remove_trait = hedonist
+			remove_trait = duelist
+			remove_trait = hunter
+			remove_trait = strategist
+			remove_trait = administrator
+			remove_trait = architect
+			remove_trait = gardener
+			remove_trait = schemer
+			remove_trait = impaler
+			remove_trait = seductress
+			remove_trait = scholar
+			remove_trait = theologian
+			remove_trait = mystic
+			random_list = {
+				70 = {
+					add_trait = socializer
+				}
+				30 = {
+					add_trait = socializer
+					add_trait = shrewd
+				}
+			}
+			save_event_target_as = jewish_courtier
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10900
+		custom_tooltip = {
+			text = jewish_courtier_tooltip
+		}
+	}
+}
+
+# Jewish Administrator Appears at Court (Romaniote)
+character_event = {
+	id = Aliyah.10917
+	desc = EVTDESC_Aliyah_10900
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_religion
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		OR = {
+			religion_group = christian
+			religion_group = muslim
+			religion_group = zoroastrian_group
+			religion_group = jewish_group
+			culture = khazar
+			culture = han
+		}	
+		
+		NOT = { has_character_modifier = expelled_jewish }
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 1100
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = romaniote
+			dynasty = culture
+			religion_group = jewish_group
+			female = no
+			age = 30
+			trait = fortune_builder
+			attributes = {
+				stewardship = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_trait = socializer
+			remove_trait = gamer
+			remove_trait = hedonist
+			remove_trait = duelist
+			remove_trait = hunter
+			remove_trait = strategist
+			remove_trait = administrator
+			remove_trait = architect
+			remove_trait = gardener
+			remove_trait = schemer
+			remove_trait = impaler
+			remove_trait = seductress
+			remove_trait = scholar
+			remove_trait = theologian
+			remove_trait = mystic
+			random_list = {
+				70 = {
+					add_trait = administrator
+				}
+				30 = {
+					add_trait = administrator
+					add_trait = shrewd
+				}
+			}
+			save_event_target_as = jewish_courtier
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10900
+		custom_tooltip = {
+			text = jewish_courtier_tooltip
+		}
+	}
+}
+
+# Jewish Spy Appears at Court (Romaniote)
+character_event = {
+	id = Aliyah.10918
+	desc = EVTDESC_Aliyah_10900
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_religion
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		OR = {
+			religion_group = christian
+			religion_group = muslim
+			religion_group = zoroastrian_group
+			religion_group = jewish_group
+			culture = khazar
+			culture = han
+		}
+		
+		NOT = { has_character_modifier = expelled_jewish }
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 1100
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = romaniote
+			dynasty = culture
+			religion_group = jewish_group
+			female = no
+			age = 30
+			trait = intricate_webweaver
+			attributes = {
+				intrigue = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_trait = socializer
+			remove_trait = gamer
+			remove_trait = hedonist
+			remove_trait = duelist
+			remove_trait = hunter
+			remove_trait = strategist
+			remove_trait = administrator
+			remove_trait = architect
+			remove_trait = gardener
+			remove_trait = schemer
+			remove_trait = impaler
+			remove_trait = seductress
+			remove_trait = scholar
+			remove_trait = theologian
+			remove_trait = mystic
+			random_list = {
+				70 = {
+					add_trait = schemer
+				}
+				30 = {
+					add_trait = schemer
+					add_trait = shrewd
+				}
+			}
+			save_event_target_as = jewish_courtier
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10900
+		custom_tooltip = {
+			text = jewish_courtier_tooltip
+		}
+	}
+}
+# Jewish Diplomat Appears at Court (Beta Yisrael)
+character_event = {
+	id = Aliyah.10919
+	desc = EVTDESC_Aliyah_10900
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_religion
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		OR = {
+			religion_group = christian
+			religion_group = muslim
+			religion_group = zoroastrian_group
+			religion_group = jewish_group
+			culture = khazar
+			culture = han
+		}
+		
+		NOT = { has_character_modifier = expelled_jewish }
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 1100
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = beta_yisrael
+			dynasty = culture
+			religion_group = jewish_group
+			female = no
+			age = 30
+			trait = charismatic_negotiator
+			attributes = {
+				diplomacy = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_trait = socializer
+			remove_trait = gamer
+			remove_trait = hedonist
+			remove_trait = duelist
+			remove_trait = hunter
+			remove_trait = strategist
+			remove_trait = administrator
+			remove_trait = architect
+			remove_trait = gardener
+			remove_trait = schemer
+			remove_trait = impaler
+			remove_trait = seductress
+			remove_trait = scholar
+			remove_trait = theologian
+			remove_trait = mystic
+			random_list = {
+				70 = {
+					add_trait = socializer
+				}
+				30 = {
+					add_trait = socializer
+					add_trait = shrewd
+				}
+			}
+			save_event_target_as = jewish_courtier
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10900
+		custom_tooltip = {
+			text = jewish_courtier_tooltip
+		}
+	}
+}
+
+# Jewish Administrator Appears at Court (Beta Yisrael)
+character_event = {
+	id = Aliyah.10920
+	desc = EVTDESC_Aliyah_10900
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_religion
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		OR = {
+			religion_group = christian
+			religion_group = muslim
+			religion_group = zoroastrian_group
+			religion_group = jewish_group
+			culture = khazar
+			culture = han
+		}	
+		
+		NOT = { has_character_modifier = expelled_jewish }
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 1100
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = beta_yisrael
+			dynasty = culture
+			religion_group = jewish_group
+			female = no
+			age = 30
+			trait = fortune_builder
+			attributes = {
+				stewardship = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_trait = socializer
+			remove_trait = gamer
+			remove_trait = hedonist
+			remove_trait = duelist
+			remove_trait = hunter
+			remove_trait = strategist
+			remove_trait = administrator
+			remove_trait = architect
+			remove_trait = gardener
+			remove_trait = schemer
+			remove_trait = impaler
+			remove_trait = seductress
+			remove_trait = scholar
+			remove_trait = theologian
+			remove_trait = mystic
+			random_list = {
+				70 = {
+					add_trait = administrator
+				}
+				30 = {
+					add_trait = administrator
+					add_trait = shrewd
+				}
+			}
+			save_event_target_as = jewish_courtier
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10900
+		custom_tooltip = {
+			text = jewish_courtier_tooltip
+		}
+	}
+}
+
+# Jewish Spy Appears at Court (Beta Yisrael)
+character_event = {
+	id = Aliyah.10921
+	desc = EVTDESC_Aliyah_10900
+	picture = GFX_evt_emissary
+	border = GFX_event_normal_frame_religion
+	
+	min_age = 16
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	only_independent = yes
+	
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		OR = {
+			religion_group = christian
+			religion_group = muslim
+			religion_group = zoroastrian_group
+			religion_group = jewish_group
+			culture = khazar
+			culture = han
+		}
+		
+		NOT = { has_character_modifier = expelled_jewish }
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 1100
+	}
+	
+	immediate = {
+		create_character = {
+			random_traits = yes
+			culture = beta_yisrael
+			dynasty = culture
+			religion_group = jewish_group
+			female = no
+			age = 30
+			trait = intricate_webweaver
+			attributes = {
+				intrigue = 10
+			}
+			flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			remove_trait = socializer
+			remove_trait = gamer
+			remove_trait = hedonist
+			remove_trait = duelist
+			remove_trait = hunter
+			remove_trait = strategist
+			remove_trait = administrator
+			remove_trait = architect
+			remove_trait = gardener
+			remove_trait = schemer
+			remove_trait = impaler
+			remove_trait = seductress
+			remove_trait = scholar
+			remove_trait = theologian
+			remove_trait = mystic
+			random_list = {
+				70 = {
+					add_trait = schemer
+				}
+				30 = {
+					add_trait = schemer
+					add_trait = shrewd
+				}
+			}
+			save_event_target_as = jewish_courtier
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_Aliyah_10900
+		custom_tooltip = {
+			text = jewish_courtier_tooltip
+		}
+	}
+}
